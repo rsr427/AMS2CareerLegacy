@@ -1,0 +1,5112 @@
+[
+  {
+    "DrvIdx": 1,
+    "Name": "Lewis Hamilton",
+    "Raw": 1050,
+    "Target": 1000,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 2,
+    "Name": "Michael Schumacher",
+    "Raw": 910,
+    "Target": 900,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 3,
+    "Name": "Max Verstappen",
+    "Raw": 710,
+    "Target": 757.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 4,
+    "Name": "A.J. Foyt",
+    "Raw": 552,
+    "Target": 644.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 5,
+    "Name": "Mario Andretti",
+    "Raw": 536,
+    "Target": 632.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 6,
+    "Name": "Sebastian Vettel",
+    "Raw": 530,
+    "Target": 628.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 7,
+    "Name": "Alain Prost",
+    "Raw": 510,
+    "Target": 614.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 8,
+    "Name": "Scott Dixon",
+    "Raw": 480,
+    "Target": 592.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 9,
+    "Name": "Ayrton Senna",
+    "Raw": 410,
+    "Target": 542.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 10,
+    "Name": "Sebastien Loeb",
+    "Raw": 400,
+    "Target": 535.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 11,
+    "Name": "Will Power",
+    "Raw": 360,
+    "Target": 507.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 12,
+    "Name": "Nigel Mansell",
+    "Raw": 350,
+    "Target": 500,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 13,
+    "Name": "Michael Andretti",
+    "Raw": 336,
+    "Target": 490,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 14,
+    "Name": "S�bastien Ogier",
+    "Raw": 335,
+    "Target": 489.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 15,
+    "Name": "Juan Manuel Fangio",
+    "Raw": 324,
+    "Target": 481.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 16,
+    "Name": "Fernando Alonso",
+    "Raw": 320,
+    "Target": 478.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 17,
+    "Name": "Emerson Fittipaldi",
+    "Raw": 316,
+    "Target": 475.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 18,
+    "Name": "Al Unser",
+    "Raw": 312,
+    "Target": 472.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 19,
+    "Name": "S�bastien Bourdais",
+    "Raw": 312,
+    "Target": 472.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 20,
+    "Name": "Al Unser Jr.",
+    "Raw": 288,
+    "Target": 455.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 21,
+    "Name": "Bobby Unser",
+    "Raw": 280,
+    "Target": 450,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 22,
+    "Name": "Scott Pruett",
+    "Raw": 280,
+    "Target": 450,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 23,
+    "Name": "Jackie Stewart",
+    "Raw": 270,
+    "Target": 442.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 24,
+    "Name": "Jim Clark",
+    "Raw": 266,
+    "Target": 440,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 25,
+    "Name": "Josef Newgarden",
+    "Raw": 256,
+    "Target": 432.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 26,
+    "Name": "Dario Franchitti",
+    "Raw": 254,
+    "Target": 431.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 27,
+    "Name": "Niki Lauda",
+    "Raw": 250,
+    "Target": 428.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 28,
+    "Name": "H�lio Castroneves",
+    "Raw": 248,
+    "Target": 427.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 29,
+    "Name": "Paul Tracy",
+    "Raw": 248,
+    "Target": 427.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 30,
+    "Name": "Rick Mears",
+    "Raw": 232,
+    "Target": 415.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 31,
+    "Name": "Nelson Piquet",
+    "Raw": 230,
+    "Target": 414.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 32,
+    "Name": "Nico Rosberg",
+    "Raw": 230,
+    "Target": 414.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 33,
+    "Name": "Damon Hill",
+    "Raw": 220,
+    "Target": 407.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 34,
+    "Name": "Bobby Rahal",
+    "Raw": 216,
+    "Target": 404.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 35,
+    "Name": "Johnny Rutherford",
+    "Raw": 216,
+    "Target": 404.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 36,
+    "Name": "Kimi R�ikk�nen",
+    "Raw": 210,
+    "Target": 400,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 37,
+    "Name": "Mika H�kkinen",
+    "Raw": 209,
+    "Target": 399.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 38,
+    "Name": "Rodger Ward",
+    "Raw": 208,
+    "Target": 398.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 39,
+    "Name": "Juan Pablo Montoya",
+    "Raw": 202,
+    "Target": 394.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 40,
+    "Name": "Al Holbert",
+    "Raw": 200,
+    "Target": 392.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 41,
+    "Name": "Gordon Johncock",
+    "Raw": 200,
+    "Target": 392.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 42,
+    "Name": "Richard Petty",
+    "Raw": 200,
+    "Target": 392.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 43,
+    "Name": "Ted Horn",
+    "Raw": 192,
+    "Target": 387.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 44,
+    "Name": "Tony Bettenhausen",
+    "Raw": 176,
+    "Target": 375.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 45,
+    "Name": "Bill Holland",
+    "Raw": 168,
+    "Target": 370,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 46,
+    "Name": "Butch Leitzinger",
+    "Raw": 164,
+    "Target": 367.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 47,
+    "Name": "James Weaver",
+    "Raw": 160,
+    "Target": 364.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 48,
+    "Name": "Peter Gregg",
+    "Raw": 160,
+    "Target": 364.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 49,
+    "Name": "Stirling Moss",
+    "Raw": 160,
+    "Target": 364.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 50,
+    "Name": "Simon Pagenaud",
+    "Raw": 156,
+    "Target": 361.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 51,
+    "Name": "Alex Palou",
+    "Raw": 152,
+    "Target": 358.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 52,
+    "Name": "Jimmy Bryan",
+    "Raw": 152,
+    "Target": 358.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 53,
+    "Name": "Sam Hornish Jr.",
+    "Raw": 152,
+    "Target": 358.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 54,
+    "Name": "Jacques Villeneuve",
+    "Raw": 150,
+    "Target": 357.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 55,
+    "Name": "Jenson Button",
+    "Raw": 150,
+    "Target": 357.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 56,
+    "Name": "Marcus Gr�nholm",
+    "Raw": 150,
+    "Target": 357.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 57,
+    "Name": "Graham Hill",
+    "Raw": 148,
+    "Target": 355.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 58,
+    "Name": "Klaus Ludwig",
+    "Raw": 146,
+    "Target": 354.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 59,
+    "Name": "Ryan Hunter-Reay",
+    "Raw": 144,
+    "Target": 352.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 60,
+    "Name": "Jack Brabham",
+    "Raw": 140,
+    "Target": 350,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 61,
+    "Name": "Lucas Luhr",
+    "Raw": 140,
+    "Target": 350,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 62,
+    "Name": "Scott Sharp",
+    "Raw": 138,
+    "Target": 348.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 63,
+    "Name": "Danny Sullivan",
+    "Raw": 136,
+    "Target": 347.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 64,
+    "Name": "Jimmy Murphy",
+    "Raw": 136,
+    "Target": 347.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 65,
+    "Name": "Tony Kanaan",
+    "Raw": 136,
+    "Target": 347.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 66,
+    "Name": "Alberto Ascari",
+    "Raw": 130,
+    "Target": 342.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 67,
+    "Name": "Carlos Sainz",
+    "Raw": 130,
+    "Target": 342.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 68,
+    "Name": "David Coulthard",
+    "Raw": 130,
+    "Target": 342.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 69,
+    "Name": "Bernd Schneider",
+    "Raw": 129,
+    "Target": 342.1428571,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 70,
+    "Name": "Dan Wheldon",
+    "Raw": 128,
+    "Target": 341.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 71,
+    "Name": "Frank Biela",
+    "Raw": 128,
+    "Target": 341.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 72,
+    "Name": "Rinaldo Capello",
+    "Raw": 128,
+    "Target": 341.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 73,
+    "Name": "Colin Mcrae",
+    "Raw": 125,
+    "Target": 339.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 74,
+    "Name": "Alan Jones",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 75,
+    "Name": "Alex Zanardi",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 76,
+    "Name": "Carlos Reutemann",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 77,
+    "Name": "Hurley Haywood",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 78,
+    "Name": "Memo Rojas",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 79,
+    "Name": "Tommi M�kinen",
+    "Raw": 120,
+    "Target": 335.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 80,
+    "Name": "Gil De Ferran",
+    "Raw": 116,
+    "Target": 332.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 81,
+    "Name": "Juha Kankkunen",
+    "Raw": 115,
+    "Target": 332.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 82,
+    "Name": "Felipe Massa",
+    "Raw": 110,
+    "Target": 328.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 83,
+    "Name": "Lando Norris",
+    "Raw": 110,
+    "Target": 328.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 84,
+    "Name": "Ott T�nak",
+    "Raw": 110,
+    "Target": 328.5714286,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 85,
+    "Name": "Rubens Barrichello",
+    "Raw": 110,
+    "Target": 328.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 86,
+    "Name": "Thierry Neuville",
+    "Raw": 110,
+    "Target": 328.5714286,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 87,
+    "Name": "Adrian Fernandez",
+    "Raw": 108,
+    "Target": 327.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 88,
+    "Name": "Max Angelelli",
+    "Raw": 108,
+    "Target": 327.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 89,
+    "Name": "Hans-Joachim Stuck",
+    "Raw": 107,
+    "Target": 326.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 90,
+    "Name": "David Pearson",
+    "Raw": 105,
+    "Target": 325,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 91,
+    "Name": "Allan Mcnish",
+    "Raw": 104,
+    "Target": 324.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 92,
+    "Name": "Tom Sneva",
+    "Raw": 104,
+    "Target": 324.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 93,
+    "Name": "Chris Dyson",
+    "Raw": 102,
+    "Target": 322.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 94,
+    "Name": "Andy Wallace",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 95,
+    "Name": "Didier Auriol",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 96,
+    "Name": "Geoff Brabham",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 97,
+    "Name": "Gerhard Berger",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 98,
+    "Name": "James Hunt",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 99,
+    "Name": "Jody Scheckter",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 100,
+    "Name": "Ronnie Peterson",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 101,
+    "Name": "Valtteri Bottas",
+    "Raw": 100,
+    "Target": 321.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 102,
+    "Name": "Jason Plato",
+    "Raw": 97,
+    "Target": 319.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 103,
+    "Name": "Cristiano Da Matta",
+    "Raw": 96,
+    "Target": 318.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 104,
+    "Name": "David Brabham",
+    "Raw": 96,
+    "Target": 318.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 105,
+    "Name": "John Paul Jr.",
+    "Raw": 96,
+    "Target": 318.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 106,
+    "Name": "Tommy Milton",
+    "Raw": 96,
+    "Target": 318.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 107,
+    "Name": "Markku Al�n",
+    "Raw": 95,
+    "Target": 317.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 108,
+    "Name": "Jan Magnussen",
+    "Raw": 94,
+    "Target": 317.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 109,
+    "Name": "Jeff Gordon",
+    "Raw": 93,
+    "Target": 316.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 110,
+    "Name": "Marco Werner",
+    "Raw": 92,
+    "Target": 315.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 111,
+    "Name": "Hannu Mikkola",
+    "Raw": 90,
+    "Target": 314.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 112,
+    "Name": "Jari-Matti Latvala",
+    "Raw": 90,
+    "Target": 314.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 113,
+    "Name": "Kalle Rovanper�",
+    "Raw": 90,
+    "Target": 314.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 114,
+    "Name": "Mark Webber",
+    "Raw": 90,
+    "Target": 314.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 115,
+    "Name": "Oscar Piastri",
+    "Raw": 90,
+    "Target": 314.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 116,
+    "Name": "Johnnie Parsons",
+    "Raw": 88,
+    "Target": 312.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 117,
+    "Name": "Ryan Briscoe",
+    "Raw": 88,
+    "Target": 312.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 118,
+    "Name": "Tommy Kendall",
+    "Raw": 88,
+    "Target": 312.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 119,
+    "Name": "Paul Gentilozzi",
+    "Raw": 86,
+    "Target": 311.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 120,
+    "Name": "Bobby Allison",
+    "Raw": 85,
+    "Target": 310.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 121,
+    "Name": "Miki Biasion",
+    "Raw": 85,
+    "Target": 310.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 122,
+    "Name": "Bill Auberlen",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 123,
+    "Name": "Darrell Waltrip",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 124,
+    "Name": "Jj Lehto",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 125,
+    "Name": "Johnny O'Connell",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 126,
+    "Name": "Klaus Graf",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 127,
+    "Name": "Ron Fellows",
+    "Raw": 84,
+    "Target": 310,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 128,
+    "Name": "Cale Yarborough",
+    "Raw": 83,
+    "Target": 309.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 129,
+    "Name": "Jimmie Johnson",
+    "Raw": 83,
+    "Target": 309.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 130,
+    "Name": "Mark Donohue",
+    "Raw": 82,
+    "Target": 308.5714286,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 131,
+    "Name": "Bj�rn Waldeg�rd",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 132,
+    "Name": "Charles Leclerc",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 133,
+    "Name": "Daniel Ricciardo",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 134,
+    "Name": "Denny Hulme",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 135,
+    "Name": "Derek Bell",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 136,
+    "Name": "Jacky Ickx",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 137,
+    "Name": "Jimmy Vasser",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 138,
+    "Name": "Pete Depaolo",
+    "Raw": 80,
+    "Target": 307.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 139,
+    "Name": "Dale Earnhardt",
+    "Raw": 76,
+    "Target": 304.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 140,
+    "Name": "Joerg Bergmeister",
+    "Raw": 76,
+    "Target": 304.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 141,
+    "Name": "Mikko Hirvonen",
+    "Raw": 75,
+    "Target": 303.5714286,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 142,
+    "Name": "Willy T. Ribbs",
+    "Raw": 74,
+    "Target": 302.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 143,
+    "Name": "Tony Stewart",
+    "Raw": 73,
+    "Target": 302.1428571,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 144,
+    "Name": "Boris Said",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 145,
+    "Name": "Colin Turkington",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 146,
+    "Name": "Colton Herta",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 147,
+    "Name": "Emanuele Pirro",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 148,
+    "Name": "Frank Lockhart",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 149,
+    "Name": "Kenny Br�ck",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 150,
+    "Name": "Pato O'Ward",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 151,
+    "Name": "Ren� Rast",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 152,
+    "Name": "Terry Borcheller",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 153,
+    "Name": "Timo Bernhard",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 154,
+    "Name": "Tom Kristensen",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 155,
+    "Name": "Wayne Taylor",
+    "Raw": 72,
+    "Target": 301.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 156,
+    "Name": "Bob Tullius",
+    "Raw": 70,
+    "Target": 300,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 157,
+    "Name": "Darin Brassfield",
+    "Raw": 70,
+    "Target": 300,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 158,
+    "Name": "Ren� Arnoux",
+    "Raw": 70,
+    "Target": 300,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 159,
+    "Name": "Walter R�hrl",
+    "Raw": 70,
+    "Target": 300,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 160,
+    "Name": "Gary Paffett",
+    "Raw": 69,
+    "Target": 299.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 161,
+    "Name": "Mattias Ekstr�m",
+    "Raw": 69,
+    "Target": 299.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 162,
+    "Name": "Steve Millen",
+    "Raw": 68,
+    "Target": 298.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 163,
+    "Name": "Dorsey Schroeder",
+    "Raw": 66,
+    "Target": 297.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 164,
+    "Name": "Petter Solberg",
+    "Raw": 65,
+    "Target": 296.4285714,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 165,
+    "Name": "Alex Gurney",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 166,
+    "Name": "Alexander Rossi",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 167,
+    "Name": "Arie Luyendyk",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 168,
+    "Name": "Bruno Junqueira",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 169,
+    "Name": "Buddy Lazier",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 170,
+    "Name": "Eddie Sachs",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 171,
+    "Name": "Jack Baldwin",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 172,
+    "Name": "Jon Fogarty",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 173,
+    "Name": "Oliver Gavin",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 174,
+    "Name": "Olivier Beretta",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 175,
+    "Name": "Pete Halsmer",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 176,
+    "Name": "Price Cobb",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 177,
+    "Name": "Rex Mays",
+    "Raw": 64,
+    "Target": 295.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 178,
+    "Name": "Kyle Busch",
+    "Raw": 63,
+    "Target": 295,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 179,
+    "Name": "Matt Neal",
+    "Raw": 63,
+    "Target": 295,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 180,
+    "Name": "Chip Robinson",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 181,
+    "Name": "Denny Hamlin",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 182,
+    "Name": "Gilles Villeneuve",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 183,
+    "Name": "Jacques Laffite",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 184,
+    "Name": "Jochen Rindt",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 185,
+    "Name": "John Surtees",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 186,
+    "Name": "Kevin Harvick",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 187,
+    "Name": "Kurt Thiim",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 188,
+    "Name": "Ralf Schumacher",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 189,
+    "Name": "Riccardo Patrese",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 190,
+    "Name": "Romain Dumas",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 191,
+    "Name": "Sergio P�rez",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 192,
+    "Name": "Tony Brooks",
+    "Raw": 60,
+    "Target": 292.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 193,
+    "Name": "Michele Alboreto",
+    "Raw": 58,
+    "Target": 291.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 194,
+    "Name": "Dan Gurney",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 195,
+    "Name": "Elliott Forbes-Robinson",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 196,
+    "Name": "Harry Hartz",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 197,
+    "Name": "Joao Barbosa",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 198,
+    "Name": "John Fitzpatrick",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 199,
+    "Name": "Johnny Thomson",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 200,
+    "Name": "Joie Chitwood",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 201,
+    "Name": "Justin Wilson",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 202,
+    "Name": "Lloyd Ruby",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 203,
+    "Name": "Louis Meyer",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 204,
+    "Name": "Luis Diaz",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 205,
+    "Name": "Robby Gordon",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 206,
+    "Name": "Scott Mclaughlin",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 207,
+    "Name": "Wally Dallenbach, Jr.",
+    "Raw": 56,
+    "Target": 290,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 208,
+    "Name": "Bill Vukovich",
+    "Raw": 55,
+    "Target": 289.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 209,
+    "Name": "Elfyn Evans",
+    "Raw": 55,
+    "Target": 289.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 210,
+    "Name": "Rusty Wallace",
+    "Raw": 55,
+    "Target": 289.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 211,
+    "Name": "Stig Blomqvist",
+    "Raw": 55,
+    "Target": 289.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 212,
+    "Name": "Timo Salonen",
+    "Raw": 55,
+    "Target": 289.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 213,
+    "Name": "Johnny Herbert",
+    "Raw": 54,
+    "Target": 288.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 214,
+    "Name": "Lee Petty",
+    "Raw": 54,
+    "Target": 288.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 215,
+    "Name": "Andy Rouse",
+    "Raw": 53,
+    "Target": 287.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 216,
+    "Name": "Gordon Shedden",
+    "Raw": 53,
+    "Target": 287.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 217,
+    "Name": "Steve Soper",
+    "Raw": 53,
+    "Target": 287.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 218,
+    "Name": "Andy Lally",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 219,
+    "Name": "Bob Earl",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 220,
+    "Name": "Didier Theys",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 221,
+    "Name": "Don Devendorf",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 222,
+    "Name": "Irv Hoerr",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 223,
+    "Name": "Sascha Maassen",
+    "Raw": 52,
+    "Target": 287.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 224,
+    "Name": "Jamie Green",
+    "Raw": 51,
+    "Target": 286.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 225,
+    "Name": "Nicola Larini",
+    "Raw": 51,
+    "Target": 286.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 226,
+    "Name": "Ari Vatanen",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 227,
+    "Name": "Clay Regazzoni",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 228,
+    "Name": "George Russell",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 229,
+    "Name": "Giuseppe Farina",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 230,
+    "Name": "John Watson",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 231,
+    "Name": "Junior Johnson",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 232,
+    "Name": "Keke Rosberg",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 233,
+    "Name": "Ned Jarrett",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 234,
+    "Name": "Richard Burns",
+    "Raw": 50,
+    "Target": 285.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 235,
+    "Name": "Andy Pilgrim",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 236,
+    "Name": "Bill Cummings",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 237,
+    "Name": "Brian Redman",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 238,
+    "Name": "Bruno Spengler",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 239,
+    "Name": "Christian Fittipaldi",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 240,
+    "Name": "Danny Ongais",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 241,
+    "Name": "Dennis Aase",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 242,
+    "Name": "Don Branson",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 243,
+    "Name": "Ernie Francis, Jr.",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 244,
+    "Name": "Gary Bettenhausen",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 245,
+    "Name": "George Robson",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 246,
+    "Name": "Graham Rahal",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 247,
+    "Name": "Herb Thomas",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 248,
+    "Name": "James Hinchcliffe",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 249,
+    "Name": "Joe Leonard",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 250,
+    "Name": "Mauri Rose",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 251,
+    "Name": "Parnelli Jones",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 252,
+    "Name": "Ralph Depalma",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 253,
+    "Name": "Takuma Sato",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 254,
+    "Name": "Wilbur Shaw",
+    "Raw": 48,
+    "Target": 284.2857143,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 255,
+    "Name": "Ashley Sutton",
+    "Raw": 47,
+    "Target": 283.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 256,
+    "Name": "Buck Baker",
+    "Raw": 46,
+    "Target": 282.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 257,
+    "Name": "Marco Wittmann",
+    "Raw": 45,
+    "Target": 282.1428571,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 258,
+    "Name": "Bill Elliott",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 259,
+    "Name": "Bob Wollek",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 260,
+    "Name": "David Hobbs",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 261,
+    "Name": "Davy Jones",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 262,
+    "Name": "John Morton",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 263,
+    "Name": "Patrick Long",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 264,
+    "Name": "Roger Mandeville",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 265,
+    "Name": "Walt Bohren",
+    "Raw": 44,
+    "Target": 281.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 266,
+    "Name": "Alessandro Nannini",
+    "Raw": 42,
+    "Target": 280,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 267,
+    "Name": "Johnny Cecotto",
+    "Raw": 42,
+    "Target": 280,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 268,
+    "Name": "A.J. Allmendinger",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 269,
+    "Name": "Barney Oldfield",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 270,
+    "Name": "Bennett Hill",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 271,
+    "Name": "Bruce Mclaren",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 272,
+    "Name": "Carlos Sainz Jr.",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 273,
+    "Name": "Dan Gurney",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 274,
+    "Name": "Dario Resta",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 275,
+    "Name": "Earl Cooper",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 276,
+    "Name": "Eddie Cheever",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 277,
+    "Name": "Eddie Irvine",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 278,
+    "Name": "Gianpiero Moretti",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 279,
+    "Name": "Greg Moore",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 280,
+    "Name": "Greg Ray",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 281,
+    "Name": "Jim Mcelreath",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 282,
+    "Name": "Johnny Aitken",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 283,
+    "Name": "Jud Larson",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 284,
+    "Name": "Kyle Kirkwood",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 285,
+    "Name": "Mark Martin",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 286,
+    "Name": "Mauro Baldi",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 287,
+    "Name": "Max Papis",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 288,
+    "Name": "Mike Mosley",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 289,
+    "Name": "Patrick Carpentier",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 290,
+    "Name": "Ricky Taylor",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 291,
+    "Name": "Roger Mccluskey",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 292,
+    "Name": "Scott Goodyear",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 293,
+    "Name": "Scott Tucker",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 294,
+    "Name": "Teo Fabi",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 295,
+    "Name": "Tom Ingram",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 296,
+    "Name": "Wally Dallenbach Sr.",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 297,
+    "Name": "Walt Ader",
+    "Raw": 40,
+    "Target": 278.5714286,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 298,
+    "Name": "Matt Kenseth",
+    "Raw": 39,
+    "Target": 277.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 299,
+    "Name": "Tim Flock",
+    "Raw": 39,
+    "Target": 277.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 300,
+    "Name": "Bobby Isaac",
+    "Raw": 37,
+    "Target": 276.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 301,
+    "Name": "Joey Logano",
+    "Raw": 37,
+    "Target": 276.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 302,
+    "Name": "Alain Menu",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 303,
+    "Name": "Bill Whittington",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 304,
+    "Name": "Brad Keselowski",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 305,
+    "Name": "Chris Cord",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 306,
+    "Name": "Doc Bundy",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 307,
+    "Name": "James Thompson",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 308,
+    "Name": "Jim Downing",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 309,
+    "Name": "John Paul",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 310,
+    "Name": "Jordan Taylor",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 311,
+    "Name": "Kelly Collins",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 312,
+    "Name": "Michael Keyser",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 313,
+    "Name": "Yvan Muller",
+    "Raw": 36,
+    "Target": 275.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 314,
+    "Name": "Bernard Darniche",
+    "Raw": 35,
+    "Target": 275,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 315,
+    "Name": "Gilles Panizzi",
+    "Raw": 35,
+    "Target": 275,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 316,
+    "Name": "Sandro Munari",
+    "Raw": 35,
+    "Target": 275,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 317,
+    "Name": "Kurt Busch",
+    "Raw": 34,
+    "Target": 274.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 318,
+    "Name": "Martin Truex Jr.",
+    "Raw": 34,
+    "Target": 274.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 319,
+    "Name": "Mike Rockenfeller",
+    "Raw": 34,
+    "Target": 274.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 320,
+    "Name": "Fireball Roberts",
+    "Raw": 33,
+    "Target": 273.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 321,
+    "Name": "Manuel Reuter",
+    "Raw": 33,
+    "Target": 273.5714286,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 322,
+    "Name": "Paul Di Resta",
+    "Raw": 33,
+    "Target": 273.5714286,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 323,
+    "Name": "Al Rogers",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 324,
+    "Name": "Amy Ruman",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 325,
+    "Name": "Billy Winn",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 326,
+    "Name": "Bob Sweikert",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 327,
+    "Name": "Bryan Herta",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 328,
+    "Name": "Chucky Stevenson",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 329,
+    "Name": "Dale Jarrett",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 330,
+    "Name": "Dave Lewis",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 331,
+    "Name": "Eddie Hearne",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 332,
+    "Name": "Frank Elliott",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 333,
+    "Name": "Fredy Lienhard",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 334,
+    "Name": "Jack Mcgrath",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 335,
+    "Name": "Jeff Kline",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 336,
+    "Name": "Jeremy Dale",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 337,
+    "Name": "Jim Hurtubise",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 338,
+    "Name": "Kelly Petillo",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 339,
+    "Name": "Kyle Larson",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 340,
+    "Name": "Leon Duray",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 341,
+    "Name": "Marcus Ericsson",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 342,
+    "Name": "Mike Conway",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 343,
+    "Name": "Myron Fohr",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 344,
+    "Name": "Ray Keech",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 345,
+    "Name": "Roscoe Sarles",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 346,
+    "Name": "Sam Hanks",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 347,
+    "Name": "Shorty Cantlon",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 348,
+    "Name": "Tony Ave",
+    "Raw": 32,
+    "Target": 272.8571429,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 349,
+    "Name": "Laurent A�ello",
+    "Raw": 31,
+    "Target": 272.1428571,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 350,
+    "Name": "Mat Jackson",
+    "Raw": 31,
+    "Target": 272.1428571,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 351,
+    "Name": "Didier Pironi",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 352,
+    "Name": "Edoardo Mortara",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 353,
+    "Name": "Giancarlo Fisichella",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 354,
+    "Name": "Heinz-Harald Frentzen",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 355,
+    "Name": "Kenneth Eriksson",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 356,
+    "Name": "Mike Hawthorn",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 357,
+    "Name": "Nico M�ller",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 358,
+    "Name": "Peter Collins",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 359,
+    "Name": "Phil Hill",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 360,
+    "Name": "Thierry Boutsen",
+    "Raw": 30,
+    "Target": 271.4285714,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 361,
+    "Name": "Antonio Garcia",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 362,
+    "Name": "Carl Edwards",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 363,
+    "Name": "Christophe Bouchut",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 364,
+    "Name": "Darren Law",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 365,
+    "Name": "Fermin Velez",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 366,
+    "Name": "Forest Barber",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 367,
+    "Name": "Gene Felton",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 368,
+    "Name": "George Follmer",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 369,
+    "Name": "Jon Field",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 370,
+    "Name": "Paul Edwards",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 371,
+    "Name": "Rex White",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 372,
+    "Name": "Ryan Dalziel",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 373,
+    "Name": "Spencer Pumpelly",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 374,
+    "Name": "Walt Maas",
+    "Raw": 28,
+    "Target": 270,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 375,
+    "Name": "Andrew Jordan",
+    "Raw": 26,
+    "Target": 268.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 376,
+    "Name": "Dale Earnhardt Jr.",
+    "Raw": 26,
+    "Target": 268.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 377,
+    "Name": "Doug Peterson",
+    "Raw": 26,
+    "Target": 268.5714286,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 378,
+    "Name": "Fred Lorenzen",
+    "Raw": 26,
+    "Target": 268.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 379,
+    "Name": "Greg Pickett",
+    "Raw": 26,
+    "Target": 268.5714286,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 380,
+    "Name": "Jean-Luc Th�rier",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 381,
+    "Name": "Jean-Pierre Nicolas",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 382,
+    "Name": "Jim Paschal",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 383,
+    "Name": "Joachim Winkelhock",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 384,
+    "Name": "Joe Weatherly",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 385,
+    "Name": "Kris Meeke",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 386,
+    "Name": "Markko M�rtin",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 387,
+    "Name": "Peter Revson",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 388,
+    "Name": "Shekhar Mehta",
+    "Raw": 25,
+    "Target": 267.8571429,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 389,
+    "Name": "Andr� Ribeiro",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 390,
+    "Name": "Billy Arnold",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 391,
+    "Name": "Brad Frisselle",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 392,
+    "Name": "Brian Simo",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 393,
+    "Name": "Buddy Rice",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 394,
+    "Name": "Colin Braun",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 395,
+    "Name": "Danny Ongais",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 396,
+    "Name": "David Donohue",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 397,
+    "Name": "Ed Carpenter",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 398,
+    "Name": "Eddie Rickenbacker",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 399,
+    "Name": "Eric Van De Poele",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 400,
+    "Name": "Fabrizio Giovanardi",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 401,
+    "Name": "George Amick",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 402,
+    "Name": "Harald Grohs",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 403,
+    "Name": "Jan Lammers",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 404,
+    "Name": "Jim Busby",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 405,
+    "Name": "Jim Pace",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 406,
+    "Name": "Jim Rathmann",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 407,
+    "Name": "Jimmy Davies",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 408,
+    "Name": "Joe Varde",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 409,
+    "Name": "Joerg Mueller",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 410,
+    "Name": "Karl Wendlinger",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 411,
+    "Name": "Lee Wallard",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 412,
+    "Name": "Len Sutton",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 413,
+    "Name": "Marino Franchitti",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 414,
+    "Name": "Mark Blundell",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 415,
+    "Name": "Max Papis",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 416,
+    "Name": "Pat Flaherty",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 417,
+    "Name": "Paul Menard",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 418,
+    "Name": "Randy Lanier",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 419,
+    "Name": "Ron Johnson",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 420,
+    "Name": "Walt Faulkner",
+    "Raw": 24,
+    "Target": 267.1428571,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 421,
+    "Name": "Jake Hill",
+    "Raw": 23,
+    "Target": 266.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 422,
+    "Name": "Ricky Rudd",
+    "Raw": 23,
+    "Target": 266.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 423,
+    "Name": "Paul Fix Ii",
+    "Raw": 22,
+    "Target": 265.7142857,
+    "Specialty": "Trans-Am"
+  },
+  {
+    "DrvIdx": 424,
+    "Name": "Terry Labonte",
+    "Raw": 22,
+    "Target": 265.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 425,
+    "Name": "Armin Hahne",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 426,
+    "Name": "Benny Parsons",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 427,
+    "Name": "Bobby Labonte",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 428,
+    "Name": "Chase Elliott",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 429,
+    "Name": "Jack Smith",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 430,
+    "Name": "Jeff Burton",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 431,
+    "Name": "Josh Cook",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 432,
+    "Name": "Martin Tomczyk",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 433,
+    "Name": "Rickard Rydell",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 434,
+    "Name": "Timo Scheider",
+    "Raw": 21,
+    "Target": 265,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 435,
+    "Name": "Alex Popow",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 436,
+    "Name": "Bill Adam",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 437,
+    "Name": "Brian Frisselle",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 438,
+    "Name": "Clay Young",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 439,
+    "Name": "Derek Daly",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 440,
+    "Name": "Elio De Angelis",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 441,
+    "Name": "Eliseo Salazar",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 442,
+    "Name": "Emmanuel Collard",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 443,
+    "Name": "Franck Montagny",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 444,
+    "Name": "Fran�ois Delecour",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 445,
+    "Name": "Jean-Pierre Jabouille",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 446,
+    "Name": "Jo Siffert",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 447,
+    "Name": "Joey Hand",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 448,
+    "Name": "Jon Bennett",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 449,
+    "Name": "Jos� Froil�n Gonz�lez",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 450,
+    "Name": "Lee Mueller",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 451,
+    "Name": "Maurice Trintignant",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 452,
+    "Name": "Mich�le Mouton",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 453,
+    "Name": "Milka Duno",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 454,
+    "Name": "P.J. Jones",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 455,
+    "Name": "Patrick Depailler",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 456,
+    "Name": "Patrick Tambay",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 457,
+    "Name": "Pedro Rodr�guez",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 458,
+    "Name": "Pierre Kaffer",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 459,
+    "Name": "Richard Westbrook",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 460,
+    "Name": "Rob Dyson",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 461,
+    "Name": "Rolf Stommelen",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 462,
+    "Name": "Speedy Thompson",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 463,
+    "Name": "Stephane Sarrazin",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 464,
+    "Name": "Terry Visger",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 465,
+    "Name": "Timo M�kinen",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 466,
+    "Name": "Wolfgang Von Trips",
+    "Raw": 20,
+    "Target": 264.2857143,
+    "Specialty": "F1"
+  },
+  {
+    "DrvIdx": 467,
+    "Name": "Buddy Baker",
+    "Raw": 19,
+    "Target": 263.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 468,
+    "Name": "Davey Allison",
+    "Raw": 19,
+    "Target": 263.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 469,
+    "Name": "Fonty Flock",
+    "Raw": 19,
+    "Target": 263.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 470,
+    "Name": "Greg Biffle",
+    "Raw": 19,
+    "Target": 263.5714286,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 471,
+    "Name": "Geoff Bodine",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 472,
+    "Name": "Harry Gant",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 473,
+    "Name": "John Cleland",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 474,
+    "Name": "Kasey Kahne",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 475,
+    "Name": "Klaus Niedzwiedz",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 476,
+    "Name": "Neil Bonnett",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 477,
+    "Name": "Robert Wickens",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 478,
+    "Name": "Roberto Ravaglia",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 479,
+    "Name": "Roland Asch",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 480,
+    "Name": "Ryan Newman",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 481,
+    "Name": "Tom Chilton",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 482,
+    "Name": "Uwe Alzen",
+    "Raw": 18,
+    "Target": 262.8571429,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 483,
+    "Name": "Curtis Turner",
+    "Raw": 17,
+    "Target": 262.1428571,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 484,
+    "Name": "Marvin Panch",
+    "Raw": 17,
+    "Target": 262.1428571,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 485,
+    "Name": "Ryan Blaney",
+    "Raw": 17,
+    "Target": 262.1428571,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 486,
+    "Name": "Alex Barron",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 487,
+    "Name": "Andy Evans",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 488,
+    "Name": "Art Pollard",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 489,
+    "Name": "Babe Stapp",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 490,
+    "Name": "Bob Akin",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 491,
+    "Name": "Bob Beasley",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 492,
+    "Name": "Bob Carey",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 493,
+    "Name": "Bob Mcdonogh",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 494,
+    "Name": "Bus Wilbert",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 495,
+    "Name": "Charles Van Acker",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 496,
+    "Name": "Cliff Woodbury",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 497,
+    "Name": "Dan Cammish",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 498,
+    "Name": "Dave Heinz",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 499,
+    "Name": "Didier De Radigues",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 500,
+    "Name": "Dirk Werner",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 501,
+    "Name": "Don Whittington",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 502,
+    "Name": "Drake Olson",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 503,
+    "Name": "Elbert Booker",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 504,
+    "Name": "George Connor",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 505,
+    "Name": "Guy Smith",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 506,
+    "Name": "Harlan Fengler",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 507,
+    "Name": "Ian James",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 508,
+    "Name": "Jim Matthews",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 509,
+    "Name": "Jim Trueman",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 510,
+    "Name": "Jochen Mass",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 511,
+    "Name": "Joe Thomas",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 512,
+    "Name": "Johannes Van Overbeek",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 513,
+    "Name": "John Andretti",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 514,
+    "Name": "John Jones",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 515,
+    "Name": "John Schneider",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 516,
+    "Name": "Johnny Shackleford",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 517,
+    "Name": "Kevin Buckler",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 518,
+    "Name": "Logan Blackburn",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 519,
+    "Name": "Lou Moore",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 520,
+    "Name": "Louis Chevrolet",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 521,
+    "Name": "Louis Unser",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 522,
+    "Name": "Manny Ayulo",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 523,
+    "Name": "Marc Bunting",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 524,
+    "Name": "Marco Andretti",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 525,
+    "Name": "Mario Dom�nguez",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 526,
+    "Name": "Mark Wilkins",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 527,
+    "Name": "Maurice Carter",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 528,
+    "Name": "Mel Hansen",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 529,
+    "Name": "Michel Jourdain Jr.",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 530,
+    "Name": "Mike Borkowski",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 531,
+    "Name": "Nic J�nsson",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 532,
+    "Name": "Oscar Ridion",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 533,
+    "Name": "Pat O�Connor",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 534,
+    "Name": "Paul Russo",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 535,
+    "Name": "Phil Currin",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 536,
+    "Name": "Pietro Bordino",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 537,
+    "Name": "Rj Valentine",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 538,
+    "Name": "Robbie Buhl",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 539,
+    "Name": "Robert Doornbos",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 540,
+    "Name": "Roberto Guerrero",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 541,
+    "Name": "Roberto Moreno",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 542,
+    "Name": "Sam Posey",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 543,
+    "Name": "Sarel Van Der Merwe",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 544,
+    "Name": "Ted Field",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 545,
+    "Name": "Tim Harvey",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 546,
+    "Name": "Tomas Scheckter",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 547,
+    "Name": "Tommy Hinnershitz",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 548,
+    "Name": "Troy Ruttman",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 549,
+    "Name": "Wayne Baker",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 550,
+    "Name": "William Byron",
+    "Raw": 16,
+    "Target": 261.4285714,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 551,
+    "Name": "Andreas Mikkelsen",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 552,
+    "Name": "Anthony Reid",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 553,
+    "Name": "Christijan Albers",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 554,
+    "Name": "Dani Sordo",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 555,
+    "Name": "Ernie Irvan",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 556,
+    "Name": "Henri Toivonen",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 557,
+    "Name": "Jean Ragnotti",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 558,
+    "Name": "Jean-Claude Andruet",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 559,
+    "Name": "J�rg Van Ommen",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 560,
+    "Name": "Lucas Auer",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 561,
+    "Name": "Rob Collard",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 562,
+    "Name": "Timo Glock",
+    "Raw": 15,
+    "Target": 260.7142857,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 563,
+    "Name": "Dick Hutcherson",
+    "Raw": 14,
+    "Target": 260,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 564,
+    "Name": "Leeroy Yarbrough",
+    "Raw": 14,
+    "Target": 260,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 565,
+    "Name": "Christopher Bell",
+    "Raw": 13,
+    "Target": 259.2857143,
+    "Specialty": "NASCAR"
+  },
+  {
+    "DrvIdx": 566,
+    "Name": "Jeff Allam",
+    "Raw": 13,
+    "Target": 259.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 567,
+    "Name": "Robb Gravett",
+    "Raw": 13,
+    "Target": 259.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 568,
+    "Name": "Andrea Montermini",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 569,
+    "Name": "Antonio Hermann",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 570,
+    "Name": "Augusto Farfus",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 571,
+    "Name": "Christian Danner",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 572,
+    "Name": "Eric Bernard",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 573,
+    "Name": "Frank Leary",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 574,
+    "Name": "Gabriele Tarquini",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 575,
+    "Name": "George Dyer",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 576,
+    "Name": "Jc France",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 577,
+    "Name": "Jean Alesi",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 578,
+    "Name": "John Greenwood",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 579,
+    "Name": "Marc Goossens",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 580,
+    "Name": "Mauricio De Narvaez",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 581,
+    "Name": "Michael Valiante",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 582,
+    "Name": "Oswaldo Negri, Jr.",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 583,
+    "Name": "Roger Schramm",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 584,
+    "Name": "Stefan Johansson",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 585,
+    "Name": "Tom Gloy",
+    "Raw": 12,
+    "Target": 258.5714286,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 586,
+    "Name": "Adam Morgan",
+    "Raw": 11,
+    "Target": 257.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 587,
+    "Name": "Rory Butcher",
+    "Raw": 11,
+    "Target": 257.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 588,
+    "Name": "Achim Warmbold",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 589,
+    "Name": "Bruno Saby",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 590,
+    "Name": "Esapekka Lappi",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 591,
+    "Name": "Ingvar Carlsson",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 592,
+    "Name": "Joginder Singh",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 593,
+    "Name": "Kenjiro Shinozuka",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 594,
+    "Name": "Mats Jonsson",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 595,
+    "Name": "Mikael Ericsson",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 596,
+    "Name": "Philippe Bugalski",
+    "Raw": 10,
+    "Target": 257.1428571,
+    "Specialty": "WRC"
+  },
+  {
+    "DrvIdx": 597,
+    "Name": "Alain Fert�",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 598,
+    "Name": "David Leslie",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 599,
+    "Name": "Marcel F�ssler",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 600,
+    "Name": "Maxime Martin",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 601,
+    "Name": "Miguel Molina",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 602,
+    "Name": "Pascal Wehrlein",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 603,
+    "Name": "Robin Frijns",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 604,
+    "Name": "Will Hoy",
+    "Raw": 9,
+    "Target": 256.4285714,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 605,
+    "Name": "Airton Dare",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 606,
+    "Name": "Alex Tagliani",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 607,
+    "Name": "Alexander Wurz",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 608,
+    "Name": "Art Bisch",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 609,
+    "Name": "Bernd Rosemeyer",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 610,
+    "Name": "Bill Schindler",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 611,
+    "Name": "Bill Vukovich Ii",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 612,
+    "Name": "Billy Boat",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 613,
+    "Name": "Bob Finley",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 614,
+    "Name": "Bob Garretson",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 615,
+    "Name": "Bobby Ball",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 616,
+    "Name": "Bobby Grim",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 617,
+    "Name": "Bobby Marshman",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 618,
+    "Name": "Bobby Olivero",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 619,
+    "Name": "Bud Tingelstad",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 620,
+    "Name": "Bumpy Bumpus",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 621,
+    "Name": "Buzz Calkins",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 622,
+    "Name": "Carlos Huertas",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 623,
+    "Name": "Carlos Mu�oz",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 624,
+    "Name": "Charles Burman",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 625,
+    "Name": "Charles Mendez",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 626,
+    "Name": "Charlie Kimball",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 627,
+    "Name": "Christian Lundgaard",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 628,
+    "Name": "Christian Rasmussen",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 629,
+    "Name": "Danica Patrick",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 630,
+    "Name": "Dave Helmick",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 631,
+    "Name": "Dick Atkins",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 632,
+    "Name": "Dick Barbour",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 633,
+    "Name": "Duke Dinsmore",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 634,
+    "Name": "Earl Devore",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 635,
+    "Name": "Eddie Pullen",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 636,
+    "Name": "Elmer George",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 637,
+    "Name": "Emil Andres",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 638,
+    "Name": "Felipe Giaffone",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 639,
+    "Name": "Felix Rosenqvist",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 640,
+    "Name": "Floyd Davis",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 641,
+    "Name": "Floyd Roberts",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 642,
+    "Name": "Fred Agabashian",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 643,
+    "Name": "Fred Comer",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 644,
+    "Name": "Fred Frame",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 645,
+    "Name": "Gaston Chevrolet",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 646,
+    "Name": "George Hammond",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 647,
+    "Name": "George Snider",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 648,
+    "Name": "George Souders",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 649,
+    "Name": "Gordon Spice",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 650,
+    "Name": "Guy Vaughn",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 651,
+    "Name": "Hal Robson",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 652,
+    "Name": "Hank Rogers",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 653,
+    "Name": "H�ctor Rebaque",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 654,
+    "Name": "Henry Banks",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 655,
+    "Name": "Henry Taleb",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 656,
+    "Name": "Howdy Wilcox",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 657,
+    "Name": "I. P. Fetterman",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 658,
+    "Name": "Jacques Villeneuve, Sr.",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 659,
+    "Name": "Jaques Lazier",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 660,
+    "Name": "Jeff Ward",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 661,
+    "Name": "Jim Guthrie",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 662,
+    "Name": "Jim Packard",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 663,
+    "Name": "Jimmy Gleason",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 664,
+    "Name": "Jimmy Snyder",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 665,
+    "Name": "Joe Boyer",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 666,
+    "Name": "Joe Verebley",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 667,
+    "Name": "John Andretti",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 668,
+    "Name": "John Bauer",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 669,
+    "Name": "John Nielsen",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 670,
+    "Name": "John Pew",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 671,
+    "Name": "John Winter",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 672,
+    "Name": "Johnny Mantz",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 673,
+    "Name": "Keith Andrews",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 674,
+    "Name": "Keith Kauffman",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 675,
+    "Name": "Kevin Cogan",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 676,
+    "Name": "Larry Rice",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 677,
+    "Name": "Lora L. Corum",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 678,
+    "Name": "Louis Schneider",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 679,
+    "Name": "Lucky Lux",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 680,
+    "Name": "Mark Dismore",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 681,
+    "Name": "Mark Patterson",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 682,
+    "Name": "Martin Brundle",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 683,
+    "Name": "Maur�cio Gugelmin",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 684,
+    "Name": "Mike Nazaruk",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 685,
+    "Name": "Milt Minter",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 686,
+    "Name": "Neel Jani",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 687,
+    "Name": "Nelson Philippe",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 688,
+    "Name": "Nicolas Prost",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 689,
+    "Name": "Norman Batten",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 690,
+    "Name": "Oriol Servi�",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 691,
+    "Name": "Pancho Carter",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 692,
+    "Name": "Phil Shafer",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 693,
+    "Name": "Raul Boesel",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 694,
+    "Name": "Reinhold Joest",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 695,
+    "Name": "Ricardo Zonta",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 696,
+    "Name": "Rich Vogler",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 697,
+    "Name": "Richie Hearn",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 698,
+    "Name": "Rinus Veekay",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 699,
+    "Name": "Ronnie Bucknum",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 700,
+    "Name": "Sam Schmidt",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 701,
+    "Name": "Sam Tordoff",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 702,
+    "Name": "Stubby Stubblefield",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 703,
+    "Name": "Swede Savage",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 704,
+    "Name": "Tazio Nuvolari",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 705,
+    "Name": "Van Johnson",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 706,
+    "Name": "Walt Brown",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 707,
+    "Name": "Webb Jay",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 708,
+    "Name": "Wes Vandervoort",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IndyCar"
+  },
+  {
+    "DrvIdx": 709,
+    "Name": "Wilbur Pickett",
+    "Raw": 8,
+    "Target": 255.7142857,
+    "Specialty": "IMSA"
+  },
+  {
+    "DrvIdx": 710,
+    "Name": "Tom Onslow-Cole",
+    "Raw": 7,
+    "Target": 255,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 711,
+    "Name": "Altfrid Heger",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 712,
+    "Name": "Dan Eaves",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 713,
+    "Name": "Dany Snobeck",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 714,
+    "Name": "Heinz-Friedrich Peil",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 715,
+    "Name": "Michael Bartels",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 716,
+    "Name": "Paul Radisich",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 717,
+    "Name": "Peggen Andersson",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 718,
+    "Name": "Stefano Modena",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "DTM"
+  },
+  {
+    "DrvIdx": 719,
+    "Name": "Win Percy",
+    "Raw": 6,
+    "Target": 254.2857143,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 720,
+    "Name": "Aiden Moffat",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 721,
+    "Name": "Daniel Lloyd",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 722,
+    "Name": "Daniel Rowbottom",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 723,
+    "Name": "Darren Turner",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 724,
+    "Name": "Jack Goff",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 725,
+    "Name": "Peter Lovett",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 726,
+    "Name": "Vince Woodman",
+    "Raw": 5,
+    "Target": 253.5714286,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 727,
+    "Name": "�r�n Taylor-Smith",
+    "Raw": 4,
+    "Target": 252.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 728,
+    "Name": "Frank Sytner",
+    "Raw": 4,
+    "Target": 252.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 729,
+    "Name": "Rob Huff",
+    "Raw": 4,
+    "Target": 252.8571429,
+    "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 730,
+    "Name": "Stephen Jelley",
+    "Raw": 4,
+    "Target": 252.8571429,
+    "Specialty": "BTCC"
+  }
+]
