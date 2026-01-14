@@ -92,7 +92,7 @@
   },
   {
     "DrvIdx": 14,
-    "Name": "S�bastien Ogier",
+    "Name": "Sebastien Ogier",
     "Raw": 335,
     "Target": 489.2857143,
     "Specialty": "WRC"
@@ -127,7 +127,7 @@
   },
   {
     "DrvIdx": 19,
-    "Name": "S�bastien Bourdais",
+    "Name": "Sebastien Bourdais",
     "Raw": 312,
     "Target": 472.8571429,
     "Specialty": "IndyCar"
@@ -190,7 +190,7 @@
   },
   {
     "DrvIdx": 28,
-    "Name": "H�lio Castroneves",
+    "Name": "Helio Castroneves",
     "Raw": 248,
     "Target": 427.1428571,
     "Specialty": "IndyCar"
@@ -582,7 +582,7 @@
   },
   {
     "DrvIdx": 84,
-    "Name": "Ott T�nak",
+    "Name": "Ott Tanak",
     "Raw": 110,
     "Target": 328.5714286,
     "Specialty": "WRC"
@@ -911,7 +911,7 @@
   },
   {
     "DrvIdx": 131,
-    "Name": "Bj�rn Waldeg�rd",
+    "Name": "Bjorn Waldeg�rd",
     "Raw": 80,
     "Target": 307.1428571,
     "Specialty": "WRC"
@@ -1051,7 +1051,7 @@
   },
   {
     "DrvIdx": 151,
-    "Name": "Ren� Rast",
+    "Name": "Rene Rast",
     "Raw": 72,
     "Target": 301.4285714,
     "Specialty": "DTM"
@@ -1100,14 +1100,14 @@
   },
   {
     "DrvIdx": 158,
-    "Name": "Ren� Arnoux",
+    "Name": "Rene Arnoux",
     "Raw": 70,
     "Target": 300,
     "Specialty": "F1"
   },
   {
     "DrvIdx": 159,
-    "Name": "Walter R�hrl",
+    "Name": "Walter Rohrl",
     "Raw": 70,
     "Target": 300,
     "Specialty": "WRC"
@@ -1331,7 +1331,7 @@
   },
   {
     "DrvIdx": 191,
-    "Name": "Sergio P�rez",
+    "Name": "Sergio Perez",
     "Raw": 60,
     "Target": 292.8571429,
     "Specialty": "F1"
@@ -4173,7 +4173,7 @@
   },
   {
     "DrvIdx": 597,
-    "Name": "Alain Fert�",
+    "Name": "Alain Ferte",
     "Raw": 9,
     "Target": 256.4285714,
     "Specialty": "DTM"
@@ -4355,7 +4355,7 @@
   },
   {
     "DrvIdx": 623,
-    "Name": "Carlos Mu�oz",
+    "Name": "Carlos Munoz",
     "Raw": 8,
     "Target": 255.7142857,
     "Specialty": "IndyCar"
@@ -4565,7 +4565,7 @@
   },
   {
     "DrvIdx": 653,
-    "Name": "H�ctor Rebaque",
+    "Name": "Hector Rebaque",
     "Raw": 8,
     "Target": 255.7142857,
     "Specialty": "IndyCar"
@@ -5083,7 +5083,7 @@
   },
   {
     "DrvIdx": 727,
-    "Name": "�r�n Taylor-Smith",
+    "Name": "Aron Taylor-Smith",
     "Raw": 4,
     "Target": 252.8571429,
     "Specialty": "BTCC"
