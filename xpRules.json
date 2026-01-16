@@ -37,7 +37,7 @@
     "baseline": 1.0,
     "perPointAboveTarget": 0.03,
     "perPointBelowTarget": -0.03
-  }
+  },
 
   "carLevel": {
     "1": 1.0,
@@ -47,10 +47,5 @@
     "5": 1.08,
     "6": 1.10,
     "7": 1.12
-  },
-
-
-
-
-
+  }
 }
