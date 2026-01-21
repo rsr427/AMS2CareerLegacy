@@ -1,7 +1,7 @@
 [
   {
     "CarID": 1,
-    "Car Model": "Aussie Racing Camaro",
+    "CarModel": "Aussie Racing Camaro",
     "Class": "ARC",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -13,7 +13,7 @@
   },
   {
     "CarID": 2,
-    "Car Model": "Alpine A110 GT4",
+    "CarModel": "Alpine A110 GT4",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -25,7 +25,7 @@
   },
   {
     "CarID": 3,
-    "Car Model": "Alpine A110 GT4 Evo",
+    "CarModel": "Alpine A110 GT4 Evo",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -37,7 +37,7 @@
   },
   {
     "CarID": 4,
-    "Car Model": "Alpine A424",
+    "CarModel": "Alpine A424",
     "Class": "LMDh",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -49,7 +49,7 @@
   },
   {
     "CarID": 5,
-    "Car Model": "Aston Martin DBR9 GT1",
+    "CarModel": "Aston Martin DBR9 GT1",
     "Class": "GT1 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -61,7 +61,7 @@
   },
   {
     "CarID": 6,
-    "Car Model": "Aston Martin Valkyrie",
+    "CarModel": "Aston Martin Valkyrie",
     "Class": "Hypercars",
     "Specialty": "Modern Prototype",
     "Discipline": "Street",
@@ -73,7 +73,7 @@
   },
   {
     "CarID": 7,
-    "Car Model": "Aston Martin Vantage GT3 Evo",
+    "CarModel": "Aston Martin Vantage GT3 Evo",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -85,7 +85,7 @@
   },
   {
     "CarID": 8,
-    "Car Model": "Aston Martin Vantage GT4 Evo",
+    "CarModel": "Aston Martin Vantage GT4 Evo",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -97,7 +97,7 @@
   },
   {
     "CarID": 9,
-    "Car Model": "Aston Martin Vantage GTE",
+    "CarModel": "Aston Martin Vantage GTE",
     "Class": "GTE",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -109,7 +109,7 @@
   },
   {
     "CarID": 10,
-    "Car Model": "Audi R8 LMS GT3 Evo",
+    "CarModel": "Audi R8 LMS GT3 Evo",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -121,7 +121,7 @@
   },
   {
     "CarID": 11,
-    "Car Model": "Audi R8 LMS GT3 Evo II",
+    "CarModel": "Audi R8 LMS GT3 Evo II",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -133,7 +133,7 @@
   },
   {
     "CarID": 12,
-    "Car Model": "Audi R8 LMP1",
+    "CarModel": "Audi R8 LMP1",
     "Class": "LMP1 2005",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -145,7 +145,7 @@
   },
   {
     "CarID": 13,
-    "Car Model": "BMW 2002 Turbo",
+    "CarModel": "BMW 2002 Turbo",
     "Class": "GT Classics",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -157,7 +157,7 @@
   },
   {
     "CarID": 14,
-    "Car Model": "BMW M Hybrid V8",
+    "CarModel": "BMW M Hybrid V8",
     "Class": "LMDh",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -169,7 +169,7 @@
   },
   {
     "CarID": 15,
-    "Car Model": "BMW M1 Procar",
+    "CarModel": "BMW M1 Procar",
     "Class": "Procar",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -181,7 +181,7 @@
   },
   {
     "CarID": 16,
-    "Car Model": "BMW M3 E30",
+    "CarModel": "BMW M3 E30",
     "Class": "Group A",
     "Specialty": "Historic Touring",
     "Discipline": "Touring",
@@ -193,7 +193,7 @@
   },
   {
     "CarID": 17,
-    "Car Model": "BMW M3 GTR",
+    "CarModel": "BMW M3 GTR",
     "Class": "GTR 2004",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -205,7 +205,7 @@
   },
   {
     "CarID": 18,
-    "Car Model": "BMW M3 Sport Evo GrA",
+    "CarModel": "BMW M3 Sport Evo GrA",
     "Class": "Group A",
     "Specialty": "Historic Touring",
     "Discipline": "Touring",
@@ -217,7 +217,7 @@
   },
   {
     "CarID": 19,
-    "Car Model": "BMW M4 GT3",
+    "CarModel": "BMW M4 GT3",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -229,7 +229,7 @@
   },
   {
     "CarID": 20,
-    "Car Model": "BMW M4 GT4",
+    "CarModel": "BMW M4 GT4",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -241,7 +241,7 @@
   },
   {
     "CarID": 21,
-    "Car Model": "BMW M6 GT3",
+    "CarModel": "BMW M6 GT3",
     "Class": "GT3",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -253,7 +253,7 @@
   },
   {
     "CarID": 22,
-    "Car Model": "BMW M8 GTE",
+    "CarModel": "BMW M8 GTE",
     "Class": "GTE",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -265,7 +265,7 @@
   },
   {
     "CarID": 23,
-    "Car Model": "Brabham BT26A",
+    "CarModel": "Brabham BT26A",
     "Class": "Formula Vintage Gen 2",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -277,7 +277,7 @@
   },
   {
     "CarID": 24,
-    "Car Model": "Brabham BT44",
+    "CarModel": "Brabham BT44",
     "Class": "Formula Retro Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -289,7 +289,7 @@
   },
   {
     "CarID": 25,
-    "Car Model": "Brabham BT46B",
+    "CarModel": "Brabham BT46B",
     "Class": "Formula Retro Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -301,7 +301,7 @@
   },
   {
     "CarID": 26,
-    "Car Model": "Brabham BT49 Cosworth V8",
+    "CarModel": "Brabham BT49 Cosworth V8",
     "Class": "Formula Retro Gen 2",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -313,7 +313,7 @@
   },
   {
     "CarID": 27,
-    "Car Model": "Brabham BT52 BMW I4 Turbo",
+    "CarModel": "Brabham BT52 BMW I4 Turbo",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -325,7 +325,7 @@
   },
   {
     "CarID": 28,
-    "Car Model": "Brabham BT62",
+    "CarModel": "Brabham BT62",
     "Class": "Hypercars",
     "Specialty": "Modern Prototype",
     "Discipline": "Street",
@@ -337,7 +337,7 @@
   },
   {
     "CarID": 29,
-    "Car Model": "Cadillac DPi-V.R",
+    "CarModel": "Cadillac DPi-V.R",
     "Class": "DPi",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -349,7 +349,7 @@
   },
   {
     "CarID": 30,
-    "Car Model": "Cadillac V-Series.R",
+    "CarModel": "Cadillac V-Series.R",
     "Class": "LMDh",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -361,7 +361,7 @@
   },
   {
     "CarID": 31,
-    "Car Model": "Caterham 620R",
+    "CarModel": "Caterham 620R",
     "Class": "Caterham 620R",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -373,7 +373,7 @@
   },
   {
     "CarID": 32,
-    "Car Model": "Caterham Academy",
+    "CarModel": "Caterham Academy",
     "Class": "Caterham Academy",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -385,7 +385,7 @@
   },
   {
     "CarID": 33,
-    "Car Model": "Caterham Superlight",
+    "CarModel": "Caterham Superlight",
     "Class": "Caterham Superlight",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -397,7 +397,7 @@
   },
   {
     "CarID": 34,
-    "Car Model": "Caterham Supersport",
+    "CarModel": "Caterham Supersport",
     "Class": "Caterham Supersport",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -409,7 +409,7 @@
   },
   {
     "CarID": 35,
-    "Car Model": "Chevrolet Camaro GT4.R",
+    "CarModel": "Chevrolet Camaro GT4.R",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -421,7 +421,7 @@
   },
   {
     "CarID": 36,
-    "Car Model": "Chevrolet Camaro SS",
+    "CarModel": "Chevrolet Camaro SS",
     "Class": "Street Cars",
     "Specialty": "Club Racing",
     "Discipline": "Street",
@@ -433,7 +433,7 @@
   },
   {
     "CarID": 37,
-    "Car Model": "Chevrolet Chevette",
+    "CarModel": "Chevrolet Chevette",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -445,7 +445,7 @@
   },
   {
     "CarID": 38,
-    "Car Model": "Chevrolet Corvette C3",
+    "CarModel": "Chevrolet Corvette C3",
     "Class": "GT Classics",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -457,7 +457,7 @@
   },
   {
     "CarID": 39,
-    "Car Model": "Chevrolet Corvette C3 R",
+    "CarModel": "Chevrolet Corvette C3 R",
     "Class": "GT Classics",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -469,7 +469,7 @@
   },
   {
     "CarID": 40,
-    "Car Model": "Chevrolet Corvette C5.R",
+    "CarModel": "Chevrolet Corvette C5.R",
     "Class": "GT1 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -481,7 +481,7 @@
   },
   {
     "CarID": 41,
-    "Car Model": "Chevrolet Corvette C8 Z06",
+    "CarModel": "Chevrolet Corvette C8 Z06",
     "Class": "Supercars",
     "Specialty": "Modern GT",
     "Discipline": "Street",
@@ -493,7 +493,7 @@
   },
   {
     "CarID": 42,
-    "Car Model": "Chevrolet Corvette C8.R",
+    "CarModel": "Chevrolet Corvette C8.R",
     "Class": "GTE",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -505,7 +505,7 @@
   },
   {
     "CarID": 43,
-    "Car Model": "Chevrolet Corvette Z06 GT3.R",
+    "CarModel": "Chevrolet Corvette Z06 GT3.R",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -517,7 +517,7 @@
   },
   {
     "CarID": 44,
-    "Car Model": "Chevrolet Cruze Stock Car '19",
+    "CarModel": "Chevrolet Cruze Stock Car '19",
     "Class": "Stock Car Brasil 2019",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -529,7 +529,7 @@
   },
   {
     "CarID": 45,
-    "Car Model": "Chevrolet Cruze Stock Car '20",
+    "CarModel": "Chevrolet Cruze Stock Car '20",
     "Class": "Stock Car Brasil 2020",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -541,7 +541,7 @@
   },
   {
     "CarID": 46,
-    "Car Model": "Chevrolet Cruze Stock Car '21",
+    "CarModel": "Chevrolet Cruze Stock Car '21",
     "Class": "Stock Car Brasil 2021",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -553,7 +553,7 @@
   },
   {
     "CarID": 47,
-    "Car Model": "Chevrolet Cruze Stock Car '22",
+    "CarModel": "Chevrolet Cruze Stock Car '22",
     "Class": "Stock Car Pro Series 2022",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -565,7 +565,7 @@
   },
   {
     "CarID": 48,
-    "Car Model": "Chevrolet Cruze Stock Car '23",
+    "CarModel": "Chevrolet Cruze Stock Car '23",
     "Class": "Stock Car Pro Series 2023",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -577,7 +577,7 @@
   },
   {
     "CarID": 49,
-    "Car Model": "Chevrolet Cruze Stock Car '24",
+    "CarModel": "Chevrolet Cruze Stock Car '24",
     "Class": "Stock Car Pro Series 2024",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -589,7 +589,7 @@
   },
   {
     "CarID": 50,
-    "Car Model": "Chevrolet Montana",
+    "CarModel": "Chevrolet Montana",
     "Class": "Copa Montana",
     "Specialty": "Low Tech GT",
     "Discipline": "GT",
@@ -601,7 +601,7 @@
   },
   {
     "CarID": 51,
-    "Car Model": "Chevrolet Omega Stock Car 1989",
+    "CarModel": "Chevrolet Omega Stock Car 1989",
     "Class": "Stock Car Brasil 1989",
     "Specialty": "Historic Touring",
     "Discipline": "Touring",
@@ -613,7 +613,7 @@
   },
   {
     "CarID": 52,
-    "Car Model": "Chevrolet Opala Stock Cars 1979",
+    "CarModel": "Chevrolet Opala Stock Cars 1979",
     "Class": "Opala 79",
     "Specialty": "Low Tech GT",
     "Discipline": "Touring",
@@ -625,7 +625,7 @@
   },
   {
     "CarID": 53,
-    "Car Model": "Chevrolet Opala Stock Cars 1986",
+    "CarModel": "Chevrolet Opala Stock Cars 1986",
     "Class": "Opala 86",
     "Specialty": "Historic Touring",
     "Discipline": "Touring",
@@ -637,7 +637,7 @@
   },
   {
     "CarID": 54,
-    "Car Model": "Chevrolet Opala Old Stock Race",
+    "CarModel": "Chevrolet Opala Old Stock Race",
     "Class": "Old Stock",
     "Specialty": "Club Racing",
     "Discipline": "Touring",
@@ -649,7 +649,7 @@
   },
   {
     "CarID": 55,
-    "Car Model": "Citroen DS3 RX",
+    "CarModel": "Citroen DS3 RX",
     "Class": "RX",
     "Specialty": "",
     "Discipline": "",
@@ -661,7 +661,7 @@
   },
   {
     "CarID": 56,
-    "Car Model": "Courage C60",
+    "CarModel": "Courage C60",
     "Class": "LMP1 2005",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -673,7 +673,7 @@
   },
   {
     "CarID": 57,
-    "Car Model": "Dallara SP1",
+    "CarModel": "Dallara SP1",
     "Class": "LMP1 2005",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -685,7 +685,7 @@
   },
   {
     "CarID": 58,
-    "Car Model": "Dodge Viper GTS-R",
+    "CarModel": "Dodge Viper GTS-R",
     "Class": "GT1 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -697,7 +697,7 @@
   },
   {
     "CarID": 59,
-    "Car Model": "Fiat Uno",
+    "CarModel": "Fiat Uno",
     "Class": "Copa Uno",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -709,7 +709,7 @@
   },
   {
     "CarID": 60,
-    "Car Model": "Fiat Uno Classic B",
+    "CarModel": "Fiat Uno Classic B",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -721,7 +721,7 @@
   },
   {
     "CarID": 61,
-    "Car Model": "Formula Classic Gen 1 Model 1",
+    "CarModel": "Formula Classic Gen 1 Model 1",
     "Class": "Formula Classic Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -733,7 +733,7 @@
   },
   {
     "CarID": 62,
-    "Car Model": "Formula Classic Gen 1 Model 2",
+    "CarModel": "Formula Classic Gen 1 Model 2",
     "Class": "Formula Classic Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -745,7 +745,7 @@
   },
   {
     "CarID": 63,
-    "Car Model": "Formula Classic Gen 2 Model 1",
+    "CarModel": "Formula Classic Gen 2 Model 1",
     "Class": "Formula Classic Gen 2",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -757,7 +757,7 @@
   },
   {
     "CarID": 64,
-    "Car Model": "Formula Classic Gen 2 Model 2",
+    "CarModel": "Formula Classic Gen 2 Model 2",
     "Class": "Formula Classic Gen 2",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -769,7 +769,7 @@
   },
   {
     "CarID": 65,
-    "Car Model": "Formula Classic Gen 2 Model 3",
+    "CarModel": "Formula Classic Gen 2 Model 3",
     "Class": "Formula Classic Gen 2",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -781,7 +781,7 @@
   },
   {
     "CarID": 66,
-    "Car Model": "Formula Classic Gen 3 Model 1",
+    "CarModel": "Formula Classic Gen 3 Model 1",
     "Class": "Formula Classic Gen 3",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -793,7 +793,7 @@
   },
   {
     "CarID": 67,
-    "Car Model": "Formula Classic Gen 3 Model 2",
+    "CarModel": "Formula Classic Gen 3 Model 2",
     "Class": "Formula Classic Gen 3",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -805,7 +805,7 @@
   },
   {
     "CarID": 68,
-    "Car Model": "Formula Classic Gen 3 Model 3",
+    "CarModel": "Formula Classic Gen 3 Model 3",
     "Class": "Formula Classic Gen 3",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -817,7 +817,7 @@
   },
   {
     "CarID": 69,
-    "Car Model": "Formula Classic Gen 3 Model 4",
+    "CarModel": "Formula Classic Gen 3 Model 4",
     "Class": "Formula Classic Gen 3",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -829,7 +829,7 @@
   },
   {
     "CarID": 70,
-    "Car Model": "Formula Classic Gen 4 Model 1",
+    "CarModel": "Formula Classic Gen 4 Model 1",
     "Class": "Formula Classic Gen 4",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -841,7 +841,7 @@
   },
   {
     "CarID": 71,
-    "Car Model": "Formula Classic Gen 4 Model 2",
+    "CarModel": "Formula Classic Gen 4 Model 2",
     "Class": "Formula Classic Gen 4",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -853,7 +853,7 @@
   },
   {
     "CarID": 72,
-    "Car Model": "Formula Classic Gen 4 Model 3",
+    "CarModel": "Formula Classic Gen 4 Model 3",
     "Class": "Formula Classic Gen 4",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -865,7 +865,7 @@
   },
   {
     "CarID": 73,
-    "Car Model": "Formula Dirt",
+    "CarModel": "Formula Dirt",
     "Class": "Formula Dirt",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -877,7 +877,7 @@
   },
   {
     "CarID": 74,
-    "Car Model": "Formula HiTech Gen 1 Model 1",
+    "CarModel": "Formula HiTech Gen 1 Model 1",
     "Class": "Formula HiTech Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -889,7 +889,7 @@
   },
   {
     "CarID": 75,
-    "Car Model": "Formula HiTech Gen 1 Model 2",
+    "CarModel": "Formula HiTech Gen 1 Model 2",
     "Class": "Formula HiTech Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -901,7 +901,7 @@
   },
   {
     "CarID": 76,
-    "Car Model": "Formula HiTech Gen 2 Model 1",
+    "CarModel": "Formula HiTech Gen 2 Model 1",
     "Class": "Formula HiTech Gen 2",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -913,7 +913,7 @@
   },
   {
     "CarID": 77,
-    "Car Model": "Formula HiTech Gen 2 Model 2",
+    "CarModel": "Formula HiTech Gen 2 Model 2",
     "Class": "Formula HiTech Gen 2",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -925,7 +925,7 @@
   },
   {
     "CarID": 78,
-    "Car Model": "Formula Inter MG-15",
+    "CarModel": "Formula Inter MG-15",
     "Class": "Formula Inter",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -937,7 +937,7 @@
   },
   {
     "CarID": 79,
-    "Car Model": "Formula Junior",
+    "CarModel": "Formula Junior",
     "Class": "Formula Junior",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -949,7 +949,7 @@
   },
   {
     "CarID": 80,
-    "Car Model": "Formula Reiza",
+    "CarModel": "Formula Reiza",
     "Class": "Formula Reiza",
     "Specialty": "Post-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -961,7 +961,7 @@
   },
   {
     "CarID": 81,
-    "Car Model": "Formula Retro Gen 3 DFY",
+    "CarModel": "Formula Retro Gen 3 DFY",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -973,7 +973,7 @@
   },
   {
     "CarID": 82,
-    "Car Model": "Formula Retro Gen 3 Turbo",
+    "CarModel": "Formula Retro Gen 3 Turbo",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -985,7 +985,7 @@
   },
   {
     "CarID": 83,
-    "Car Model": "Formula Trainer",
+    "CarModel": "Formula Trainer",
     "Class": "Formula Trainer",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -997,7 +997,7 @@
   },
   {
     "CarID": 84,
-    "Car Model": "Formula Trainer Advanced",
+    "CarModel": "Formula Trainer Advanced",
     "Class": "Formula Trainer Advanced",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -1009,7 +1009,7 @@
   },
   {
     "CarID": 85,
-    "Car Model": "Formula Ultimate Gen 2",
+    "CarModel": "Formula Ultimate Gen 2",
     "Class": "Formula Ultimate Gen 2",
     "Specialty": "Modern Open Wheel",
     "Discipline": "Open Wheel",
@@ -1021,7 +1021,7 @@
   },
   {
     "CarID": 86,
-    "Car Model": "Formula USA 2023",
+    "CarModel": "Formula USA 2023",
     "Class": "Formula USA 2023",
     "Specialty": "Modern Open Wheel",
     "Discipline": "Open Wheel",
@@ -1033,7 +1033,7 @@
   },
   {
     "CarID": 87,
-    "Car Model": "Formula V10 Gen 1",
+    "CarModel": "Formula V10 Gen 1",
     "Class": "Formula V10 Gen 1",
     "Specialty": "Post-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -1045,7 +1045,7 @@
   },
   {
     "CarID": 88,
-    "Car Model": "Formula V10 Gen 2",
+    "CarModel": "Formula V10 Gen 2",
     "Class": "Formula V10 Gen 2",
     "Specialty": "Post-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -1057,7 +1057,7 @@
   },
   {
     "CarID": 89,
-    "Car Model": "Formula V12",
+    "CarModel": "Formula V12",
     "Class": "Formula V12",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -1069,7 +1069,7 @@
   },
   {
     "CarID": 90,
-    "Car Model": "Formula Vee Brazil Gen 1",
+    "CarModel": "Formula Vee Brazil Gen 1",
     "Class": "Formula Vee Brazil Gen 1",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -1081,7 +1081,7 @@
   },
   {
     "CarID": 91,
-    "Car Model": "Formula Vee Brazil Gen 2",
+    "CarModel": "Formula Vee Brazil Gen 2",
     "Class": "Formula Vee Brazil Gen 2",
     "Specialty": "Junior Formula",
     "Discipline": "Open Wheel",
@@ -1093,7 +1093,7 @@
   },
   {
     "CarID": 92,
-    "Car Model": "Formula Vintage Gen 1 Model 1",
+    "CarModel": "Formula Vintage Gen 1 Model 1",
     "Class": "Formula Vintage Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1105,7 +1105,7 @@
   },
   {
     "CarID": 93,
-    "Car Model": "Formula Vintage Gen 1 Model 2",
+    "CarModel": "Formula Vintage Gen 1 Model 2",
     "Class": "Formula Vintage Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1117,7 +1117,7 @@
   },
   {
     "CarID": 94,
-    "Car Model": "Formula Vintage Gen 2 Model 1",
+    "CarModel": "Formula Vintage Gen 2 Model 1",
     "Class": "Formula Vintage Gen 2",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1129,7 +1129,7 @@
   },
   {
     "CarID": 95,
-    "Car Model": "Formula Vintage Gen 2 Model 2",
+    "CarModel": "Formula Vintage Gen 2 Model 2",
     "Class": "Formula Vintage Gen 2",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1141,7 +1141,7 @@
   },
   {
     "CarID": 96,
-    "Car Model": "Ginetta G40 Cup",
+    "CarModel": "Ginetta G40 Cup",
     "Class": "Ginetta G40 Cup",
     "Specialty": "Low Tech GT",
     "Discipline": "GT",
@@ -1153,7 +1153,7 @@
   },
   {
     "CarID": 97,
-    "Car Model": "Ginetta G55 Supercup",
+    "CarModel": "Ginetta G55 Supercup",
     "Class": "Ginetta G55 Supercup",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1165,7 +1165,7 @@
   },
   {
     "CarID": 98,
-    "Car Model": "Ginetta G55 GT4",
+    "CarModel": "Ginetta G55 GT4",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1177,7 +1177,7 @@
   },
   {
     "CarID": 99,
-    "Car Model": "Ginetta G58",
+    "CarModel": "Ginetta G58",
     "Class": "P1",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1189,7 +1189,7 @@
   },
   {
     "CarID": 100,
-    "Car Model": "IVECO Stralis",
+    "CarModel": "IVECO Stralis",
     "Class": "Copa Truck",
     "Specialty": "",
     "Discipline": "Touring",
@@ -1201,7 +1201,7 @@
   },
   {
     "CarID": 101,
-    "Car Model": "Kart 125cc 2-Stroke",
+    "CarModel": "Kart 125cc 2-Stroke",
     "Class": "Kart 125cc",
     "Specialty": "",
     "Discipline": "Kart",
@@ -1213,7 +1213,7 @@
   },
   {
     "CarID": 102,
-    "Car Model": "Kart 125cc Shifter",
+    "CarModel": "Kart 125cc Shifter",
     "Class": "Kart Shifter",
     "Specialty": "",
     "Discipline": "Kart",
@@ -1225,7 +1225,7 @@
   },
   {
     "CarID": 103,
-    "Car Model": "Kart GX390 Race",
+    "CarModel": "Kart GX390 Race",
     "Class": "Kart GX390",
     "Specialty": "",
     "Discipline": "Kart",
@@ -1237,7 +1237,7 @@
   },
   {
     "CarID": 104,
-    "Car Model": "Kart GX390 Rental",
+    "CarModel": "Kart GX390 Rental",
     "Class": "Kart Rental",
     "Specialty": "",
     "Discipline": "Kart",
@@ -1249,7 +1249,7 @@
   },
   {
     "CarID": 105,
-    "Car Model": "Kartcross",
+    "CarModel": "Kartcross",
     "Class": "Kartcross",
     "Specialty": "",
     "Discipline": "Kart",
@@ -1261,7 +1261,7 @@
   },
   {
     "CarID": 106,
-    "Car Model": "Lamborghini Diablo SV-R",
+    "CarModel": "Lamborghini Diablo SV-R",
     "Class": "Super Trofeo 96",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -1273,7 +1273,7 @@
   },
   {
     "CarID": 107,
-    "Car Model": "Lamborghini Huracan GT3 Evo 2",
+    "CarModel": "Lamborghini Huracan GT3 Evo 2",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1285,7 +1285,7 @@
   },
   {
     "CarID": 108,
-    "Car Model": "Lamborghini Huracan Super Trofeo Evo 2",
+    "CarModel": "Lamborghini Huracan Super Trofeo Evo 2",
     "Class": "Super Trofeo",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1297,7 +1297,7 @@
   },
   {
     "CarID": 109,
-    "Car Model": "Lamborghini Miura SV",
+    "CarModel": "Lamborghini Miura SV",
     "Class": "Vintage Cars - Tier 2",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -1309,7 +1309,7 @@
   },
   {
     "CarID": 110,
-    "Car Model": "Lamborghini Murcielago R-GT",
+    "CarModel": "Lamborghini Murcielago R-GT",
     "Class": "GT1 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -1321,7 +1321,7 @@
   },
   {
     "CarID": 111,
-    "Car Model": "Lamborghini Revuelto",
+    "CarModel": "Lamborghini Revuelto",
     "Class": "Hypercars",
     "Specialty": "Modern Prototype",
     "Discipline": "Street",
@@ -1333,7 +1333,7 @@
   },
   {
     "CarID": 112,
-    "Car Model": "Lamborghini SC63",
+    "CarModel": "Lamborghini SC63",
     "Class": "LMDh",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1345,7 +1345,7 @@
   },
   {
     "CarID": 113,
-    "Car Model": "Lamborghini Veneno Roadster",
+    "CarModel": "Lamborghini Veneno Roadster",
     "Class": "Hypercars",
     "Specialty": "Modern Prototype",
     "Discipline": "Street",
@@ -1357,7 +1357,7 @@
   },
   {
     "CarID": 114,
-    "Car Model": "Ligier JS2-R",
+    "CarModel": "Ligier JS2-R",
     "Class": "Ligier European Series",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1369,7 +1369,7 @@
   },
   {
     "CarID": 115,
-    "Car Model": "Ligier JS P4",
+    "CarModel": "Ligier JS P4",
     "Class": "Ligier European Series",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1381,7 +1381,7 @@
   },
   {
     "CarID": 116,
-    "Car Model": "Ligier JS P217",
+    "CarModel": "Ligier JS P217",
     "Class": "LMP2",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1393,7 +1393,7 @@
   },
   {
     "CarID": 117,
-    "Car Model": "Lola B05/40 Turbo",
+    "CarModel": "Lola B05/40 Turbo",
     "Class": "LMP2 2005",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1405,7 +1405,7 @@
   },
   {
     "CarID": 118,
-    "Car Model": "Lola B05/40 V8",
+    "CarModel": "Lola B05/40 V8",
     "Class": "LMP2 2005",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1417,7 +1417,7 @@
   },
   {
     "CarID": 119,
-    "Car Model": "Lola B2K/00 Ford-Cosworth",
+    "CarModel": "Lola B2K/00 Ford-Cosworth",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1429,7 +1429,7 @@
   },
   {
     "CarID": 120,
-    "Car Model": "Lola B2K/00 Mercedes-Benz",
+    "CarModel": "Lola B2K/00 Mercedes-Benz",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1441,7 +1441,7 @@
   },
   {
     "CarID": 121,
-    "Car Model": "Lola B2K/00 Toyota",
+    "CarModel": "Lola B2K/00 Toyota",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1453,7 +1453,7 @@
   },
   {
     "CarID": 122,
-    "Car Model": "Lola T95/00 Ford-Cosworth",
+    "CarModel": "Lola T95/00 Ford-Cosworth",
     "Class": "Formula USA Gen 1",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1465,7 +1465,7 @@
   },
   {
     "CarID": 123,
-    "Car Model": "Lola T95/00 Mercedes-Benz",
+    "CarModel": "Lola T95/00 Mercedes-Benz",
     "Class": "Formula USA Gen 1",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1477,7 +1477,7 @@
   },
   {
     "CarID": 124,
-    "Car Model": "Lola T98/00 Ford-Cosworth",
+    "CarModel": "Lola T98/00 Ford-Cosworth",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -1489,7 +1489,7 @@
   },
   {
     "CarID": 125,
-    "Car Model": "Lotus Type 49C Cosworth",
+    "CarModel": "Lotus Type 49C Cosworth",
     "Class": "Formula Vintage Gen 2",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1501,7 +1501,7 @@
   },
   {
     "CarID": 126,
-    "Car Model": "Lotus Type 72E",
+    "CarModel": "Lotus Type 72E",
     "Class": "Formula Retro Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1513,7 +1513,7 @@
   },
   {
     "CarID": 127,
-    "Car Model": "Lotus 98T Renault V6 Turbo",
+    "CarModel": "Lotus 98T Renault V6 Turbo",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -1525,7 +1525,7 @@
   },
   {
     "CarID": 128,
-    "Car Model": "MAN TGX",
+    "CarModel": "MAN TGX",
     "Class": "Copa Truck",
     "Specialty": "",
     "Discipline": "Touring",
@@ -1537,7 +1537,7 @@
   },
   {
     "CarID": 129,
-    "Car Model": "Maserati MC12 GT1",
+    "CarModel": "Maserati MC12 GT1",
     "Class": "GT1 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -1549,7 +1549,7 @@
   },
   {
     "CarID": 130,
-    "Car Model": "MCR S2000",
+    "CarModel": "MCR S2000",
     "Class": "P4",
     "Specialty": "Club Racing",
     "Discipline": "Prototype",
@@ -1561,7 +1561,7 @@
   },
   {
     "CarID": 131,
-    "Car Model": "McLaren 570S GT4",
+    "CarModel": "McLaren 570S GT4",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1573,7 +1573,7 @@
   },
   {
     "CarID": 132,
-    "Car Model": "McLaren 720S GT3",
+    "CarModel": "McLaren 720S GT3",
     "Class": "GT3",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1585,7 +1585,7 @@
   },
   {
     "CarID": 133,
-    "Car Model": "McLaren 720S GT3 Evo",
+    "CarModel": "McLaren 720S GT3 Evo",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1597,7 +1597,7 @@
   },
   {
     "CarID": 134,
-    "Car Model": "McLaren F1 GTR",
+    "CarModel": "McLaren F1 GTR",
     "Class": "GT1",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1609,7 +1609,7 @@
   },
   {
     "CarID": 135,
-    "Car Model": "McLaren F1 GTR LT",
+    "CarModel": "McLaren F1 GTR LT",
     "Class": "GT1",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1621,7 +1621,7 @@
   },
   {
     "CarID": 136,
-    "Car Model": "McLaren F1 LM",
+    "CarModel": "McLaren F1 LM",
     "Class": "Supercars",
     "Specialty": "Modern GT",
     "Discipline": "Street",
@@ -1633,7 +1633,7 @@
   },
   {
     "CarID": 137,
-    "Car Model": "McLaren M23",
+    "CarModel": "McLaren M23",
     "Class": "Formula Retro Gen 1",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Vintage",
@@ -1645,7 +1645,7 @@
   },
   {
     "CarID": 138,
-    "Car Model": "McLaren MP4/1C",
+    "CarModel": "McLaren MP4/1C",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -1657,7 +1657,7 @@
   },
   {
     "CarID": 139,
-    "Car Model": "McLaren MP4/4 Honda V6 Turbo",
+    "CarModel": "McLaren MP4/4 Honda V6 Turbo",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -1669,7 +1669,7 @@
   },
   {
     "CarID": 140,
-    "Car Model": "McLaren MP4/5B Honda V10",
+    "CarModel": "McLaren MP4/5B Honda V10",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -1681,7 +1681,7 @@
   },
   {
     "CarID": 141,
-    "Car Model": "McLaren MP4/6 Honda V12",
+    "CarModel": "McLaren MP4/6 Honda V12",
     "Class": "Formula Retro Gen 3",
     "Specialty": "Vintage Open Wheel",
     "Discipline": "Open Wheel",
@@ -1693,7 +1693,7 @@
   },
   {
     "CarID": 142,
-    "Car Model": "McLaren MP4/7A",
+    "CarModel": "McLaren MP4/7A",
     "Class": "Formula HiTech Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -1705,7 +1705,7 @@
   },
   {
     "CarID": 143,
-    "Car Model": "McLaren MP4/8",
+    "CarModel": "McLaren MP4/8",
     "Class": "Formula HiTech Gen 1",
     "Specialty": "Pre-2000 Historic Open Wheel",
     "Discipline": "Open Wheel",
@@ -1717,7 +1717,7 @@
   },
   {
     "CarID": 144,
-    "Car Model": "McLaren Senna",
+    "CarModel": "McLaren Senna",
     "Class": "Hypercars",
     "Specialty": "Modern Prototype",
     "Discipline": "Street",
@@ -1729,7 +1729,7 @@
   },
   {
     "CarID": 145,
-    "Car Model": "Mercedes-AMG GT3",
+    "CarModel": "Mercedes-AMG GT3",
     "Class": "GT3",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1741,7 +1741,7 @@
   },
   {
     "CarID": 146,
-    "Car Model": "Mercedes-AMG GT3 Evo",
+    "CarModel": "Mercedes-AMG GT3 Evo",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1753,7 +1753,7 @@
   },
   {
     "CarID": 147,
-    "Car Model": "Mercedes-AMG GT4",
+    "CarModel": "Mercedes-AMG GT4",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -1765,7 +1765,7 @@
   },
   {
     "CarID": 148,
-    "Car Model": "Mercedes-Benz 190E Evo2",
+    "CarModel": "Mercedes-Benz 190E Evo2",
     "Class": "Group A",
     "Specialty": "Historic Touring",
     "Discipline": "Touring",
@@ -1777,7 +1777,7 @@
   },
   {
     "CarID": 149,
-    "Car Model": "Mercedes-Benz Actros-2651",
+    "CarModel": "Mercedes-Benz Actros-2651",
     "Class": "Copa Truck",
     "Specialty": "",
     "Discipline": "Touring",
@@ -1789,7 +1789,7 @@
   },
   {
     "CarID": 150,
-    "Car Model": "Mercedes-Benz CLK LM",
+    "CarModel": "Mercedes-Benz CLK LM",
     "Class": "GT1",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1801,7 +1801,7 @@
   },
   {
     "CarID": 151,
-    "Car Model": "MetalMoro AJR Chevrolet",
+    "CarModel": "MetalMoro AJR Chevrolet",
     "Class": "P1",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1813,7 +1813,7 @@
   },
   {
     "CarID": 152,
-    "Car Model": "MetalMoro AJR Honda",
+    "CarModel": "MetalMoro AJR Honda",
     "Class": "P1",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1825,7 +1825,7 @@
   },
   {
     "CarID": 153,
-    "Car Model": "MetalMoro AJR Judd",
+    "CarModel": "MetalMoro AJR Judd",
     "Class": "P1",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1837,7 +1837,7 @@
   },
   {
     "CarID": 154,
-    "Car Model": "MetalMoro AJR Nissan",
+    "CarModel": "MetalMoro AJR Nissan",
     "Class": "P1",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1849,7 +1849,7 @@
   },
   {
     "CarID": 155,
-    "Car Model": "MetalMoro MRX Duratec Turbo P2",
+    "CarModel": "MetalMoro MRX Duratec Turbo P2",
     "Class": "P2",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -1861,7 +1861,7 @@
   },
   {
     "CarID": 156,
-    "Car Model": "MetalMoro MRX Duratec P3",
+    "CarModel": "MetalMoro MRX Duratec P3",
     "Class": "P3",
     "Specialty": "Low Tech GT",
     "Discipline": "Prototype",
@@ -1873,7 +1873,7 @@
   },
   {
     "CarID": 157,
-    "Car Model": "MetalMoro MRX Honda",
+    "CarModel": "MetalMoro MRX Honda",
     "Class": "P3",
     "Specialty": "Low Tech GT",
     "Discipline": "Prototype",
@@ -1885,7 +1885,7 @@
   },
   {
     "CarID": 158,
-    "Car Model": "MetalMoro MRX Sharkfin",
+    "CarModel": "MetalMoro MRX Sharkfin",
     "Class": "P3",
     "Specialty": "Low Tech GT",
     "Discipline": "Prototype",
@@ -1897,7 +1897,7 @@
   },
   {
     "CarID": 159,
-    "Car Model": "Mini Cooper JCW",
+    "CarModel": "Mini Cooper JCW",
     "Class": "Mini JCW UK",
     "Specialty": "Club Racing",
     "Discipline": "Touring",
@@ -1909,7 +1909,7 @@
   },
   {
     "CarID": 160,
-    "Car Model": "Mini Cooper S 1965 B",
+    "CarModel": "Mini Cooper S 1965 B",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -1921,7 +1921,7 @@
   },
   {
     "CarID": 161,
-    "Car Model": "Mini Countryman RX",
+    "CarModel": "Mini Countryman RX",
     "Class": "RX",
     "Specialty": "",
     "Discipline": "",
@@ -1933,7 +1933,7 @@
   },
   {
     "CarID": 162,
-    "Car Model": "Mitsubishi Lancer Evo X RX",
+    "CarModel": "Mitsubishi Lancer Evo X RX",
     "Class": "RX",
     "Specialty": "",
     "Discipline": "",
@@ -1945,7 +1945,7 @@
   },
   {
     "CarID": 163,
-    "Car Model": "Mitsubishi Lancer R",
+    "CarModel": "Mitsubishi Lancer R",
     "Class": "Lancer Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -1957,7 +1957,7 @@
   },
   {
     "CarID": 164,
-    "Car Model": "Mitsubishi Lancer RS",
+    "CarModel": "Mitsubishi Lancer RS",
     "Class": "Lancer Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -1969,7 +1969,7 @@
   },
   {
     "CarID": 165,
-    "Car Model": "Nissan R89C",
+    "CarModel": "Nissan R89C",
     "Class": "Group C",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -1981,7 +1981,7 @@
   },
   {
     "CarID": 166,
-    "Car Model": "Old Stock Opala",
+    "CarModel": "Old Stock Opala",
     "Class": "Old Stock",
     "Specialty": "Club Racing",
     "Discipline": "Touring",
@@ -1993,7 +1993,7 @@
   },
   {
     "CarID": 167,
-    "Car Model": "Oreca 07",
+    "CarModel": "Oreca 07",
     "Class": "LMP2",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -2005,7 +2005,7 @@
   },
   {
     "CarID": 168,
-    "Car Model": "Porsche 911 GT1-98",
+    "CarModel": "Porsche 911 GT1-98",
     "Class": "GT1",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -2017,7 +2017,7 @@
   },
   {
     "CarID": 169,
-    "Car Model": "Porsche 911 GT3-R",
+    "CarModel": "Porsche 911 GT3-R",
     "Class": "GT3",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -2029,7 +2029,7 @@
   },
   {
     "CarID": 170,
-    "Car Model": "Porsche 911 GT3-R (992)",
+    "CarModel": "Porsche 911 GT3-R (992)",
     "Class": "GT3 Gen 2",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -2041,7 +2041,7 @@
   },
   {
     "CarID": 171,
-    "Car Model": "Porsche 911 RSR 3.0 1974",
+    "CarModel": "Porsche 911 RSR 3.0 1974",
     "Class": "GT Classics",
     "Specialty": "Vintage GT",
     "Discipline": "Vintage",
@@ -2053,7 +2053,7 @@
   },
   {
     "CarID": 172,
-    "Car Model": "Porsche 911 RSR GTE",
+    "CarModel": "Porsche 911 RSR GTE",
     "Class": "GTE",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -2065,7 +2065,7 @@
   },
   {
     "CarID": 173,
-    "Car Model": "Porsche 962C",
+    "CarModel": "Porsche 962C",
     "Class": "Group C",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -2077,7 +2077,7 @@
   },
   {
     "CarID": 174,
-    "Car Model": "Porsche 963 LMDh",
+    "CarModel": "Porsche 963 LMDh",
     "Class": "LMDh",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -2089,7 +2089,7 @@
   },
   {
     "CarID": 175,
-    "Car Model": "Porsche 991 RSR GTE",
+    "CarModel": "Porsche 991 RSR GTE",
     "Class": "GTE",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -2101,7 +2101,7 @@
   },
   {
     "CarID": 176,
-    "Car Model": "Porsche 996 RSR",
+    "CarModel": "Porsche 996 RSR",
     "Class": "GT2 2005",
     "Specialty": "Historic GT",
     "Discipline": "GT",
@@ -2113,7 +2113,7 @@
   },
   {
     "CarID": 177,
-    "Car Model": "Porsche Cayman GT4 Clubsport MR",
+    "CarModel": "Porsche Cayman GT4 Clubsport MR",
     "Class": "GT4",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -2125,7 +2125,7 @@
   },
   {
     "CarID": 178,
-    "Car Model": "Porsche GT3 Cup 3.8",
+    "CarModel": "Porsche GT3 Cup 3.8",
     "Class": "Porsche Carrera Cup",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -2137,7 +2137,7 @@
   },
   {
     "CarID": 179,
-    "Car Model": "Porsche GT3 Cup 4.0",
+    "CarModel": "Porsche GT3 Cup 4.0",
     "Class": "Porsche Carrera Cup",
     "Specialty": "Modern GT",
     "Discipline": "GT",
@@ -2149,7 +2149,7 @@
   },
   {
     "CarID": 180,
-    "Car Model": "Puma GTB",
+    "CarModel": "Puma GTB",
     "Class": "Copa Classic FL",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2161,7 +2161,7 @@
   },
   {
     "CarID": 181,
-    "Car Model": "Puma GTE",
+    "CarModel": "Puma GTE",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2173,7 +2173,7 @@
   },
   {
     "CarID": 182,
-    "Car Model": "Puma P052 GT5",
+    "CarModel": "Puma P052 GT5",
     "Class": "GT5",
     "Specialty": "Low Tech GT",
     "Discipline": "GT",
@@ -2185,7 +2185,7 @@
   },
   {
     "CarID": 183,
-    "Car Model": "Reynard 2Ki Ford-Cosworth",
+    "CarModel": "Reynard 2Ki Ford-Cosworth",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2197,7 +2197,7 @@
   },
   {
     "CarID": 184,
-    "Car Model": "Reynard 2Ki Honda",
+    "CarModel": "Reynard 2Ki Honda",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2209,7 +2209,7 @@
   },
   {
     "CarID": 185,
-    "Car Model": "Reynard 2Ki Mercedes-Benz",
+    "CarModel": "Reynard 2Ki Mercedes-Benz",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2221,7 +2221,7 @@
   },
   {
     "CarID": 186,
-    "Car Model": "Reynard 2Ki Toyota",
+    "CarModel": "Reynard 2Ki Toyota",
     "Class": "Formula USA Gen 3",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2233,7 +2233,7 @@
   },
   {
     "CarID": 187,
-    "Car Model": "Reynard 95i Ford-Cosworth",
+    "CarModel": "Reynard 95i Ford-Cosworth",
     "Class": "Formula USA Gen 1",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2245,7 +2245,7 @@
   },
   {
     "CarID": 188,
-    "Car Model": "Reynard 95i Honda",
+    "CarModel": "Reynard 95i Honda",
     "Class": "Formula USA Gen 1",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2257,7 +2257,7 @@
   },
   {
     "CarID": 189,
-    "Car Model": "Reynard 95i Mercedes-Benz",
+    "CarModel": "Reynard 95i Mercedes-Benz",
     "Class": "Formula USA Gen 1",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2269,7 +2269,7 @@
   },
   {
     "CarID": 190,
-    "Car Model": "Reynard 98i Ford-Cosworth",
+    "CarModel": "Reynard 98i Ford-Cosworth",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2281,7 +2281,7 @@
   },
   {
     "CarID": 191,
-    "Car Model": "Reynard 98i Honda",
+    "CarModel": "Reynard 98i Honda",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2293,7 +2293,7 @@
   },
   {
     "CarID": 192,
-    "Car Model": "Reynard 98i Mercedes-Benz",
+    "CarModel": "Reynard 98i Mercedes-Benz",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2305,7 +2305,7 @@
   },
   {
     "CarID": 193,
-    "Car Model": "Reynard 98i Toyota",
+    "CarModel": "Reynard 98i Toyota",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2317,7 +2317,7 @@
   },
   {
     "CarID": 194,
-    "Car Model": "Sauber C9",
+    "CarModel": "Sauber C9",
     "Class": "Group C",
     "Specialty": "Historic Prototype",
     "Discipline": "Prototype",
@@ -2329,7 +2329,7 @@
   },
   {
     "CarID": 195,
-    "Car Model": "Sigma P1",
+    "CarModel": "Sigma P1",
     "Class": "P2",
     "Specialty": "Modern Prototype",
     "Discipline": "Prototype",
@@ -2341,7 +2341,7 @@
   },
   {
     "CarID": 196,
-    "Car Model": "Sprint Race",
+    "CarModel": "Sprint Race",
     "Class": "Sprint Race",
     "Specialty": "Low Tech GT",
     "Discipline": "Touring",
@@ -2353,7 +2353,7 @@
   },
   {
     "CarID": 197,
-    "Car Model": "Super V8",
+    "CarModel": "Super V8",
     "Class": "Super V8",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2365,7 +2365,7 @@
   },
   {
     "CarID": 198,
-    "Car Model": "Superkart 250cc",
+    "CarModel": "Superkart 250cc",
     "Class": "Superkart",
     "Specialty": "",
     "Discipline": "",
@@ -2377,7 +2377,7 @@
   },
   {
     "CarID": 199,
-    "Car Model": "Swift 009c Ford-Cosworth",
+    "CarModel": "Swift 009c Ford-Cosworth",
     "Class": "Formula USA Gen 2",
     "Specialty": "Historic IndyCar",
     "Discipline": "Open Wheel",
@@ -2389,7 +2389,7 @@
   },
   {
     "CarID": 200,
-    "Car Model": "Toyota Corolla Stock Car '20",
+    "CarModel": "Toyota Corolla Stock Car '20",
     "Class": "Stock Car Brasil 2020",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2401,7 +2401,7 @@
   },
   {
     "CarID": 201,
-    "Car Model": "Toyota Corolla Stock Car '21",
+    "CarModel": "Toyota Corolla Stock Car '21",
     "Class": "Stock Car Brasil 2021",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2413,7 +2413,7 @@
   },
   {
     "CarID": 202,
-    "Car Model": "Toyota Corolla Stock Car '22",
+    "CarModel": "Toyota Corolla Stock Car '22",
     "Class": "Stock Car Pro Series 2022",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2425,7 +2425,7 @@
   },
   {
     "CarID": 203,
-    "Car Model": "Toyota Corolla Stock Car '23",
+    "CarModel": "Toyota Corolla Stock Car '23",
     "Class": "Stock Car Pro Series 2023",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2437,7 +2437,7 @@
   },
   {
     "CarID": 204,
-    "Car Model": "Toyota Corolla Stock Car '24",
+    "CarModel": "Toyota Corolla Stock Car '24",
     "Class": "Stock Car Pro Series 2024",
     "Specialty": "Modern Touring",
     "Discipline": "Touring",
@@ -2449,7 +2449,7 @@
   },
   {
     "CarID": 205,
-    "Car Model": "Ultima GTR",
+    "CarModel": "Ultima GTR",
     "Class": "Supercars",
     "Specialty": "Modern GT",
     "Discipline": "Street",
@@ -2461,7 +2461,7 @@
   },
   {
     "CarID": 206,
-    "Car Model": "Volkswagen Constellation",
+    "CarModel": "Volkswagen Constellation",
     "Class": "Copa Truck",
     "Specialty": "",
     "Discipline": "Touring",
@@ -2473,7 +2473,7 @@
   },
   {
     "CarID": 207,
-    "Car Model": "Volkswagen Fusca",
+    "CarModel": "Volkswagen Fusca",
     "Class": "Copa Fusca",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2485,7 +2485,7 @@
   },
   {
     "CarID": 208,
-    "Car Model": "Volkswagen Fusca Classic FL",
+    "CarModel": "Volkswagen Fusca Classic FL",
     "Class": "Copa Classic FL",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2497,7 +2497,7 @@
   },
   {
     "CarID": 209,
-    "Car Model": "Volkswagen Gol Classic B",
+    "CarModel": "Volkswagen Gol Classic B",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2509,7 +2509,7 @@
   },
   {
     "CarID": 210,
-    "Car Model": "Volkswagen Gol Classic FL",
+    "CarModel": "Volkswagen Gol Classic FL",
     "Class": "Copa Classic FL",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2521,7 +2521,7 @@
   },
   {
     "CarID": 211,
-    "Car Model": "Volkswagen Passat Classic B",
+    "CarModel": "Volkswagen Passat Classic B",
     "Class": "Copa Classic B",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2533,7 +2533,7 @@
   },
   {
     "CarID": 212,
-    "Car Model": "Volkswagen Passat Classic FL",
+    "CarModel": "Volkswagen Passat Classic FL",
     "Class": "Copa Classic FL",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2545,7 +2545,7 @@
   },
   {
     "CarID": 213,
-    "Car Model": "Volkswagen Polo",
+    "CarModel": "Volkswagen Polo",
     "Class": "TSI Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2557,7 +2557,7 @@
   },
   {
     "CarID": 214,
-    "Car Model": "Volkswagen Polo GTS",
+    "CarModel": "Volkswagen Polo GTS",
     "Class": "TSI Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2569,7 +2569,7 @@
   },
   {
     "CarID": 215,
-    "Car Model": "Volkswagen Polo RX",
+    "CarModel": "Volkswagen Polo RX",
     "Class": "RX",
     "Specialty": "",
     "Discipline": "",
@@ -2581,7 +2581,7 @@
   },
   {
     "CarID": 216,
-    "Car Model": "Volkswagen Virtus",
+    "CarModel": "Volkswagen Virtus",
     "Class": "TSI Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2593,7 +2593,7 @@
   },
   {
     "CarID": 217,
-    "Car Model": "Volkswagen Virtus GTS",
+    "CarModel": "Volkswagen Virtus GTS",
     "Class": "TSI Cup",
     "Specialty": "Club Racing",
     "Discipline": "Club",
@@ -2605,7 +2605,7 @@
   },
   {
     "CarID": 218,
-    "Car Model": "Vulkan Truck",
+    "CarModel": "Vulkan Truck",
     "Class": "Copa Truck",
     "Specialty": "",
     "Discipline": "Touring",
