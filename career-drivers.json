@@ -5108,5 +5108,1888 @@
     "Raw": 4,
     "Target": 252.8571429,
     "Specialty": "BTCC"
+  },
+  {
+    "DrvIdx": 731,
+    "Name": "Jason Miller",
+    "Raw": 252.1253319,
+    "Target": 252.1253319,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 732,
+    "Name": "Akira Matsumoto",
+    "Raw": 251.393521,
+    "Target": 251.393521,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 733,
+    "Name": "Julien Moreau",
+    "Raw": 250.66171,
+    "Target": 250.66171,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 734,
+    "Name": "Tiago Moreira",
+    "Raw": 249.9298991,
+    "Target": 249.9298991,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 735,
+    "Name": "Alejandro Torres",
+    "Raw": 249.1980882,
+    "Target": 249.1980882,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 736,
+    "Name": "Mikko Lehtinen",
+    "Raw": 248.4662772,
+    "Target": 248.4662772,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 737,
+    "Name": "Wei Zhang",
+    "Raw": 247.7344663,
+    "Target": 247.7344663,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 738,
+    "Name": "Johan Lindstr�m",
+    "Raw": 247.0026553,
+    "Target": 247.0026553,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 739,
+    "Name": "Khalid Al-Farouq",
+    "Raw": 246.2708444,
+    "Target": 246.2708444,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 740,
+    "Name": "Kwame Mensah",
+    "Raw": 245.5390335,
+    "Target": 245.5390335,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 741,
+    "Name": "Michael Carter",
+    "Raw": 244.8072225,
+    "Target": 244.8072225,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 742,
+    "Name": "Ryo Nakamura",
+    "Raw": 244.0754116,
+    "Target": 244.0754116,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 743,
+    "Name": "Antoine Lef�vre",
+    "Raw": 243.3436006,
+    "Target": 243.3436006,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 744,
+    "Name": "Pedro Matos",
+    "Raw": 242.6117897,
+    "Target": 242.6117897,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 745,
+    "Name": "Carlos Mendoza",
+    "Raw": 241.8799788,
+    "Target": 241.8799788,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 746,
+    "Name": "Jari Koskinen",
+    "Raw": 241.1481678,
+    "Target": 241.1481678,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 747,
+    "Name": "Minghao Liu",
+    "Raw": 240.4163569,
+    "Target": 240.4163569,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 748,
+    "Name": "Erik Dahlgren",
+    "Raw": 239.6845459,
+    "Target": 239.6845459,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 749,
+    "Name": "Omar Hassan",
+    "Raw": 238.952735,
+    "Target": 238.952735,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 750,
+    "Name": "Thabo Mokoena",
+    "Raw": 238.2209241,
+    "Target": 238.2209241,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 751,
+    "Name": "Ryan Thompson",
+    "Raw": 237.4891131,
+    "Target": 237.4891131,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 752,
+    "Name": "Kenta Harakawa",
+    "Raw": 236.7573022,
+    "Target": 236.7573022,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 753,
+    "Name": "Nicolas Bernard",
+    "Raw": 236.0254912,
+    "Target": 236.0254912,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 754,
+    "Name": "Andr� Figueiredo",
+    "Raw": 235.2936803,
+    "Target": 235.2936803,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 755,
+    "Name": "Javier Morales",
+    "Raw": 234.5618694,
+    "Target": 234.5618694,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 756,
+    "Name": "Antti Rautio",
+    "Raw": 233.8300584,
+    "Target": 233.8300584,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 757,
+    "Name": "Jian Chen",
+    "Raw": 233.0982475,
+    "Target": 233.0982475,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 758,
+    "Name": "Mattias Holm",
+    "Raw": 232.3664365,
+    "Target": 232.3664365,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 759,
+    "Name": "Youssef Al-Mansouri",
+    "Raw": 231.6346256,
+    "Target": 231.6346256,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 760,
+    "Name": "Kofi Boateng",
+    "Raw": 230.9028147,
+    "Target": 230.9028147,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 761,
+    "Name": "Brandon Collins",
+    "Raw": 230.1710037,
+    "Target": 230.1710037,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 762,
+    "Name": "Tatsuya Kobayashi",
+    "Raw": 229.4391928,
+    "Target": 229.4391928,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 763,
+    "Name": "Pierre Gauthier",
+    "Raw": 228.7073818,
+    "Target": 228.7073818,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 764,
+    "Name": "Jo�o Ribeiro",
+    "Raw": 227.9755709,
+    "Target": 227.9755709,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 765,
+    "Name": "Diego Navarro",
+    "Raw": 227.24376,
+    "Target": 227.24376,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 766,
+    "Name": "Ville Niemel�",
+    "Raw": 226.511949,
+    "Target": 226.511949,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 767,
+    "Name": "Zhenyu Wang",
+    "Raw": 225.7801381,
+    "Target": 225.7801381,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 768,
+    "Name": "Andreas Berg",
+    "Raw": 225.0483271,
+    "Target": 225.0483271,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 769,
+    "Name": "Ahmed Nasser",
+    "Raw": 224.3165162,
+    "Target": 224.3165162,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 770,
+    "Name": "Samuel Okoye",
+    "Raw": 223.5847053,
+    "Target": 223.5847053,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 771,
+    "Name": "Tyler Reynolds",
+    "Raw": 222.8528943,
+    "Target": 222.8528943,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 772,
+    "Name": "Hiroshi Tanaka",
+    "Raw": 222.1210834,
+    "Target": 222.1210834,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 773,
+    "Name": "Mathieu Renaud",
+    "Raw": 221.3892724,
+    "Target": 221.3892724,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 774,
+    "Name": "Bruno Teixeira",
+    "Raw": 220.6574615,
+    "Target": 220.6574615,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 775,
+    "Name": "Luis Cabrera",
+    "Raw": 219.9256506,
+    "Target": 219.9256506,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 776,
+    "Name": "Tuomas Kallio",
+    "Raw": 219.1938396,
+    "Target": 219.1938396,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 777,
+    "Name": "Tao Li",
+    "Raw": 218.4620287,
+    "Target": 218.4620287,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 778,
+    "Name": "Fredrik Nyberg",
+    "Raw": 217.7302177,
+    "Target": 217.7302177,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 779,
+    "Name": "Faisal Rahman",
+    "Raw": 216.9984068,
+    "Target": 216.9984068,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 780,
+    "Name": "Ibrahim Diallo",
+    "Raw": 216.2665959,
+    "Target": 216.2665959,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 781,
+    "Name": "Zachary Brooks",
+    "Raw": 215.5347849,
+    "Target": 215.5347849,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 782,
+    "Name": "Yuki Shimizu",
+    "Raw": 214.802974,
+    "Target": 214.802974,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 783,
+    "Name": "Thomas Dubois",
+    "Raw": 214.071163,
+    "Target": 214.071163,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 784,
+    "Name": "Rafael Coelho",
+    "Raw": 213.3393521,
+    "Target": 213.3393521,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 785,
+    "Name": "Sergio Paredes",
+    "Raw": 212.6075412,
+    "Target": 212.6075412,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 786,
+    "Name": "Sami H�m�l�inen",
+    "Raw": 211.8757302,
+    "Target": 211.8757302,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 787,
+    "Name": "Haoran Sun",
+    "Raw": 211.1439193,
+    "Target": 211.1439193,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 788,
+    "Name": "Oskar Lundqvist",
+    "Raw": 210.4121083,
+    "Target": 210.4121083,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 789,
+    "Name": "Tariq Al-Salem",
+    "Raw": 209.6802974,
+    "Target": 209.6802974,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 790,
+    "Name": "Jean-Paul Ndaye",
+    "Raw": 208.9484865,
+    "Target": 208.9484865,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 791,
+    "Name": "Andrew Parker",
+    "Raw": 208.2166755,
+    "Target": 208.2166755,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 792,
+    "Name": "Daichi Morimoto",
+    "Raw": 207.4848646,
+    "Target": 207.4848646,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 793,
+    "Name": "Laurent Chevalier",
+    "Raw": 206.7530536,
+    "Target": 206.7530536,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 794,
+    "Name": "Nuno Pacheco",
+    "Raw": 206.0212427,
+    "Target": 206.0212427,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 795,
+    "Name": "Marcos Vidal",
+    "Raw": 205.2894318,
+    "Target": 205.2894318,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 796,
+    "Name": "Pekka Laine",
+    "Raw": 204.5576208,
+    "Target": 204.5576208,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 797,
+    "Name": "Peng Zhao",
+    "Raw": 203.8258099,
+    "Target": 203.8258099,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 798,
+    "Name": "Daniel Sj�berg",
+    "Raw": 203.0939989,
+    "Target": 203.0939989,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 799,
+    "Name": "Samir Haddad",
+    "Raw": 202.362188,
+    "Target": 202.362188,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 800,
+    "Name": "Musa Abdullahi",
+    "Raw": 201.6303771,
+    "Target": 201.6303771,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 801,
+    "Name": "Daniel Foster",
+    "Raw": 200.8985661,
+    "Target": 200.8985661,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 802,
+    "Name": "Satoshi Fujimura",
+    "Raw": 200.1667552,
+    "Target": 200.1667552,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 803,
+    "Name": "S�bastien Marchand",
+    "Raw": 199.4349442,
+    "Target": 199.4349442,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 804,
+    "Name": "Diogo Fonseca",
+    "Raw": 198.7031333,
+    "Target": 198.7031333,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 805,
+    "Name": "�lvaro Fuentes",
+    "Raw": 197.9713224,
+    "Target": 197.9713224,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 806,
+    "Name": "Juho M�kinen",
+    "Raw": 197.2395114,
+    "Target": 197.2395114,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 807,
+    "Name": "Yufei Xu",
+    "Raw": 196.5077005,
+    "Target": 196.5077005,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 808,
+    "Name": "Simon Ekstr�m",
+    "Raw": 195.7758895,
+    "Target": 195.7758895,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 809,
+    "Name": "Majid Qureshi",
+    "Raw": 195.0440786,
+    "Target": 195.0440786,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 810,
+    "Name": "Patrick Mwangi",
+    "Raw": 194.3122677,
+    "Target": 194.3122677,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 811,
+    "Name": "Matthew Coleman",
+    "Raw": 193.5804567,
+    "Target": 193.5804567,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 812,
+    "Name": "Naoki Aoyama",
+    "Raw": 192.8486458,
+    "Target": 192.8486458,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 813,
+    "Name": "Victor Pelletier",
+    "Raw": 192.1168348,
+    "Target": 192.1168348,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 814,
+    "Name": "Vasco Neves",
+    "Raw": 191.3850239,
+    "Target": 191.3850239,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 815,
+    "Name": "Pablo Dom�nguez",
+    "Raw": 190.653213,
+    "Target": 190.653213,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 816,
+    "Name": "Olli Salonen",
+    "Raw": 189.921402,
+    "Target": 189.921402,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 817,
+    "Name": "Qiang Guo",
+    "Raw": 189.1895911,
+    "Target": 189.1895911,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 818,
+    "Name": "Henrik Sundin",
+    "Raw": 188.4577801,
+    "Target": 188.4577801,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 819,
+    "Name": "Bilal Zayed",
+    "Raw": 187.7259692,
+    "Target": 187.7259692,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 820,
+    "Name": "Sibusiso Dlamini",
+    "Raw": 186.9941583,
+    "Target": 186.9941583,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 821,
+    "Name": "Chris Dalton",
+    "Raw": 186.2623473,
+    "Target": 186.2623473,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 822,
+    "Name": "Takumi Ishida",
+    "Raw": 185.5305364,
+    "Target": 185.5305364,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 823,
+    "Name": "Beno�t Lemoine",
+    "Raw": 184.7987254,
+    "Target": 184.7987254,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 824,
+    "Name": "Lu�s Barros",
+    "Raw": 184.0669145,
+    "Target": 184.0669145,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 825,
+    "Name": "Miguel Ortega",
+    "Raw": 183.3351036,
+    "Target": 183.3351036,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 826,
+    "Name": "Teemu Aho",
+    "Raw": 182.6032926,
+    "Target": 182.6032926,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 827,
+    "Name": "Junjie He",
+    "Raw": 181.8714817,
+    "Target": 181.8714817,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 828,
+    "Name": "Viktor Ahlstr�m",
+    "Raw": 181.1396707,
+    "Target": 181.1396707,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 829,
+    "Name": "Hassan Al-Khatib",
+    "Raw": 180.4078598,
+    "Target": 180.4078598,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 830,
+    "Name": "Emmanuel Kouassi",
+    "Raw": 179.6760489,
+    "Target": 179.6760489,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 831,
+    "Name": "Kevin Marshall",
+    "Raw": 178.9442379,
+    "Target": 178.9442379,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 832,
+    "Name": "Shun Watanabe",
+    "Raw": 178.212427,
+    "Target": 178.212427,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 833,
+    "Name": "Romain Caron",
+    "Raw": 177.480616,
+    "Target": 177.480616,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 834,
+    "Name": "Hugo Cunha",
+    "Raw": 176.7488051,
+    "Target": 176.7488051,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 835,
+    "Name": "Antonio Salas",
+    "Raw": 176.0169942,
+    "Target": 176.0169942,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 836,
+    "Name": "Markus Heikkil�",
+    "Raw": 175.2851832,
+    "Target": 175.2851832,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 837,
+    "Name": "Bo Huang",
+    "Raw": 174.5533723,
+    "Target": 174.5533723,
+    "Specialty": "Club - National"
+  },
+  {
+    "DrvIdx": 838,
+    "Name": "Tobias Falk",
+    "Raw": 173.8215613,
+    "Target": 173.8215613,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 839,
+    "Name": "Imran Malik",
+    "Raw": 173.0897504,
+    "Target": 173.0897504,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 840,
+    "Name": "Jason Miller Jr",
+    "Raw": 172.3579395,
+    "Target": 172.3579395,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 841,
+    "Name": "Justin Hayes",
+    "Raw": 171.6261285,
+    "Target": 171.6261285,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 842,
+    "Name": "Masato Okabe",
+    "Raw": 170.8943176,
+    "Target": 170.8943176,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 843,
+    "Name": "Fran�ois Delorme",
+    "Raw": 170.1625066,
+    "Target": 170.1625066,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 844,
+    "Name": "Ricardo Lemos",
+    "Raw": 169.4306957,
+    "Target": 169.4306957,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 845,
+    "Name": "Iv�n Rold�n",
+    "Raw": 168.6988848,
+    "Target": 168.6988848,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 846,
+    "Name": "Risto Karjalainen",
+    "Raw": 167.9670738,
+    "Target": 167.9670738,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 847,
+    "Name": "Kai Lin",
+    "Raw": 167.2352629,
+    "Target": 167.2352629,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 848,
+    "Name": "Emil Ros�n",
+    "Raw": 166.5034519,
+    "Target": 166.5034519,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 849,
+    "Name": "Zain Abdullah",
+    "Raw": 165.771641,
+    "Target": 165.771641,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 850,
+    "Name": "Alex Bennett",
+    "Raw": 165.0398301,
+    "Target": 165.0398301,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 851,
+    "Name": "Koji Endo",
+    "Raw": 164.3080191,
+    "Target": 164.3080191,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 852,
+    "Name": "Lucas Fontaine",
+    "Raw": 163.5762082,
+    "Target": 163.5762082,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 853,
+    "Name": "Filipe Rocha",
+    "Raw": 162.8443972,
+    "Target": 162.8443972,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 854,
+    "Name": "Rub�n Castillo",
+    "Raw": 162.1125863,
+    "Target": 162.1125863,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 855,
+    "Name": "Eero Vainio",
+    "Raw": 161.3807754,
+    "Target": 161.3807754,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 856,
+    "Name": "Dong Liu",
+    "Raw": 160.6489644,
+    "Target": 160.6489644,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 857,
+    "Name": "Gustav Blom",
+    "Raw": 159.9171535,
+    "Target": 159.9171535,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 858,
+    "Name": "Rashid Al-Harbi",
+    "Raw": 159.1853425,
+    "Target": 159.1853425,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 859,
+    "Name": "Scott Anderson",
+    "Raw": 158.4535316,
+    "Target": 158.4535316,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 860,
+    "Name": "Ren Kagawa",
+    "Raw": 157.7217207,
+    "Target": 157.7217207,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 861,
+    "Name": "Damien Picard",
+    "Raw": 156.9899097,
+    "Target": 156.9899097,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 862,
+    "Name": "Carlos Amarante",
+    "Raw": 156.2580988,
+    "Target": 156.2580988,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 863,
+    "Name": "Jorge Quintana",
+    "Raw": 155.5262878,
+    "Target": 155.5262878,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 864,
+    "Name": "Janne Virtanen",
+    "Raw": 154.7944769,
+    "Target": 154.7944769,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 865,
+    "Name": "Rui Fang",
+    "Raw": 154.062666,
+    "Target": 154.062666,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 866,
+    "Name": "Linus Wallin",
+    "Raw": 153.330855,
+    "Target": 153.330855,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 867,
+    "Name": "Mustafa Darwish",
+    "Raw": 152.5990441,
+    "Target": 152.5990441,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 868,
+    "Name": "Dylan Murphy",
+    "Raw": 151.8672331,
+    "Target": 151.8672331,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 869,
+    "Name": "Yuya Takahashi",
+    "Raw": 151.1354222,
+    "Target": 151.1354222,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 870,
+    "Name": "Olivier Rolland",
+    "Raw": 150.4036113,
+    "Target": 150.4036113,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 871,
+    "Name": "Marco Veloso",
+    "Raw": 149.6718003,
+    "Target": 149.6718003,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 872,
+    "Name": "Fernando Ibarra",
+    "Raw": 148.9399894,
+    "Target": 148.9399894,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 873,
+    "Name": "Lauri Jokinen",
+    "Raw": 148.2081784,
+    "Target": 148.2081784,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 874,
+    "Name": "Shun Lei",
+    "Raw": 147.4763675,
+    "Target": 147.4763675,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 875,
+    "Name": "Patrik Engqvist",
+    "Raw": 146.7445566,
+    "Target": 146.7445566,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 876,
+    "Name": "Adel Saeed",
+    "Raw": 146.0127456,
+    "Target": 146.0127456,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 877,
+    "Name": "Trevor Lawson",
+    "Raw": 145.2809347,
+    "Target": 145.2809347,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 878,
+    "Name": "Haruto Sakamoto",
+    "Raw": 144.5491237,
+    "Target": 144.5491237,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 879,
+    "Name": "Maxime Perrin",
+    "Raw": 143.8173128,
+    "Target": 143.8173128,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 880,
+    "Name": "Daniel Paiva",
+    "Raw": 143.0855019,
+    "Target": 143.0855019,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 881,
+    "Name": "Daniel Cruz",
+    "Raw": 142.3536909,
+    "Target": 142.3536909,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 882,
+    "Name": "Cody Whitaker",
+    "Raw": 141.62188,
+    "Target": 141.62188,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 883,
+    "Name": "Keisuke Noguchi",
+    "Raw": 140.890069,
+    "Target": 140.890069,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 884,
+    "Name": "Jean-Baptiste Colin",
+    "Raw": 140.1582581,
+    "Target": 140.1582581,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 885,
+    "Name": "S�rgio Tavares",
+    "Raw": 139.4264472,
+    "Target": 139.4264472,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 886,
+    "Name": "Adri�n Ben�tez",
+    "Raw": 138.6946362,
+    "Target": 138.6946362,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 887,
+    "Name": "Nathan Phillips",
+    "Raw": 137.9628253,
+    "Target": 137.9628253,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 888,
+    "Name": "Kazuki Uehara",
+    "Raw": 137.2310143,
+    "Target": 137.2310143,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 889,
+    "Name": "�tienne Rousseau",
+    "Raw": 136.4992034,
+    "Target": 136.4992034,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 890,
+    "Name": "Paulo Miranda",
+    "Raw": 135.7673925,
+    "Target": 135.7673925,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 891,
+    "Name": "Ra�l Cort�s",
+    "Raw": 135.0355815,
+    "Target": 135.0355815,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 892,
+    "Name": "Jeremy Wallace",
+    "Raw": 134.3037706,
+    "Target": 134.3037706,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 893,
+    "Name": "Minoru Otsuka",
+    "Raw": 133.5719596,
+    "Target": 133.5719596,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 894,
+    "Name": "Hugo Blanchard",
+    "Raw": 132.8401487,
+    "Target": 132.8401487,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 895,
+    "Name": "Ant�nio Loureiro",
+    "Raw": 132.1083378,
+    "Target": 132.1083378,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 896,
+    "Name": "�scar Molina",
+    "Raw": 131.3765268,
+    "Target": 131.3765268,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 897,
+    "Name": "Luke Donovan",
+    "Raw": 130.6447159,
+    "Target": 130.6447159,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 898,
+    "Name": "Tomoya Arisaka",
+    "Raw": 129.9129049,
+    "Target": 129.9129049,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 899,
+    "Name": "Adrien Fabre",
+    "Raw": 129.181094,
+    "Target": 129.181094,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 900,
+    "Name": "Guilherme Bastos",
+    "Raw": 128.4492831,
+    "Target": 128.4492831,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 901,
+    "Name": "Nacho Herrera",
+    "Raw": 127.7174721,
+    "Target": 127.7174721,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 902,
+    "Name": "Brian Mitchell",
+    "Raw": 126.9856612,
+    "Target": 126.9856612,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 903,
+    "Name": "Cl�ment Dufour",
+    "Raw": 126.2538502,
+    "Target": 126.2538502,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 904,
+    "Name": "V�tor Magalh�es",
+    "Raw": 125.5220393,
+    "Target": 125.5220393,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 905,
+    "Name": "Victor Lozano",
+    "Raw": 124.7902284,
+    "Target": 124.7902284,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 906,
+    "Name": "Aaron Sullivan",
+    "Raw": 124.0584174,
+    "Target": 124.0584174,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 907,
+    "Name": "R�mi Lambert",
+    "Raw": 123.3266065,
+    "Target": 123.3266065,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 908,
+    "Name": "Eduardo Maia",
+    "Raw": 122.5947955,
+    "Target": 122.5947955,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 909,
+    "Name": "Manuel Reyes",
+    "Raw": 121.8629846,
+    "Target": 121.8629846,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 910,
+    "Name": "Kyle Davidson",
+    "Raw": 121.1311737,
+    "Target": 121.1311737,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 911,
+    "Name": "Paul Garnier",
+    "Raw": 120.3993627,
+    "Target": 120.3993627,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 912,
+    "Name": "Tiago Falc�o",
+    "Raw": 119.6675518,
+    "Target": 119.6675518,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 913,
+    "Name": "Andr�s Montoya",
+    "Raw": 118.9357408,
+    "Target": 118.9357408,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 914,
+    "Name": "Patrick O�Neal",
+    "Raw": 118.2039299,
+    "Target": 118.2039299,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 915,
+    "Name": "Th�o Boucher",
+    "Raw": 117.472119,
+    "Target": 117.472119,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 916,
+    "Name": "Ruben Correia",
+    "Raw": 116.740308,
+    "Target": 116.740308,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 917,
+    "Name": "Cristian Soto",
+    "Raw": 116.0084971,
+    "Target": 116.0084971,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 918,
+    "Name": "Jordan Matthews",
+    "Raw": 115.2766861,
+    "Target": 115.2766861,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 919,
+    "Name": "Lo�c Martin",
+    "Raw": 114.5448752,
+    "Target": 114.5448752,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 920,
+    "Name": "Samuel Pe�alver",
+    "Raw": 113.8130643,
+    "Target": 113.8130643,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 921,
+    "Name": "Evan Porter",
+    "Raw": 113.0812533,
+    "Target": 113.0812533,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 922,
+    "Name": "Alexandre Vial",
+    "Raw": 112.3494424,
+    "Target": 112.3494424,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 923,
+    "Name": "Fran Guti�rrez",
+    "Raw": 111.6176314,
+    "Target": 111.6176314,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 924,
+    "Name": "Steven Grant",
+    "Raw": 110.8858205,
+    "Target": 110.8858205,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 925,
+    "Name": "Florent Meunier",
+    "Raw": 110.1540096,
+    "Target": 110.1540096,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 926,
+    "Name": "Lucas Romero",
+    "Raw": 109.4221986,
+    "Target": 109.4221986,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 927,
+    "Name": "Jacob Turner",
+    "Raw": 108.6903877,
+    "Target": 108.6903877,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 928,
+    "Name": "Bastien Roche",
+    "Raw": 107.9585767,
+    "Target": 107.9585767,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 929,
+    "Name": "Bruno Alc�zar",
+    "Raw": 107.2267658,
+    "Target": 107.2267658,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 930,
+    "Name": "Sean McAllister",
+    "Raw": 106.4949549,
+    "Target": 106.4949549,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 931,
+    "Name": "Yannick Dupont",
+    "Raw": 105.7631439,
+    "Target": 105.7631439,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 932,
+    "Name": "Tom�s Ferrer",
+    "Raw": 105.031333,
+    "Target": 105.031333,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 933,
+    "Name": "Eric Vaughn",
+    "Raw": 104.299522,
+    "Target": 104.299522,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 934,
+    "Name": "Gilles Morel",
+    "Raw": 103.5677111,
+    "Target": 103.5677111,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 935,
+    "Name": "Guillermo Navas",
+    "Raw": 102.8359002,
+    "Target": 102.8359002,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 936,
+    "Name": "Travis Boone",
+    "Raw": 102.1040892,
+    "Target": 102.1040892,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 937,
+    "Name": "Sergio Llorente",
+    "Raw": 101.3722783,
+    "Target": 101.3722783,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 938,
+    "Name": "Logan Pierce",
+    "Raw": 100.6404673,
+    "Target": 100.6404673,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 939,
+    "Name": "Iv�n Salgado",
+    "Raw": 99.9086564,
+    "Target": 99.9086564,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 940,
+    "Name": "Caleb Morgan",
+    "Raw": 99.17684546,
+    "Target": 99.17684546,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 941,
+    "Name": "Mateo R�os",
+    "Raw": 98.44503452,
+    "Target": 98.44503452,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 942,
+    "Name": "Dustin Keller",
+    "Raw": 97.71322358,
+    "Target": 97.71322358,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 943,
+    "Name": "H�ctor Pino",
+    "Raw": 96.98141264,
+    "Target": 96.98141264,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 944,
+    "Name": "Austin Harper",
+    "Raw": 96.2496017,
+    "Target": 96.2496017,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 945,
+    "Name": "Shane Ridley",
+    "Raw": 95.51779076,
+    "Target": 95.51779076,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 946,
+    "Name": "Noah Franklin",
+    "Raw": 94.78597982,
+    "Target": 94.78597982,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 947,
+    "Name": "Cameron Wells",
+    "Raw": 94.05416888,
+    "Target": 94.05416888,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 948,
+    "Name": "Jared Hamilton",
+    "Raw": 93.32235794,
+    "Target": 93.32235794,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 949,
+    "Name": "Ben Rodriguez",
+    "Raw": 92.590547,
+    "Target": 92.590547,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 950,
+    "Name": "Paul Simmons",
+    "Raw": 91.85873606,
+    "Target": 91.85873606,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 951,
+    "Name": "Rob Bennett",
+    "Raw": 91.12692512,
+    "Target": 91.12692512,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 952,
+    "Name": "Marcus Hill",
+    "Raw": 90.39511418,
+    "Target": 90.39511418,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 953,
+    "Name": "Tony Delgado",
+    "Raw": 89.66330324,
+    "Target": 89.66330324,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 954,
+    "Name": "Blake Fisher",
+    "Raw": 88.9314923,
+    "Target": 88.9314923,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 955,
+    "Name": "Connor Walsh",
+    "Raw": 88.19968136,
+    "Target": 88.19968136,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 956,
+    "Name": "Adam Brooks",
+    "Raw": 87.46787042,
+    "Target": 87.46787042,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 957,
+    "Name": "Jesse Nolan",
+    "Raw": 86.73605948,
+    "Target": 86.73605948,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 958,
+    "Name": "Mark Sullivan",
+    "Raw": 86.00424854,
+    "Target": 86.00424854,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 959,
+    "Name": "Cole Ramsey",
+    "Raw": 85.2724376,
+    "Target": 85.2724376,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 960,
+    "Name": "Will Carter",
+    "Raw": 84.54062666,
+    "Target": 84.54062666,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 961,
+    "Name": "Nick Alvarez",
+    "Raw": 83.80881572,
+    "Target": 83.80881572,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 962,
+    "Name": "Bryan Porter",
+    "Raw": 83.07700478,
+    "Target": 83.07700478,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 963,
+    "Name": "Justin Monroe",
+    "Raw": 82.34519384,
+    "Target": 82.34519384,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 964,
+    "Name": "Dean Harrison",
+    "Raw": 81.6133829,
+    "Target": 81.6133829,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 965,
+    "Name": "Lucas Meyer",
+    "Raw": 80.88157196,
+    "Target": 80.88157196,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 966,
+    "Name": "Scott Turner",
+    "Raw": 80.14976102,
+    "Target": 80.14976102,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 967,
+    "Name": "Phil Grant",
+    "Raw": 79.41795008,
+    "Target": 79.41795008,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 968,
+    "Name": "Trevor King",
+    "Raw": 78.68613914,
+    "Target": 78.68613914,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 969,
+    "Name": "Chad Reynolds",
+    "Raw": 77.9543282,
+    "Target": 77.9543282,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 970,
+    "Name": "Owen Fletcher",
+    "Raw": 77.22251726,
+    "Target": 77.22251726,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 971,
+    "Name": "Ryan O�Hara",
+    "Raw": 76.49070632,
+    "Target": 76.49070632,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 972,
+    "Name": "Pete Lawson",
+    "Raw": 75.75889538,
+    "Target": 75.75889538,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 973,
+    "Name": "Zach Morgan",
+    "Raw": 75.02708444,
+    "Target": 75.02708444,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 974,
+    "Name": "Joe Ramirez",
+    "Raw": 74.2952735,
+    "Target": 74.2952735,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 975,
+    "Name": "Tom Bradley",
+    "Raw": 73.56346256,
+    "Target": 73.56346256,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 976,
+    "Name": "Alex Cooper",
+    "Raw": 72.83165162,
+    "Target": 72.83165162,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 977,
+    "Name": "Victor Sandoval",
+    "Raw": 72.09984068,
+    "Target": 72.09984068,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 978,
+    "Name": "Mitch Palmer",
+    "Raw": 71.36802974,
+    "Target": 71.36802974,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 979,
+    "Name": "Frank Dorsey",
+    "Raw": 70.6362188,
+    "Target": 70.6362188,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 980,
+    "Name": "Nate Collins",
+    "Raw": 69.90440786,
+    "Target": 69.90440786,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 981,
+    "Name": "Cody Jenkins",
+    "Raw": 69.17259692,
+    "Target": 69.17259692,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 982,
+    "Name": "Sam Prescott",
+    "Raw": 68.44078598,
+    "Target": 68.44078598,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 983,
+    "Name": "Luke Bennett",
+    "Raw": 67.70897504,
+    "Target": 67.70897504,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 984,
+    "Name": "Dan Whitman",
+    "Raw": 66.9771641,
+    "Target": 66.9771641,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 985,
+    "Name": "Bobby Gaines",
+    "Raw": 66.24535316,
+    "Target": 66.24535316,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 986,
+    "Name": "Chris Landon",
+    "Raw": 65.51354222,
+    "Target": 65.51354222,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 987,
+    "Name": "Tony Russo",
+    "Raw": 64.78173128,
+    "Target": 64.78173128,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 988,
+    "Name": "Greg Howell",
+    "Raw": 64.04992034,
+    "Target": 64.04992034,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 989,
+    "Name": "Mason Drake",
+    "Raw": 63.3181094,
+    "Target": 63.3181094,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 990,
+    "Name": "Paul Edwards",
+    "Raw": 62.58629846,
+    "Target": 62.58629846,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 991,
+    "Name": "Colin Foster",
+    "Raw": 61.85448752,
+    "Target": 61.85448752,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 992,
+    "Name": "Derek Shaw",
+    "Raw": 61.12267658,
+    "Target": 61.12267658,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 993,
+    "Name": "Andy Mullins",
+    "Raw": 60.39086564,
+    "Target": 60.39086564,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 994,
+    "Name": "Jeff Kramer",
+    "Raw": 59.6590547,
+    "Target": 59.6590547,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 995,
+    "Name": "Rick Holloway",
+    "Raw": 58.92724376,
+    "Target": 58.92724376,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 996,
+    "Name": "Leo Martinez",
+    "Raw": 58.19543282,
+    "Target": 58.19543282,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 997,
+    "Name": "Stephen Knox",
+    "Raw": 57.46362188,
+    "Target": 57.46362188,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 998,
+    "Name": "Mike Donnelly",
+    "Raw": 56.73181094,
+    "Target": 56.73181094,
+    "Specialty": "Club - Regional"
+  },
+  {
+    "DrvIdx": 999,
+    "Name": "Jason Miller III",
+    "Raw": 56,
+    "Target": 56,
+    "Specialty": "Club - Regional"
   }
 ]
