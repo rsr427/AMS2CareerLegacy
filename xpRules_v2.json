@@ -36,7 +36,7 @@
   "aiDifficulty": {
     "baseline": 1.0,
     "perPointAboveTarget": 0.03,
-    "perPointBelowTarget": -0.03
+    "perPointBelowTarget": 0.03
   },
 
   "carLevel": {
@@ -49,3 +49,4 @@
     "7": 1.50
   }
 }
+
