@@ -1,0 +1,290 @@
+[
+  {
+    "AchIdx": 1,
+    "AchievementName": "Mika Hakkinen - 20 Wins",
+    "Description": "Win 20 races",
+    "Metric": "Driver Win Total",
+    "Threshold": 20,
+    "Points": 50
+  },
+  {
+    "AchIdx": 2,
+    "AchievementName": "Ayrton Senna - 41 Wins",
+    "Description": "Win 41 races",
+    "Metric": "Driver Win Total",
+    "Threshold": 41,
+    "Points": 100
+  },
+  {
+    "AchIdx": 3,
+    "AchievementName": "A.J. Foyt - 67 Wins",
+    "Description": "Win 67 races",
+    "Metric": "Driver Win Total",
+    "Threshold": 67,
+    "Points": 200
+  },
+  {
+    "AchIdx": 4,
+    "AchievementName": "Jenson Button - 50 Podiums",
+    "Description": "Podium 50 times",
+    "Metric": "Driver Podium Total",
+    "Threshold": 50,
+    "Points": 50
+  },
+  {
+    "AchIdx": 5,
+    "AchievementName": "Ayrton Senna - 80 Podiums",
+    "Description": "Podium 80 times",
+    "Metric": "Driver Podium Total",
+    "Threshold": 80,
+    "Points": 100
+  },
+  {
+    "AchIdx": 6,
+    "AchievementName": "Sebastien Vettel - 122 Podiums",
+    "Description": "Podium 125 times",
+    "Metric": "Driver Podium Total",
+    "Threshold": 125,
+    "Points": 200
+  },
+  {
+    "AchIdx": 7,
+    "AchievementName": "Among the Greats - Top 50",
+    "Description": "Elevate a driver into a Top 50 rank",
+    "Metric": "Driver Rank",
+    "Threshold": 50,
+    "Points": 100
+  },
+  {
+    "AchIdx": 8,
+    "AchievementName": "Among the Elite - Top 20",
+    "Description": "Elevate a driver into a Top 20 rank",
+    "Metric": "Driver Rank",
+    "Threshold": 20,
+    "Points": 200
+  },
+  {
+    "AchIdx": 9,
+    "AchievementName": "Juan Pablo Montoy-who?!",
+    "Description": "Race 50 different cars",
+    "Metric": "Profile number of cars with races > 0",
+    "Threshold": 50,
+    "Points": 100
+  },
+  {
+    "AchIdx": 10,
+    "AchievementName": "Kimi Raikkon-Nope!",
+    "Description": "Race 100 different cars",
+    "Metric": "Profile number of cars with races > 0",
+    "Threshold": 100,
+    "Points": 175
+  },
+  {
+    "AchIdx": 11,
+    "AchievementName": "Gotta Try Them All",
+    "Description": "Race 150 different cars",
+    "Metric": "Profile number of cars with races > 0",
+    "Threshold": 150,
+    "Points": 250
+  },
+  {
+    "AchIdx": 12,
+    "AchievementName": "Is it love?",
+    "Description": "5 races with the same car",
+    "Metric": "Profile cars with races > x",
+    "Threshold": 5,
+    "Points": 50
+  },
+  {
+    "AchIdx": 13,
+    "AchievementName": "Joined at the hip",
+    "Description": "10 races with the same car",
+    "Metric": "Profile cars with races > x",
+    "Threshold": 10,
+    "Points": 100
+  },
+  {
+    "AchIdx": 14,
+    "AchievementName": "Match made in heaven",
+    "Description": "15 races with the same car",
+    "Metric": "Profile cars with races > x",
+    "Threshold": 15,
+    "Points": 150
+  },
+  {
+    "AchIdx": 15,
+    "AchievementName": "Frequent Flyer",
+    "Description": "Raced on 25 tracks",
+    "Metric": "Profile tracks with Raced > x",
+    "Threshold": 25,
+    "Points": 50
+  },
+  {
+    "AchIdx": 16,
+    "AchievementName": "Road Warrior",
+    "Description": "Raced on 50 tracks",
+    "Metric": "Profile tracks with Raced > x",
+    "Threshold": 50,
+    "Points": 100
+  },
+  {
+    "AchIdx": 17,
+    "AchievementName": "World Traveler",
+    "Description": "Raced on 75 tracks",
+    "Metric": "Profile tracks with Raced > x",
+    "Threshold": 75,
+    "Points": 150
+  },
+  {
+    "AchIdx": 18,
+    "AchievementName": "Magellan",
+    "Description": "Raced on 100 tracks",
+    "Metric": "Profile tracks with Raced > x",
+    "Threshold": 100,
+    "Points": 250
+  },
+  {
+    "AchIdx": 19,
+    "AchievementName": "Vic Elford",
+    "Description": "Earn XP in 3 disciplines",
+    "Metric": "Driver with discipline XP > 0",
+    "Threshold": 3,
+    "Points": 25
+  },
+  {
+    "AchIdx": 20,
+    "AchievementName": "Jacky Ickx",
+    "Description": "Earn XP in 5 disciplines",
+    "Metric": "Driver with discipline XP > 0",
+    "Threshold": 5,
+    "Points": 100
+  },
+  {
+    "AchIdx": 21,
+    "AchievementName": "Graham Hill",
+    "Description": "Earn XP in 7 disciplines",
+    "Metric": "Driver with discipline XP > 0",
+    "Threshold": 7,
+    "Points": 200
+  },
+  {
+    "AchIdx": 22,
+    "AchievementName": "Competency - Bronze",
+    "Description": "Achieve Competency in 5 specialties",
+    "Metric": "Profile number of specialities with XP > competency minimum",
+    "Threshold": 5,
+    "Points": 50
+  },
+  {
+    "AchIdx": 23,
+    "AchievementName": "Competency - Silver",
+    "Description": "Achieve Competency in 10 specialties",
+    "Metric": "Profile number of specialities with XP > competency minimum",
+    "Threshold": 10,
+    "Points": 150
+  },
+  {
+    "AchIdx": 24,
+    "AchievementName": "Competency - Gold",
+    "Description": "Achieve Competency in 15 specialties",
+    "Metric": "Profile number of specialities with XP > competency minimum",
+    "Threshold": 15,
+    "Points": 250
+  },
+  {
+    "AchIdx": 25,
+    "AchievementName": "Mastery - Bronze",
+    "Description": "Achieve Mastery in 3 specialties",
+    "Metric": "Profile number of specialities with XP > mastery minimum",
+    "Threshold": 3,
+    "Points": 100
+  },
+  {
+    "AchIdx": 26,
+    "AchievementName": "Mastery - Silver",
+    "Description": "Achieve Mastery in 6 specialties",
+    "Metric": "Profile number of specialities with XP > mastery minimum",
+    "Threshold": 6,
+    "Points": 150
+  },
+  {
+    "AchIdx": 27,
+    "AchievementName": "Mastery - Gold",
+    "Description": "Achieve Mastery in 9 specialties",
+    "Metric": "Profile number of specialities with XP > mastery minimum",
+    "Threshold": 9,
+    "Points": 200
+  },
+  {
+    "AchIdx": 28,
+    "AchievementName": "World Class - Bronze",
+    "Description": "Achieve World Class in 2 specialties",
+    "Metric": "Profile number of specialities with XP > world class minimum",
+    "Threshold": 2,
+    "Points": 150
+  },
+  {
+    "AchIdx": 29,
+    "AchievementName": "World Class - Silver",
+    "Description": "Achieve World Class in 3 specialties",
+    "Metric": "Profile number of specialities with XP > world class minimum",
+    "Threshold": 3,
+    "Points": 250
+  },
+  {
+    "AchIdx": 30,
+    "AchievementName": "World Class - Gold",
+    "Description": "Achieve World Class in 4 specialties",
+    "Metric": "Profile number of specialities with XP > world class minimum",
+    "Threshold": 4,
+    "Points": 350
+  },
+  {
+    "AchIdx": 31,
+    "AchievementName": "Fuel up the jet!",
+    "Description": "Race in 4 regions",
+    "Metric": "Driver with races > 0 in x regions",
+    "Threshold": 4,
+    "Points": 100
+  },
+  {
+    "AchIdx": 32,
+    "AchievementName": "Get a 2nd jet!",
+    "Description": "Race in all 6 regions",
+    "Metric": "Driver with races > 0 in x regions",
+    "Threshold": 6,
+    "Points": 250
+  },
+  {
+    "AchIdx": 33,
+    "AchievementName": "Multinational",
+    "Description": "Open a prep shop in 4 regions",
+    "Metric": "Profile with region XP > competency minimum in x regions",
+    "Threshold": 4,
+    "Points": 150
+  },
+  {
+    "AchIdx": 34,
+    "AchievementName": "Mr. Worldwide",
+    "Description": "Open a prep shop in all 6 regions",
+    "Metric": "Profile with region XP > competency minimum in x regions",
+    "Threshold": 6,
+    "Points": 250
+  },
+  {
+    "AchIdx": 35,
+    "AchievementName": "Spanning the Globe",
+    "Description": "Have a prep shop attain mastery in 3 regions",
+    "Metric": "Profile with region XP > mastery minimum in x regions",
+    "Threshold": 3,
+    "Points": 200
+  },
+  {
+    "AchIdx": 36,
+    "AchievementName": "World World Class",
+    "Description": "Have a prep shop attain mastery in 5 regions",
+    "Metric": "Profile with region XP > mastery minimum in x regions",
+    "Threshold": 5,
+    "Points": 300
+  }
+]

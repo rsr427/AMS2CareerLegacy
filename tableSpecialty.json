@@ -1,0 +1,79 @@
+[
+  {
+    "SpecID": 1,
+    "Specialty": "Club / Junior Formula",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 2,
+    "Specialty": "Historic Touring, Low-Tech GT, Vintage GT",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 3,
+    "Specialty": "Modern Touring",
+    "XP_for_Competance": 100,
+    "XP_for_Mastery": 130,
+    "XP_for_WorldClass": 150
+  },
+  {
+    "SpecID": 4,
+    "Specialty": "Modern GT",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 5,
+    "Specialty": "Historic GT",
+    "XP_for_Competance": 100,
+    "XP_for_Mastery": 130,
+    "XP_for_WorldClass": 150
+  },
+  {
+    "SpecID": 6,
+    "Specialty": "Modern Prototype",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 7,
+    "Specialty": "Historic Prototype",
+    "XP_for_Competance": 100,
+    "XP_for_Mastery": 130,
+    "XP_for_WorldClass": 150
+  },
+  {
+    "SpecID": 8,
+    "Specialty": "Vintage Open Wheel",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 9,
+    "Specialty": "Historic IndyCar",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 10,
+    "Specialty": "Pre-2000 Historic Open Wheel",
+    "XP_for_Competance": 120,
+    "XP_for_Mastery": 150,
+    "XP_for_WorldClass": 170
+  },
+  {
+    "SpecID": 11,
+    "Specialty": "Post-2000 Open Wheel",
+    "XP_for_Competance": 100,
+    "XP_for_Mastery": 130,
+    "XP_for_WorldClass": 150
+  }
+]
