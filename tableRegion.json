@@ -2,37 +2,37 @@
   {
     "RegID": 1,
     "Region": "Oceana",
-    "XP_to_Open": 60,
-    "XP_to_Expert": 100
+    "XP_to_Open": 75,
+    "XP_to_Expert": 135
   },
   {
     "RegID": 2,
     "Region": "South America",
-    "XP_to_Open": 225,
-    "XP_to_Expert": 300
+    "XP_to_Open": 275,
+    "XP_to_Expert": 425
   },
   {
     "RegID": 3,
     "Region": "Europe",
-    "XP_to_Open": 250,
-    "XP_to_Expert": 400
+    "XP_to_Open": 275,
+    "XP_to_Expert": 425
   },
   {
     "RegID": 4,
     "Region": "U.K.",
-    "XP_to_Open": 120,
-    "XP_to_Expert": 200
+    "XP_to_Open": 140,
+    "XP_to_Expert": 240
   },
   {
     "RegID": 5,
     "Region": "North America",
-    "XP_to_Open": 200,
-    "XP_to_Expert": 300
+    "XP_to_Open": 220,
+    "XP_to_Expert": 340
   },
   {
     "RegID": 6,
     "Region": "Other",
-    "XP_to_Open": 30,
-    "XP_to_Expert": 50
+    "XP_to_Open": 50,
+    "XP_to_Expert": 90
   }
 ]
