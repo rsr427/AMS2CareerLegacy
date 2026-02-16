@@ -53,10 +53,11 @@
     "competence": 75,
     "mastery": 125,
     "worldclass": 200
-  ],
+  },
   
   "regionPoints":  {
     "open": 200,
     "expert": 500
-  ]
+  }
 }
+
