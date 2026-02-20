@@ -178,7 +178,7 @@
   {
     "AchIdx": 23,
     "AchievementName": "Competency - Silver",
-    "Description": "Achieve Competency in 10 specialties",
+    "Description": "Achieve Competency in 7 specialties",
     "Metric": "profile_specialties_competence",
     "Threshold": 7,
     "Points": 150
@@ -186,7 +186,7 @@
   {
     "AchIdx": 24,
     "AchievementName": "Competency - Gold",
-    "Description": "Achieve Competency in 15 specialties",
+    "Description": "Achieve Competency in 10 specialties",
     "Metric": "profile_specialties_competence",
     "Threshold": 10,
     "Points": 250
