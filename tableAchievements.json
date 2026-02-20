@@ -180,7 +180,7 @@
     "AchievementName": "Competency - Silver",
     "Description": "Achieve Competency in 10 specialties",
     "Metric": "profile_specialties_competence",
-    "Threshold": 10,
+    "Threshold": 7,
     "Points": 150
   },
   {
@@ -188,7 +188,7 @@
     "AchievementName": "Competency - Gold",
     "Description": "Achieve Competency in 15 specialties",
     "Metric": "profile_specialties_competence",
-    "Threshold": 15,
+    "Threshold": 10,
     "Points": 250
   },
   {
