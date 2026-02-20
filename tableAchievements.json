@@ -49,18 +49,18 @@
   },
   {
     "AchIdx": 7,
-    "AchievementName": "Among the Greats - Top 50",
-    "Description": "Elevate a driver into a Top 50 rank",
+    "AchievementName": "Among the Greats - Top 25",
+    "Description": "Elevate a driver into a Top 25 rank",
     "Metric": "driver_rank",
-    "Threshold": 50,
+    "Threshold": 256,
     "Points": 100
   },
   {
     "AchIdx": 8,
-    "AchievementName": "Among the Elite - Top 20",
-    "Description": "Elevate a driver into a Top 20 rank",
+    "AchievementName": "Among the Elite - Top 10",
+    "Description": "Elevate a driver into a Top 10 rank",
     "Metric": "driver_rank",
-    "Threshold": 20,
+    "Threshold": 400,
     "Points": 200
   },
   {
