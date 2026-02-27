@@ -1,0 +1,128 @@
+[
+  {
+    "ProIdx": 1,
+    "Discipline": "Club",
+    "XPLevel": 0,
+    "ProPlan": "Mr. Cunningham can get you a full time position as an instructor with a leading racing school. Beyond that, you might have to create your own opportunities."
+  },
+  {
+    "ProIdx": 2,
+    "Discipline": "Club",
+    "XPLevel": 500,
+    "ProPlan": "Mr. Cunningham knows a team in the States that is looking for a strong lead driver and coach for his IMSA touring car team. This will be a great opportunity to build a career in motorsports."
+  },
+  {
+    "ProIdx": 3,
+    "Discipline": "Club",
+    "XPLevel": 700,
+    "ProPlan": "You have great skill and instincts, but we can't get you a leading full-time ride worthy of your future. We're going to place you in some high-visibility one-off GT and prototype opportunities so help keep you sharp and show you off."
+  },
+  {
+    "ProIdx": 4,
+    "Discipline": "GT",
+    "XPLevel": 600,
+    "ProPlan": "Mr. Cunningham thinks that starting in TA2 might be a great place to start. He'll find a top level team in that series and will make sure you get ample testing so you can show what you're made of."
+  },
+  {
+    "ProIdx": 5,
+    "Discipline": "GT",
+    "XPLevel": 750,
+    "ProPlan": "Mr. Cunningham believes you've got a strong future in GT racing in the States. If you want, he can get you a strong seat in an IMSA GTD team."
+  },
+  {
+    "ProIdx": 6,
+    "Discipline": "GT",
+    "XPLevel": 900,
+    "ProPlan": "You've shown a real flair for high-level GT raicng. Mr. Cunningham is looking to place you with a top-level GT AM team in the WEC."
+  },
+  {
+    "ProIdx": 7,
+    "Discipline": "Open Wheel",
+    "XPLevel": 600,
+    "ProPlan": "Mr. Cunningham thinks you could make some noise in open wheel racing, but thinks you could use some seasoning in the USF2000 series before moving. He'll fund a couple of seasons in there and then see how you've progressed."
+  },
+  {
+    "ProIdx": 8,
+    "Discipline": "Open Wheel",
+    "XPLevel": 700,
+    "ProPlan": "Your results in open wheel lead Mr. Cunningham to believe you could be one of the top drivers in Indycar. He's putting a deal together in the Indy NXT series to get you in front of Indycar team owners."
+  },
+  {
+    "ProIdx": 9,
+    "Discipline": "Open Wheel",
+    "XPLevel": 900,
+    "ProPlan": "Your skill has really impressed Mr. Cunningham. He's working on finding you a competitive ride in F2. I hope you've kept your passport up to date, you're going back to Europe!"
+  },
+  {
+    "ProIdx": 10,
+    "Discipline": "Prototype",
+    "XPLevel": 700,
+    "ProPlan": "Mr. Cunningham has a client starting an LMP2 program and is looking for a pro-level driver. This is should be a good fit for your next step."
+  },
+  {
+    "ProIdx": 11,
+    "Discipline": "Prototype",
+    "XPLevel": 800,
+    "ProPlan": "You have a future in IMSA's top prototypes, in Mr. Cunningham's opinion. He's secured you the 3rd seat in a top GTP team for all the major endurance races. Good luck at Daytona!"
+  },
+  {
+    "ProIdx": 12,
+    "Discipline": "Prototype",
+    "XPLevel": 900,
+    "ProPlan": "Mr. Cunningham would love to see you in a factory prototype. He's going to fund a season in LMP2 in the WEC to get you in front of those team bosses."
+  },
+  {
+    "ProIdx": 13,
+    "Discipline": "Street",
+    "XPLevel": 0,
+    "ProPlan": "Mr. Cunningham can get you a full time position as an instructor with a leading racing school. Beyond that, you might have to create your own opportunities."
+  },
+  {
+    "ProIdx": 14,
+    "Discipline": "Street",
+    "XPLevel": 700,
+    "ProPlan": "Mr. Cunningham knows a team in the States that is looking for a strong lead driver and coach for his IMSA touring car team. This will be a great opportunity to build a career in motorsports."
+  },
+  {
+    "ProIdx": 15,
+    "Discipline": "Street",
+    "XPLevel": 800,
+    "ProPlan": "You have great skill and instincts, but we can't get you a leading full-time ride worthy of your future. We're going to place you in some high-visibility one-off GT and prototype opportunities so help keep you sharp and show you off."
+  },
+  {
+    "ProIdx": 16,
+    "Discipline": "Touring",
+    "XPLevel": 0,
+    "ProPlan": "Mr. Cunningham knows a team in the States that is looking for a strong lead driver and coach for his IMSA touring car team. This will be a great opportunity to build a career in motorsports."
+  },
+  {
+    "ProIdx": 17,
+    "Discipline": "Touring",
+    "XPLevel": 700,
+    "ProPlan": "You're pretty good in saloon cars and aren't afraid to rub paint. Mr. Cunningham wants to see you in ARCA and see if you've got what it takes to climb the NASCAR ladder."
+  },
+  {
+    "ProIdx": 18,
+    "Discipline": "Touring",
+    "XPLevel": 850,
+    "ProPlan": "You're one of the best touring car racers Mr. Cunningham has seen in his cars. He wants you to go to England and show the BTCC that we know how to race tin tops in the States!"
+  },
+  {
+    "ProIdx": 19,
+    "Discipline": "Vintage",
+    "XPLevel": 600,
+    "ProPlan": "Mr. Cunningham hates to see you go, so he's willing to put you on staff as a career driver for the shop. It may not have the glory of Le Mans, but you have made yourself a career driving race cars."
+  },
+  {
+    "ProIdx": 20,
+    "Discipline": "Vintage",
+    "XPLevel": 700,
+    "ProPlan": "Mr. Cunningham is calling his friend Bryce Canopy and is recommending that you become his number 1 target when his clients need the best driver. You'll be in the best cars in the United States."
+  },
+  {
+    "ProIdx": 21,
+    "Discipline": "Vintage",
+    "XPLevel": 800,
+    "ProPlan": "There's an elite Historic series in Europe that races the most prestigious cars on only the best tracks. Mr. Cunningham is using his connections to get you in the very best client cars in the world."
+  }
+]
