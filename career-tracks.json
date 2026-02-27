@@ -1,7 +1,7 @@
 [
   {
     "TrkID": 1,
-    "Short Name": "Adelaide",
+    "ShortName": "Adelaide",
     "Variant": "Adelaide Street Circuit 1988",
     "Region": "Oceana",
     "Level": 2,
@@ -12,7 +12,7 @@
   },
   {
     "TrkID": 2,
-    "Short Name": "Adelaide",
+    "ShortName": "Adelaide",
     "Variant": "Adelaide 2020",
     "Region": "Oceana",
     "Level": 3,
@@ -23,7 +23,7 @@
   },
   {
     "TrkID": 3,
-    "Short Name": "Adelaide",
+    "ShortName": "Adelaide",
     "Variant": "Adelaide Supertrucks",
     "Region": "Oceana",
     "Level": "",
@@ -34,7 +34,7 @@
   },
   {
     "TrkID": 4,
-    "Short Name": "Ascurra",
+    "ShortName": "Ascurra",
     "Variant": "Ascurra Dirt",
     "Region": "South America",
     "Level": "",
@@ -45,7 +45,7 @@
   },
   {
     "TrkID": 5,
-    "Short Name": "Ascurra",
+    "ShortName": "Ascurra",
     "Variant": "Ascurra RX",
     "Region": "South America",
     "Level": "",
@@ -56,7 +56,7 @@
   },
   {
     "TrkID": 6,
-    "Short Name": "Azure Circuit (Monaco)",
+    "ShortName": "Azure Circuit (Monaco)",
     "Variant": "Azure Circuit",
     "Region": "Europe",
     "Level": 4,
@@ -67,7 +67,7 @@
   },
   {
     "TrkID": 7,
-    "Short Name": "Barcelona",
+    "ShortName": "Barcelona",
     "Variant": "Barcelona 2022 National",
     "Region": "Europe",
     "Level": 2,
@@ -78,7 +78,7 @@
   },
   {
     "TrkID": 8,
-    "Short Name": "Barcelona",
+    "ShortName": "Barcelona",
     "Variant": "Barcelona 1991 GP",
     "Region": "Europe",
     "Level": 3,
@@ -89,7 +89,7 @@
   },
   {
     "TrkID": 9,
-    "Short Name": "Barcelona",
+    "ShortName": "Barcelona",
     "Variant": "Barcelona 2022 GP",
     "Region": "Europe",
     "Level": 4,
@@ -100,7 +100,7 @@
   },
   {
     "TrkID": 10,
-    "Short Name": "Barcelona",
+    "ShortName": "Barcelona",
     "Variant": "Barcelona 2022 GP (No Chicane)",
     "Region": "Europe",
     "Level": 4,
@@ -111,7 +111,7 @@
   },
   {
     "TrkID": 11,
-    "Short Name": "Barcelona",
+    "ShortName": "Barcelona",
     "Variant": "Barcelona RX",
     "Region": "Europe",
     "Level": "",
@@ -122,7 +122,7 @@
   },
   {
     "TrkID": 12,
-    "Short Name": "Bathurst",
+    "ShortName": "Bathurst",
     "Variant": "Bathurst 1983",
     "Region": "Oceana",
     "Level": 2,
@@ -133,7 +133,7 @@
   },
   {
     "TrkID": 13,
-    "Short Name": "Bathurst",
+    "ShortName": "Bathurst",
     "Variant": "Bathurst 2020",
     "Region": "Oceana",
     "Level": 3,
@@ -144,7 +144,7 @@
   },
   {
     "TrkID": 14,
-    "Short Name": "Brands Hatch",
+    "ShortName": "Brands Hatch",
     "Variant": "Brands Hatch Indy",
     "Region": "U.K.",
     "Level": 1,
@@ -155,7 +155,7 @@
   },
   {
     "TrkID": 15,
-    "Short Name": "Brands Hatch",
+    "ShortName": "Brands Hatch",
     "Variant": "Brands Hatch GP",
     "Region": "U.K.",
     "Level": 3,
@@ -166,7 +166,7 @@
   },
   {
     "TrkID": 16,
-    "Short Name": "Brasilia",
+    "ShortName": "Brasilia",
     "Variant": "Brasilia Outer",
     "Region": "South America",
     "Level": 1,
@@ -177,7 +177,7 @@
   },
   {
     "TrkID": 17,
-    "Short Name": "Brasilia",
+    "ShortName": "Brasilia",
     "Variant": "Brasilia Full",
     "Region": "South America",
     "Level": 2,
@@ -188,7 +188,7 @@
   },
   {
     "TrkID": 18,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.6",
     "Region": "South America",
     "Level": 1,
@@ -199,7 +199,7 @@
   },
   {
     "TrkID": 19,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.6S",
     "Region": "South America",
     "Level": 1,
@@ -210,7 +210,7 @@
   },
   {
     "TrkID": 20,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.9",
     "Region": "South America",
     "Level": 1,
@@ -221,7 +221,7 @@
   },
   {
     "TrkID": 21,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.12",
     "Region": "South America",
     "Level": 2,
@@ -232,7 +232,7 @@
   },
   {
     "TrkID": 22,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.15",
     "Region": "South America",
     "Level": 2,
@@ -243,7 +243,7 @@
   },
   {
     "TrkID": 23,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.7",
     "Region": "South America",
     "Level": 2,
@@ -254,7 +254,7 @@
   },
   {
     "TrkID": 24,
-    "Short Name": "Buenos Aires",
+    "ShortName": "Buenos Aires",
     "Variant": "Buenos Aires Circuito No.8",
     "Region": "South America",
     "Level": 2,
@@ -265,7 +265,7 @@
   },
   {
     "TrkID": 25,
-    "Short Name": "Buskerud",
+    "ShortName": "Buskerud",
     "Variant": "Buskerud Kart 1",
     "Region": "Europe",
     "Level": "",
@@ -276,7 +276,7 @@
   },
   {
     "TrkID": 26,
-    "Short Name": "Buskerud",
+    "ShortName": "Buskerud",
     "Variant": "Buskerud Kart 2",
     "Region": "Europe",
     "Level": "",
@@ -287,7 +287,7 @@
   },
   {
     "TrkID": 27,
-    "Short Name": "Cadwell Park",
+    "ShortName": "Cadwell Park",
     "Variant": "Cadwell Park",
     "Region": "U.K.",
     "Level": 1,
@@ -298,7 +298,7 @@
   },
   {
     "TrkID": 28,
-    "Short Name": "Campo Grande",
+    "ShortName": "Campo Grande",
     "Variant": "Campo Grande",
     "Region": "South America",
     "Level": 1,
@@ -309,7 +309,7 @@
   },
   {
     "TrkID": 29,
-    "Short Name": "Cascais",
+    "ShortName": "Cascais",
     "Variant": "Cascais 1988",
     "Region": "Europe",
     "Level": 3,
@@ -320,7 +320,7 @@
   },
   {
     "TrkID": 30,
-    "Short Name": "Cascais",
+    "ShortName": "Cascais",
     "Variant": "Cascais 2020",
     "Region": "Europe",
     "Level": 4,
@@ -331,7 +331,7 @@
   },
   {
     "TrkID": 31,
-    "Short Name": "Cascais",
+    "ShortName": "Cascais",
     "Variant": "Cascais 2020 Alternate",
     "Region": "Europe",
     "Level": 4,
@@ -342,7 +342,7 @@
   },
   {
     "TrkID": 32,
-    "Short Name": "Cascavel",
+    "ShortName": "Cascavel",
     "Variant": "Cascavel",
     "Region": "South America",
     "Level": 1,
@@ -353,7 +353,7 @@
   },
   {
     "TrkID": 33,
-    "Short Name": "Cleveland",
+    "ShortName": "Cleveland",
     "Variant": "Cleveland Burke Lakefront GP",
     "Region": "North America",
     "Level": 2,
@@ -364,7 +364,7 @@
   },
   {
     "TrkID": 34,
-    "Short Name": "Cleveland",
+    "ShortName": "Cleveland",
     "Variant": "Cleveland Supertrucks",
     "Region": "North America",
     "Level": "",
@@ -375,7 +375,7 @@
   },
   {
     "TrkID": 35,
-    "Short Name": "Cordoba",
+    "ShortName": "Cordoba",
     "Variant": "Cordoba Short",
     "Region": "South America",
     "Level": 1,
@@ -386,7 +386,7 @@
   },
   {
     "TrkID": 36,
-    "Short Name": "Cordoba",
+    "ShortName": "Cordoba",
     "Variant": "Cordoba Full",
     "Region": "South America",
     "Level": 2,
@@ -397,7 +397,7 @@
   },
   {
     "TrkID": 37,
-    "Short Name": "Cordoba",
+    "ShortName": "Cordoba",
     "Variant": "Cordoba Competition",
     "Region": "South America",
     "Level": "",
@@ -408,7 +408,7 @@
   },
   {
     "TrkID": 38,
-    "Short Name": "Curitiba",
+    "ShortName": "Curitiba",
     "Variant": "Curitiba Oval",
     "Region": "South America",
     "Level": 1,
@@ -419,7 +419,7 @@
   },
   {
     "TrkID": 39,
-    "Short Name": "Curitiba",
+    "ShortName": "Curitiba",
     "Variant": "Curitiba GP",
     "Region": "South America",
     "Level": "",
@@ -430,7 +430,7 @@
   },
   {
     "TrkID": 40,
-    "Short Name": "Curvelo",
+    "ShortName": "Curvelo",
     "Variant": "Curvelo Long",
     "Region": "South America",
     "Level": "",
@@ -441,7 +441,7 @@
   },
   {
     "TrkID": 41,
-    "Short Name": "Curvelo",
+    "ShortName": "Curvelo",
     "Variant": "Curvelo Short",
     "Region": "South America",
     "Level": "",
@@ -452,7 +452,7 @@
   },
   {
     "TrkID": 42,
-    "Short Name": "Daytona",
+    "ShortName": "Daytona",
     "Variant": "Daytona Road Course",
     "Region": "North America",
     "Level": 1,
@@ -463,7 +463,7 @@
   },
   {
     "TrkID": 43,
-    "Short Name": "Daytona",
+    "ShortName": "Daytona",
     "Variant": "Daytona Nascar Road Course",
     "Region": "North America",
     "Level": 2,
@@ -474,7 +474,7 @@
   },
   {
     "TrkID": 44,
-    "Short Name": "Daytona",
+    "ShortName": "Daytona",
     "Variant": "Daytona Tri-Oval",
     "Region": "North America",
     "Level": "",
@@ -485,7 +485,7 @@
   },
   {
     "TrkID": 45,
-    "Short Name": "Donington Park",
+    "ShortName": "Donington Park",
     "Variant": "Donington Park National",
     "Region": "U.K.",
     "Level": 1,
@@ -496,7 +496,7 @@
   },
   {
     "TrkID": 46,
-    "Short Name": "Donington Park",
+    "ShortName": "Donington Park",
     "Variant": "Donington Park GP",
     "Region": "U.K.",
     "Level": "",
@@ -507,7 +507,7 @@
   },
   {
     "TrkID": 47,
-    "Short Name": "Fontana",
+    "ShortName": "Fontana",
     "Variant": "Fonata Oval Historic",
     "Region": "North America",
     "Level": 1,
@@ -518,7 +518,7 @@
   },
   {
     "TrkID": 48,
-    "Short Name": "Fontana",
+    "ShortName": "Fontana",
     "Variant": "Fontana Oval",
     "Region": "North America",
     "Level": 1,
@@ -529,7 +529,7 @@
   },
   {
     "TrkID": 49,
-    "Short Name": "Fontana",
+    "ShortName": "Fontana",
     "Variant": "Fontana Road Course",
     "Region": "North America",
     "Level": 1,
@@ -540,7 +540,7 @@
   },
   {
     "TrkID": 50,
-    "Short Name": "Foz",
+    "ShortName": "Foz",
     "Variant": "Foz Rallycross",
     "Region": "South America",
     "Level": "",
@@ -551,7 +551,7 @@
   },
   {
     "TrkID": 51,
-    "Short Name": "Galeao Airport",
+    "ShortName": "Galeao Airport",
     "Variant": "Galeao Airport",
     "Region": "South America",
     "Level": 2,
@@ -562,7 +562,7 @@
   },
   {
     "TrkID": 52,
-    "Short Name": "Gateway",
+    "ShortName": "Gateway",
     "Variant": "Gateway Road Course",
     "Region": "North America",
     "Level": 1,
@@ -573,7 +573,7 @@
   },
   {
     "TrkID": 53,
-    "Short Name": "Gateway",
+    "ShortName": "Gateway",
     "Variant": "Gateway Short Road Course",
     "Region": "North America",
     "Level": 1,
@@ -584,7 +584,7 @@
   },
   {
     "TrkID": 54,
-    "Short Name": "Gateway",
+    "ShortName": "Gateway",
     "Variant": "Gateway Oval",
     "Region": "North America",
     "Level": 2,
@@ -595,7 +595,7 @@
   },
   {
     "TrkID": 55,
-    "Short Name": "Goiania",
+    "ShortName": "Goiania",
     "Variant": "Goiania Oval",
     "Region": "South America",
     "Level": 1,
@@ -606,7 +606,7 @@
   },
   {
     "TrkID": 56,
-    "Short Name": "Goiania",
+    "ShortName": "Goiania",
     "Variant": "Goiania Short",
     "Region": "South America",
     "Level": 1,
@@ -617,7 +617,7 @@
   },
   {
     "TrkID": 57,
-    "Short Name": "Goiania",
+    "ShortName": "Goiania",
     "Variant": "Goiania Full",
     "Region": "South America",
     "Level": 2,
@@ -628,7 +628,7 @@
   },
   {
     "TrkID": 58,
-    "Short Name": "Granja Viana",
+    "ShortName": "Granja Viana",
     "Variant": "Granja Viana Layout 1",
     "Region": "South America",
     "Level": "",
@@ -639,7 +639,7 @@
   },
   {
     "TrkID": 59,
-    "Short Name": "Granja Viana",
+    "ShortName": "Granja Viana",
     "Variant": "Granja Viana Layout 2",
     "Region": "South America",
     "Level": "",
@@ -650,7 +650,7 @@
   },
   {
     "TrkID": 60,
-    "Short Name": "Granja Viana",
+    "ShortName": "Granja Viana",
     "Variant": "Granja Viana Layout 3",
     "Region": "South America",
     "Level": "",
@@ -661,7 +661,7 @@
   },
   {
     "TrkID": 61,
-    "Short Name": "Granja Viana",
+    "ShortName": "Granja Viana",
     "Variant": "Granja Viana Layout 4",
     "Region": "South America",
     "Level": "",
@@ -672,7 +672,7 @@
   },
   {
     "TrkID": 62,
-    "Short Name": "Guapore",
+    "ShortName": "Guapore",
     "Variant": "Guapore",
     "Region": "South America",
     "Level": 1,
@@ -683,7 +683,7 @@
   },
   {
     "TrkID": 63,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 2020 Short A",
     "Region": "Europe",
     "Level": 1,
@@ -694,7 +694,7 @@
   },
   {
     "TrkID": 64,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 2020 Short B",
     "Region": "Europe",
     "Level": 1,
@@ -705,7 +705,7 @@
   },
   {
     "TrkID": 65,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 2020 National",
     "Region": "Europe",
     "Level": 2,
@@ -716,7 +716,7 @@
   },
   {
     "TrkID": 66,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 1977 GP",
     "Region": "Europe",
     "Level": 3,
@@ -727,7 +727,7 @@
   },
   {
     "TrkID": 67,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 1988 Short",
     "Region": "Europe",
     "Level": 3,
@@ -738,7 +738,7 @@
   },
   {
     "TrkID": 68,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 2001 GP",
     "Region": "Europe",
     "Level": 3,
@@ -749,7 +749,7 @@
   },
   {
     "TrkID": 69,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 1988 GP",
     "Region": "Europe",
     "Level": 4,
@@ -760,7 +760,7 @@
   },
   {
     "TrkID": 70,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring 2020 GP",
     "Region": "Europe",
     "Level": 4,
@@ -771,7 +771,7 @@
   },
   {
     "TrkID": 71,
-    "Short Name": "Hockenheimring",
+    "ShortName": "Hockenheimring",
     "Variant": "Hockenheimring RX",
     "Region": "Europe",
     "Level": "",
@@ -782,7 +782,7 @@
   },
   {
     "TrkID": 72,
-    "Short Name": "Ibarra",
+    "ShortName": "Ibarra",
     "Variant": "Ibarra Full",
     "Region": "South America",
     "Level": 1,
@@ -793,7 +793,7 @@
   },
   {
     "TrkID": 73,
-    "Short Name": "Ibarra",
+    "ShortName": "Ibarra",
     "Variant": "Ibarra Reverse",
     "Region": "South America",
     "Level": 2,
@@ -804,7 +804,7 @@
   },
   {
     "TrkID": 74,
-    "Short Name": "Imola",
+    "ShortName": "Imola",
     "Variant": "Imola 1988",
     "Region": "Europe",
     "Level": 3,
@@ -815,7 +815,7 @@
   },
   {
     "TrkID": 75,
-    "Short Name": "Imola",
+    "ShortName": "Imola",
     "Variant": "Imola 2001",
     "Region": "Europe",
     "Level": 3,
@@ -826,7 +826,7 @@
   },
   {
     "TrkID": 76,
-    "Short Name": "Imola",
+    "ShortName": "Imola",
     "Variant": "Imola 1972",
     "Region": "Europe",
     "Level": 4,
@@ -837,7 +837,7 @@
   },
   {
     "TrkID": 77,
-    "Short Name": "Imola",
+    "ShortName": "Imola",
     "Variant": "Imola 2020",
     "Region": "Europe",
     "Level": 4,
@@ -848,7 +848,7 @@
   },
   {
     "TrkID": 78,
-    "Short Name": "Indianapolis",
+    "ShortName": "Indianapolis",
     "Variant": "Indianapolis Road Course",
     "Region": "North America",
     "Level": 2,
@@ -859,7 +859,7 @@
   },
   {
     "TrkID": 79,
-    "Short Name": "Indianapolis",
+    "ShortName": "Indianapolis",
     "Variant": "Indianapolis Oval",
     "Region": "North America",
     "Level": 3,
@@ -870,7 +870,7 @@
   },
   {
     "TrkID": 80,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 1976 GP",
     "Region": "South America",
     "Level": 3,
@@ -881,7 +881,7 @@
   },
   {
     "TrkID": 81,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 1976 Outer",
     "Region": "South America",
     "Level": 3,
@@ -892,7 +892,7 @@
   },
   {
     "TrkID": 82,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 1993 GP",
     "Region": "South America",
     "Level": 3,
@@ -903,7 +903,7 @@
   },
   {
     "TrkID": 83,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 2020 Stock Car Brasil",
     "Region": "South America",
     "Level": 3,
@@ -914,7 +914,7 @@
   },
   {
     "TrkID": 84,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 1991 GP",
     "Region": "South America",
     "Level": 4,
@@ -925,7 +925,7 @@
   },
   {
     "TrkID": 85,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos 2020 GP",
     "Region": "South America",
     "Level": 4,
@@ -936,7 +936,7 @@
   },
   {
     "TrkID": 86,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos Kart 1",
     "Region": "South America",
     "Level": "",
@@ -947,7 +947,7 @@
   },
   {
     "TrkID": 87,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos Kart 2",
     "Region": "South America",
     "Level": "",
@@ -958,7 +958,7 @@
   },
   {
     "TrkID": 88,
-    "Short Name": "Interlagos",
+    "ShortName": "Interlagos",
     "Variant": "Interlagos Kart 3",
     "Region": "South America",
     "Level": "",
@@ -969,7 +969,7 @@
   },
   {
     "TrkID": 89,
-    "Short Name": "Jacarepagua",
+    "ShortName": "Jacarepagua",
     "Variant": "Jacarepagua Stock Car",
     "Region": "South America",
     "Level": 1,
@@ -980,7 +980,7 @@
   },
   {
     "TrkID": 90,
-    "Short Name": "Jacarepagua",
+    "ShortName": "Jacarepagua",
     "Variant": "Jacarepagua Oval",
     "Region": "South America",
     "Level": 2,
@@ -991,7 +991,7 @@
   },
   {
     "TrkID": 91,
-    "Short Name": "Jacarepagua",
+    "ShortName": "Jacarepagua",
     "Variant": "Jacarepagua 1988 GP",
     "Region": "South America",
     "Level": 3,
@@ -1002,7 +1002,7 @@
   },
   {
     "TrkID": 92,
-    "Short Name": "Jacarepagua",
+    "ShortName": "Jacarepagua",
     "Variant": "Jacarepagua 2005 GP",
     "Region": "South America",
     "Level": 3,
@@ -1013,7 +1013,7 @@
   },
   {
     "TrkID": 93,
-    "Short Name": "Jacarepagua",
+    "ShortName": "Jacarepagua",
     "Variant": "Jacarepagua 2012 GP",
     "Region": "South America",
     "Level": 3,
@@ -1024,7 +1024,7 @@
   },
   {
     "TrkID": 94,
-    "Short Name": "Jerez",
+    "ShortName": "Jerez",
     "Variant": "Jerez 1988 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1035,7 +1035,7 @@
   },
   {
     "TrkID": 95,
-    "Short Name": "Jerez",
+    "ShortName": "Jerez",
     "Variant": "Jerez 2020 (No Chicane)",
     "Region": "Europe",
     "Level": 4,
@@ -1046,7 +1046,7 @@
   },
   {
     "TrkID": 96,
-    "Short Name": "Jerez",
+    "ShortName": "Jerez",
     "Variant": "Jerez 2020 GP",
     "Region": "Europe",
     "Level": 4,
@@ -1057,7 +1057,7 @@
   },
   {
     "TrkID": 97,
-    "Short Name": "Kansai",
+    "ShortName": "Kansai",
     "Variant": "Kansai East",
     "Region": "Oceana",
     "Level": 1,
@@ -1068,7 +1068,7 @@
   },
   {
     "TrkID": 98,
-    "Short Name": "Kansai",
+    "ShortName": "Kansai",
     "Variant": "Kansai West",
     "Region": "Oceana",
     "Level": 1,
@@ -1079,7 +1079,7 @@
   },
   {
     "TrkID": 99,
-    "Short Name": "Kansai",
+    "ShortName": "Kansai",
     "Variant": "Kansai Classic",
     "Region": "Oceana",
     "Level": 2,
@@ -1090,7 +1090,7 @@
   },
   {
     "TrkID": 100,
-    "Short Name": "Kansai",
+    "ShortName": "Kansai",
     "Variant": "Kansai GP",
     "Region": "Oceana",
     "Level": 3,
@@ -1101,7 +1101,7 @@
   },
   {
     "TrkID": 101,
-    "Short Name": "Kyalami",
+    "ShortName": "Kyalami",
     "Variant": "Kyalami GP",
     "Region": "Other",
     "Level": 2,
@@ -1112,7 +1112,7 @@
   },
   {
     "TrkID": 102,
-    "Short Name": "Kyalami",
+    "ShortName": "Kyalami",
     "Variant": "Kyalami 1976",
     "Region": "Other",
     "Level": 3,
@@ -1123,7 +1123,7 @@
   },
   {
     "TrkID": 103,
-    "Short Name": "Laguna Seca",
+    "ShortName": "Laguna Seca",
     "Variant": "Laguna Seca",
     "Region": "North America",
     "Level": 1,
@@ -1134,7 +1134,7 @@
   },
   {
     "TrkID": 104,
-    "Short Name": "Le Mans",
+    "ShortName": "Le Mans",
     "Variant": "Le Mans Bugatti",
     "Region": "Europe",
     "Level": 2,
@@ -1145,7 +1145,7 @@
   },
   {
     "TrkID": 105,
-    "Short Name": "Le Mans",
+    "ShortName": "Le Mans",
     "Variant": "Le Mans 24h",
     "Region": "Europe",
     "Level": 4,
@@ -1156,7 +1156,7 @@
   },
   {
     "TrkID": 106,
-    "Short Name": "Le Mans",
+    "ShortName": "Le Mans",
     "Variant": "Le Mans 24h 2005",
     "Region": "Europe",
     "Level": 4,
@@ -1167,7 +1167,7 @@
   },
   {
     "TrkID": 107,
-    "Short Name": "Londrina",
+    "ShortName": "Londrina",
     "Variant": "Londrina Short",
     "Region": "South America",
     "Level": 1,
@@ -1178,7 +1178,7 @@
   },
   {
     "TrkID": 108,
-    "Short Name": "Londrina",
+    "ShortName": "Londrina",
     "Variant": "Londrina Long",
     "Region": "South America",
     "Level": 2,
@@ -1189,7 +1189,7 @@
   },
   {
     "TrkID": 109,
-    "Short Name": "Londrina",
+    "ShortName": "Londrina",
     "Variant": "Londrina Kart 1",
     "Region": "South America",
     "Level": "",
@@ -1200,7 +1200,7 @@
   },
   {
     "TrkID": 110,
-    "Short Name": "Londrina",
+    "ShortName": "Londrina",
     "Variant": "Londrina Kart 2",
     "Region": "South America",
     "Level": "",
@@ -1211,7 +1211,7 @@
   },
   {
     "TrkID": 111,
-    "Short Name": "Long Beach",
+    "ShortName": "Long Beach",
     "Variant": "Long Beach Street Circuit",
     "Region": "North America",
     "Level": 3,
@@ -1222,7 +1222,7 @@
   },
   {
     "TrkID": 112,
-    "Short Name": "Montreal",
+    "ShortName": "Montreal",
     "Variant": "Montreal 1988 GP",
     "Region": "North America",
     "Level": 3,
@@ -1233,7 +1233,7 @@
   },
   {
     "TrkID": 113,
-    "Short Name": "Montreal",
+    "ShortName": "Montreal",
     "Variant": "Montreal 1991 GP",
     "Region": "North America",
     "Level": 3,
@@ -1244,7 +1244,7 @@
   },
   {
     "TrkID": 114,
-    "Short Name": "Montreal",
+    "ShortName": "Montreal",
     "Variant": "Montreal 2020 GP",
     "Region": "North America",
     "Level": 4,
@@ -1255,7 +1255,7 @@
   },
   {
     "TrkID": 115,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 2020 Junior",
     "Region": "Europe",
     "Level": 1,
@@ -1266,7 +1266,7 @@
   },
   {
     "TrkID": 116,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 1971 10km",
     "Region": "Europe",
     "Level": 2,
@@ -1277,7 +1277,7 @@
   },
   {
     "TrkID": 117,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 1971 GP",
     "Region": "Europe",
     "Level": 2,
@@ -1288,7 +1288,7 @@
   },
   {
     "TrkID": 118,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 1971 Junior",
     "Region": "Europe",
     "Level": 2,
@@ -1299,7 +1299,7 @@
   },
   {
     "TrkID": 119,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 1991 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1310,7 +1310,7 @@
   },
   {
     "TrkID": 120,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 1971 10km (no Chicane)",
     "Region": "Europe",
     "Level": 4,
@@ -1321,7 +1321,7 @@
   },
   {
     "TrkID": 121,
-    "Short Name": "Monza",
+    "ShortName": "Monza",
     "Variant": "Monza 2020 GP",
     "Region": "Europe",
     "Level": 4,
@@ -1332,7 +1332,7 @@
   },
   {
     "TrkID": 122,
-    "Short Name": "Mosport",
+    "ShortName": "Mosport",
     "Variant": "Mosport",
     "Region": "North America",
     "Level": 1,
@@ -1343,7 +1343,7 @@
   },
   {
     "TrkID": 123,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 2020 Sprint",
     "Region": "Europe",
     "Level": 1,
@@ -1354,7 +1354,7 @@
   },
   {
     "TrkID": 124,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 2020 Sprint S",
     "Region": "Europe",
     "Level": 1,
@@ -1365,7 +1365,7 @@
   },
   {
     "TrkID": 125,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 2020 Veedol",
     "Region": "Europe",
     "Level": 1,
@@ -1376,7 +1376,7 @@
   },
   {
     "TrkID": 126,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Betonschleife Historic 1971",
     "Region": "Europe",
     "Level": 2,
@@ -1387,7 +1387,7 @@
   },
   {
     "TrkID": 127,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife Historic 1971",
     "Region": "Europe",
     "Level": 3,
@@ -1398,7 +1398,7 @@
   },
   {
     "TrkID": 128,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nurburgring 2020 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1409,7 +1409,7 @@
   },
   {
     "TrkID": 129,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nurburgring 2025 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1420,7 +1420,7 @@
   },
   {
     "TrkID": 130,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Sudschleife Historic 1971",
     "Region": "Europe",
     "Level": 3,
@@ -1431,7 +1431,7 @@
   },
   {
     "TrkID": 131,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 2020",
     "Region": "Europe",
     "Level": 4,
@@ -1442,7 +1442,7 @@
   },
   {
     "TrkID": 132,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 2025",
     "Region": "Europe",
     "Level": 4,
@@ -1453,7 +1453,7 @@
   },
   {
     "TrkID": 133,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 24h",
     "Region": "Europe",
     "Level": 4,
@@ -1464,7 +1464,7 @@
   },
   {
     "TrkID": 134,
-    "Short Name": "Nurburgring",
+    "ShortName": "Nurburgring",
     "Variant": "Nordschleife 24h 2025",
     "Region": "Europe",
     "Level": 4,
@@ -1475,7 +1475,7 @@
   },
   {
     "TrkID": 135,
-    "Short Name": "Oulton Park",
+    "ShortName": "Oulton Park",
     "Variant": "Oulton Park Classic",
     "Region": "U.K.",
     "Level": 1,
@@ -1486,7 +1486,7 @@
   },
   {
     "TrkID": 136,
-    "Short Name": "Oulton Park",
+    "ShortName": "Oulton Park",
     "Variant": "Oulton Park Fosters",
     "Region": "U.K.",
     "Level": 1,
@@ -1497,7 +1497,7 @@
   },
   {
     "TrkID": 137,
-    "Short Name": "Oulton Park",
+    "ShortName": "Oulton Park",
     "Variant": "Oulton Park Island",
     "Region": "U.K.",
     "Level": 1,
@@ -1508,7 +1508,7 @@
   },
   {
     "TrkID": 138,
-    "Short Name": "Oulton Park",
+    "ShortName": "Oulton Park",
     "Variant": "Oulton Park International",
     "Region": "U.K.",
     "Level": 2,
@@ -1519,7 +1519,7 @@
   },
   {
     "TrkID": 139,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono East Course 1",
     "Region": "North America",
     "Level": 1,
@@ -1530,7 +1530,7 @@
   },
   {
     "TrkID": 140,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono East Course 2",
     "Region": "North America",
     "Level": 1,
@@ -1541,7 +1541,7 @@
   },
   {
     "TrkID": 141,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono SE Course 1",
     "Region": "North America",
     "Level": 1,
@@ -1552,7 +1552,7 @@
   },
   {
     "TrkID": 142,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono SE Course 5",
     "Region": "North America",
     "Level": 1,
@@ -1563,7 +1563,7 @@
   },
   {
     "TrkID": 143,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono NS Course 1",
     "Region": "North America",
     "Level": 2,
@@ -1574,7 +1574,7 @@
   },
   {
     "TrkID": 144,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono NS Course 1 (No Chicane)",
     "Region": "North America",
     "Level": 2,
@@ -1585,7 +1585,7 @@
   },
   {
     "TrkID": 145,
-    "Short Name": "Pocono",
+    "ShortName": "Pocono",
     "Variant": "Pocono Oval",
     "Region": "North America",
     "Level": 3,
@@ -1596,7 +1596,7 @@
   },
   {
     "TrkID": 146,
-    "Short Name": "Road America",
+    "ShortName": "Road America",
     "Variant": "Road America",
     "Region": "North America",
     "Level": 2,
@@ -1607,7 +1607,7 @@
   },
   {
     "TrkID": 147,
-    "Short Name": "Road America",
+    "ShortName": "Road America",
     "Variant": "Road America Bend",
     "Region": "North America",
     "Level": 2,
@@ -1618,7 +1618,7 @@
   },
   {
     "TrkID": 148,
-    "Short Name": "Road Atlanta",
+    "ShortName": "Road Atlanta",
     "Variant": "Road Atlanta 2005 Short",
     "Region": "North America",
     "Level": 1,
@@ -1629,7 +1629,7 @@
   },
   {
     "TrkID": 149,
-    "Short Name": "Road Atlanta",
+    "ShortName": "Road Atlanta",
     "Variant": "Road Atlanta",
     "Region": "North America",
     "Level": 2,
@@ -1640,7 +1640,7 @@
   },
   {
     "TrkID": 150,
-    "Short Name": "Road Atlanta",
+    "ShortName": "Road Atlanta",
     "Variant": "Road Atlanta Historic 2005",
     "Region": "North America",
     "Level": 2,
@@ -1651,7 +1651,7 @@
   },
   {
     "TrkID": 151,
-    "Short Name": "Road Atlanta",
+    "ShortName": "Road Atlanta",
     "Variant": "Road Atlanta Moto",
     "Region": "North America",
     "Level": 3,
@@ -1662,7 +1662,7 @@
   },
   {
     "TrkID": 152,
-    "Short Name": "Salvador",
+    "ShortName": "Salvador",
     "Variant": "Salvador",
     "Region": "South America",
     "Level": 1,
@@ -1673,7 +1673,7 @@
   },
   {
     "TrkID": 153,
-    "Short Name": "Santa Cruz",
+    "ShortName": "Santa Cruz",
     "Variant": "Santa Cruz",
     "Region": "South America",
     "Level": 1,
@@ -1684,7 +1684,7 @@
   },
   {
     "TrkID": 154,
-    "Short Name": "Sebring",
+    "ShortName": "Sebring",
     "Variant": "Sebring Club",
     "Region": "North America",
     "Level": 1,
@@ -1695,7 +1695,7 @@
   },
   {
     "TrkID": 155,
-    "Short Name": "Sebring",
+    "ShortName": "Sebring",
     "Variant": "Sebring School",
     "Region": "North America",
     "Level": 1,
@@ -1706,7 +1706,7 @@
   },
   {
     "TrkID": 156,
-    "Short Name": "Sebring",
+    "ShortName": "Sebring",
     "Variant": "Sebring International Raceway",
     "Region": "North America",
     "Level": 2,
@@ -1717,7 +1717,7 @@
   },
   {
     "TrkID": 157,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 2020 International",
     "Region": "U.K.",
     "Level": 1,
@@ -1728,7 +1728,7 @@
   },
   {
     "TrkID": 158,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 2020 National",
     "Region": "U.K.",
     "Level": 1,
@@ -1739,7 +1739,7 @@
   },
   {
     "TrkID": 159,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverston International Historic 2001",
     "Region": "U.K.",
     "Level": 2,
@@ -1750,7 +1750,7 @@
   },
   {
     "TrkID": 160,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 1975 GP",
     "Region": "U.K.",
     "Level": 2,
@@ -1761,7 +1761,7 @@
   },
   {
     "TrkID": 161,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone National Historic 2001",
     "Region": "U.K.",
     "Level": 2,
@@ -1772,7 +1772,7 @@
   },
   {
     "TrkID": 162,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 1991 GP",
     "Region": "U.K.",
     "Level": 3,
@@ -1783,7 +1783,7 @@
   },
   {
     "TrkID": 163,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 2001 GP",
     "Region": "U.K.",
     "Level": 3,
@@ -1794,7 +1794,7 @@
   },
   {
     "TrkID": 164,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 1975 GP (No Chicane)",
     "Region": "U.K.",
     "Level": 4,
@@ -1805,7 +1805,7 @@
   },
   {
     "TrkID": 165,
-    "Short Name": "Silverstone",
+    "ShortName": "Silverstone",
     "Variant": "Silverstone 2020 GP",
     "Region": "U.K.",
     "Level": 4,
@@ -1816,7 +1816,7 @@
   },
   {
     "TrkID": 166,
-    "Short Name": "Snetterton",
+    "ShortName": "Snetterton",
     "Variant": "Snetterton 100",
     "Region": "U.K.",
     "Level": 1,
@@ -1827,7 +1827,7 @@
   },
   {
     "TrkID": 167,
-    "Short Name": "Snetterton",
+    "ShortName": "Snetterton",
     "Variant": "Snetterton 200",
     "Region": "U.K.",
     "Level": 1,
@@ -1838,7 +1838,7 @@
   },
   {
     "TrkID": 168,
-    "Short Name": "Snetterton",
+    "ShortName": "Snetterton",
     "Variant": "Snetterton 300",
     "Region": "U.K.",
     "Level": 2,
@@ -1849,7 +1849,7 @@
   },
   {
     "TrkID": 169,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 2020 GP",
     "Region": "Europe",
     "Level": 2,
@@ -1860,7 +1860,7 @@
   },
   {
     "TrkID": 170,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 2022 GP",
     "Region": "Europe",
     "Level": 2,
@@ -1871,7 +1871,7 @@
   },
   {
     "TrkID": 171,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 1970 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1882,7 +1882,7 @@
   },
   {
     "TrkID": 172,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 1993 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1893,7 +1893,7 @@
   },
   {
     "TrkID": 173,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 2005 Endurance",
     "Region": "Europe",
     "Level": 3,
@@ -1904,7 +1904,7 @@
   },
   {
     "TrkID": 174,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 2005 GP",
     "Region": "Europe",
     "Level": 3,
@@ -1915,7 +1915,7 @@
   },
   {
     "TrkID": 175,
-    "Short Name": "Spa-Francorchamps",
+    "ShortName": "Spa-Francorchamps",
     "Variant": "Spa-Francorchamps 1970 1000km",
     "Region": "Europe",
     "Level": 4,
@@ -1926,7 +1926,7 @@
   },
   {
     "TrkID": 176,
-    "Short Name": "Spielberg",
+    "ShortName": "Spielberg",
     "Variant": "Spielberg Short",
     "Region": "Europe",
     "Level": 1,
@@ -1937,7 +1937,7 @@
   },
   {
     "TrkID": 177,
-    "Short Name": "Spielberg",
+    "ShortName": "Spielberg",
     "Variant": "Spielberg",
     "Region": "Europe",
     "Level": 2,
@@ -1948,7 +1948,7 @@
   },
   {
     "TrkID": 178,
-    "Short Name": "Spielberg",
+    "ShortName": "Spielberg",
     "Variant": "Spielberg Historic 1974",
     "Region": "Europe",
     "Level": 3,
@@ -1959,7 +1959,7 @@
   },
   {
     "TrkID": 179,
-    "Short Name": "Spielberg",
+    "ShortName": "Spielberg",
     "Variant": "Spielberg Historic 1977",
     "Region": "Europe",
     "Level": 4,
@@ -1970,7 +1970,7 @@
   },
   {
     "TrkID": 180,
-    "Short Name": "Taruma",
+    "ShortName": "Taruma",
     "Variant": "Taruma Chicane",
     "Region": "South America",
     "Level": 1,
@@ -1981,7 +1981,7 @@
   },
   {
     "TrkID": 181,
-    "Short Name": "Taruma",
+    "ShortName": "Taruma",
     "Variant": "Taruma Internacional",
     "Region": "South America",
     "Level": 1,
@@ -1992,7 +1992,7 @@
   },
   {
     "TrkID": 182,
-    "Short Name": "Termos de Rio Honda",
+    "ShortName": "Termos de Rio Honda",
     "Variant": "Termos de Rio Honda",
     "Region": "South America",
     "Level": 2,
@@ -2003,7 +2003,7 @@
   },
   {
     "TrkID": 183,
-    "Short Name": "Velocita",
+    "ShortName": "Velocita",
     "Variant": "Velocita",
     "Region": "South America",
     "Level": 1,
@@ -2014,7 +2014,7 @@
   },
   {
     "TrkID": 184,
-    "Short Name": "Velocita",
+    "ShortName": "Velocita",
     "Variant": "Velocita Club Day",
     "Region": "South America",
     "Level": 1,
@@ -2025,7 +2025,7 @@
   },
   {
     "TrkID": 185,
-    "Short Name": "Velocita",
+    "ShortName": "Velocita",
     "Variant": "Velocita Track Day",
     "Region": "South America",
     "Level": 1,
@@ -2036,7 +2036,7 @@
   },
   {
     "TrkID": 186,
-    "Short Name": "Velopark",
+    "ShortName": "Velopark",
     "Variant": "Velopark 2010",
     "Region": "South America",
     "Level": 1,
@@ -2047,7 +2047,7 @@
   },
   {
     "TrkID": 187,
-    "Short Name": "Velopark",
+    "ShortName": "Velopark",
     "Variant": "Velopark 2017",
     "Region": "South America",
     "Level": 1,
@@ -2058,7 +2058,7 @@
   },
   {
     "TrkID": 188,
-    "Short Name": "Virginia",
+    "ShortName": "Virginia",
     "Variant": "Virginia North",
     "Region": "North America",
     "Level": 1,
@@ -2069,7 +2069,7 @@
   },
   {
     "TrkID": 189,
-    "Short Name": "Virginia",
+    "ShortName": "Virginia",
     "Variant": "Virginia South",
     "Region": "North America",
     "Level": 1,
@@ -2080,7 +2080,7 @@
   },
   {
     "TrkID": 190,
-    "Short Name": "Virginia",
+    "ShortName": "Virginia",
     "Variant": "Virginia Full",
     "Region": "North America",
     "Level": 2,
@@ -2091,7 +2091,7 @@
   },
   {
     "TrkID": 191,
-    "Short Name": "Virginia",
+    "ShortName": "Virginia",
     "Variant": "Virginia Grand",
     "Region": "North America",
     "Level": "",
@@ -2102,7 +2102,7 @@
   },
   {
     "TrkID": 192,
-    "Short Name": "Virginia",
+    "ShortName": "Virginia",
     "Variant": "Virginia Patriot",
     "Region": "North America",
     "Level": "",
@@ -2113,7 +2113,7 @@
   },
   {
     "TrkID": 193,
-    "Short Name": "Watkins Glen",
+    "ShortName": "Watkins Glen",
     "Variant": "Watkins Glen Short",
     "Region": "North America",
     "Level": 1,
@@ -2124,7 +2124,7 @@
   },
   {
     "TrkID": 194,
-    "Short Name": "Watkins Glen",
+    "ShortName": "Watkins Glen",
     "Variant": "Watkins Glen Short (Inner Loop)",
     "Region": "North America",
     "Level": 1,
@@ -2135,7 +2135,7 @@
   },
   {
     "TrkID": 195,
-    "Short Name": "Watkins Glen",
+    "ShortName": "Watkins Glen",
     "Variant": "Watkins Glen GP (Inner Loop)",
     "Region": "North America",
     "Level": 2,
@@ -2146,7 +2146,7 @@
   },
   {
     "TrkID": 196,
-    "Short Name": "Watkins Glen",
+    "ShortName": "Watkins Glen",
     "Variant": "Watkins Glen GP",
     "Region": "North America",
     "Level": 4,
