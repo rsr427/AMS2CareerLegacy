@@ -14,8 +14,8 @@
   {
     "RegID": 3,
     "Region": "Europe",
-    "XP_to_Open": 275,
-    "XP_to_Expert": 425
+    "XP_to_Open": 400,
+    "XP_to_Expert": 650
   },
   {
     "RegID": 4,
@@ -32,7 +32,7 @@
   {
     "RegID": 6,
     "Region": "Other",
-    "XP_to_Open": 50,
-    "XP_to_Expert": 90
+    "XP_to_Open": 30,
+    "XP_to_Expert": 60
   }
 ]
