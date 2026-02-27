@@ -52,7 +52,7 @@
     "AchievementName": "Among the Greats - Top 25",
     "Description": "Elevate a driver into a Top 25 rank",
     "Metric": "driver_xp",
-    "Threshold": 256,
+    "Threshold": 432,
     "Points": 100
   },
   {
@@ -60,7 +60,7 @@
     "AchievementName": "Among the Elite - Top 10",
     "Description": "Elevate a driver into a Top 10 rank",
     "Metric": "driver_xp",
-    "Threshold": 400,
+    "Threshold": 535,
     "Points": 200
   },
   {
