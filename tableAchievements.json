@@ -2,25 +2,25 @@
   {
     "AchIdx": 1,
     "AchievementName": "Mika Hakkinen - 20 Wins",
-    "Description": "Win 20 races",
+    "Description": "Win 20 races (time-scaled)",
     "Metric": "driver_wins",
-    "Threshold": 20,
+    "Threshold": 7,
     "Points": 50
   },
   {
     "AchIdx": 2,
     "AchievementName": "Ayrton Senna - 41 Wins",
-    "Description": "Win 41 races",
+    "Description": "Win 41 races (time-scaled)",
     "Metric": "driver_wins",
-    "Threshold": 41,
+    "Threshold": 14,
     "Points": 100
   },
   {
     "AchIdx": 3,
     "AchievementName": "A.J. Foyt - 67 Wins",
-    "Description": "Win 67 races",
+    "Description": "Win 67 races (time-scaled)",
     "Metric": "driver_wins",
-    "Threshold": 67,
+    "Threshold": 22,
     "Points": 200
   },
   {
@@ -28,7 +28,7 @@
     "AchievementName": "Jenson Button - 50 Podiums",
     "Description": "Podium 50 times",
     "Metric": "driver_podiums",
-    "Threshold": 50,
+    "Threshold": 17,
     "Points": 50
   },
   {
@@ -36,7 +36,7 @@
     "AchievementName": "Ayrton Senna - 80 Podiums",
     "Description": "Podium 80 times",
     "Metric": "driver_podiums",
-    "Threshold": 80,
+    "Threshold": 27,
     "Points": 100
   },
   {
@@ -44,7 +44,7 @@
     "AchievementName": "Sebastien Vettel - 122 Podiums",
     "Description": "Podium 125 times",
     "Metric": "driver_podiums",
-    "Threshold": 125,
+    "Threshold": 42,
     "Points": 200
   },
   {
