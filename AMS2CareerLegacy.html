@@ -1,0 +1,3649 @@
+<head>
+  <meta charset="UTF-8">
+  <title>AMS2 Career Companion</title>
+
+<style>
+  /* ============================
+     GLOBAL
+  ============================ */
+  body {
+    font-family: Tahoma, sans-serif;
+    background: #111;
+    color: #eee;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .screen {
+    display: none;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .active {
+    display: block;
+  }
+
+  h1, h2, h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px 10px 0;
+    font-size: 16px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+    cursor: pointer;
+  }
+
+  button:disabled {
+    background: #222;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .italic {
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  .fadeIn {
+    opacity: 0;
+    animation: fadeInAnim 0.4s ease-out forwards;
+  }
+
+  @keyframes fadeInAnim {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }  
+  
+  .storyBox {
+    background: #f2f2f2;
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-top: 20px;   /* space below the counters */
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  
+  .profileCompleteBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 150, 0, 0.5);
+    border: 2px solid rgba(0, 150, 0, 0.7);
+    font-size: 1.1rem;
+  }
+
+  /* ============================
+     DRIVER SLOT BOXES
+  ============================ */
+  .driver-slot {
+    padding: 10px;
+    border: 1px solid #444;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .delete-btn {
+    color: #f55;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  /* ============================
+     RANKING TABLE
+  ============================ */
+  #rankingTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  #rankingTable th,
+  #rankingTable td {
+    border: 1px solid #444;
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  #rankingTable th:first-child,
+  #rankingTable td:first-child {
+    text-align: left;
+    width: 10%;
+  }
+
+  #rankingTable th:nth-child(2),
+  #rankingTable td:nth-child(2) {
+    text-align: left;
+    width: 40%;
+  }
+
+  #rankingTable th:nth-child(3),
+  #rankingTable td:nth-child(3) {
+    text-align: left;
+    width: 25%;
+  }
+
+  #rankingTable th:nth-child(4),
+  #rankingTable td:nth-child(4) {
+    text-align: center;
+    width: 25%;
+  }
+
+  /* ============================
+     DATA TABLES (Cars / Tracks)
+  ============================ */
+  table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  table.data-table th,
+  table.data-table td {
+    border: 1px solid #444;
+    padding: 6px 8px;
+  }
+
+  table.data-table th {
+    background: #222;
+  }
+
+  /* Highlight rows where Owned = 0 */
+  .notOwnedRow td {
+    color: #999;
+    font-style: italic;
+  }
+
+  /* CONTROLS THE BACK BUTTONS OF CAR AND TRACKS TABLES */  
+  .backBtn {
+    margin: 10px 0;
+  }
+
+  /* ============================
+     DASHBOARD STATS TABLE
+  ============================ */
+  #dashStatsTable td,
+  #dashStatsTable th {
+    text-align: center;
+  }
+
+  /* ============================
+     AVAILABLE CONTENT SECTION
+  ============================ */
+  #availableContentSection {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+  }
+
+
+  /* =============================
+      Race Entry Screen 
+  ==============================*/
+  
+  #raceEntryScreen label {
+    margin-top: 12px;
+    display: block;
+    font-weight: bold;
+  }
+
+  #raceEntryScreen select,
+  #raceEntryScreen input[type='range'] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Log Result Button */
+  .logResultButton {
+    background-color: #9cff9c;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+  
+  /* ============================
+     BADGES (Dashboard UI Chips)
+  ============================ */
+
+  .rankBadge {
+    background-color: #D6D7FF;   /* pale blue */
+    color: #000;                 /* black text */
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #AEB0C8;   /* subtle border */
+    display: inline-block;
+    margin-left: 6px;
+  }
+
+  .xpBadge {
+    background-color: #DFF6D8;   /* pale green */
+    color: #000;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #B7D8B0;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  
+  .levelBadge {
+    background-color: #E8E8E8;   /* soft neutral gray */
+    color: #000;                 /* black text */
+    font-weight: normal;         /* NOT bold */
+    font-size: 13px;             /* slightly smaller */
+    padding: 2px 6px;            /* smaller padding */
+    border-radius: 6px;
+    border: 1px solid #C8C8C8;   /* subtle border */
+    display: inline-block;
+    margin-left: 6px;
+  }
+
+  /* ============================================================
+     MODULE 11 — REWARD POPUP & CLIENT OFFER UI
+     ============================================================ */
+
+  /* ---------- Modal Overlay ---------- */
+  #rewardPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    display: none; /* shown via JS */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  #rewardPopup .modalContent {
+    background: #bababa;
+    padding: 20px 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90%;
+    overflow-y: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  }
+
+  /* ---------- Section Headers ---------- */
+  .awardSectionHeader {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    color: #333;
+  }
+
+  /* ---------- Car & Track Award Boxes ---------- */
+  .awardCarBox,
+  .awardTrackBox {
+    background: #e6e6e6;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+
+  .awardCarBox:hover,
+  .awardTrackBox:hover {
+    background: #dcdcdc;
+  }
+
+  /* ---------- Title (Blue) ---------- */
+  .awardTitleBlue {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1e6bd6;
+    margin-bottom: 5px;
+  }
+
+  /* ---------- Secondary Info ---------- */
+  .awardInfo {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 6px;
+  }
+
+  /* ---------- XP Badge ---------- */
+  .xpBadgeSmall {
+    background: #1e6bd6;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-left: 6px;
+  }
+
+  /* ---------- Buttons ---------- */
+  .selectAwardBtn {
+    background: #1e6bd6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+
+  .selectAwardBtn:hover {
+    background: #1553a8;
+  }
+
+  .notOwnedBtn {
+    background: #999;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+
+  .notOwnedBtn:hover {
+    background: #777;
+  }
+
+  /* ---------- Empty Box (fallback) ---------- */
+  .emptyAwardBox {
+    background: #f0f0f0;
+    border: 1px dashed #aaa;
+    padding: 12px;
+    border-radius: 8px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /* ---------- Close Button ---------- */
+  #awardPopupCloseBtn {
+    margin-top: 20px;
+    background: #444;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+  }
+
+  #awardPopupCloseBtn:hover {
+    background: #222;
+  }
+
+  /* Popup animation */
+  @keyframes popupFadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.85);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  #rewardPopup .modalContent {
+    animation: popupFadeIn 0.35s ease-out;
+  }
+
+  /* Glowing border for the awarded item */
+  .glowReward {
+    border: 2px solid #1e6bd6;
+    box-shadow: 0 0 12px #1e6bd6, 0 0 24px rgba(30,107,214,0.6);
+    animation: glowPulse 1.8s infinite ease-in-out;
+  }
+
+  @keyframes glowPulse {
+    0% {
+      box-shadow: 0 0 6px #1e6bd6, 0 0 12px rgba(30,107,214,0.4);
+    }
+    50% {
+      box-shadow: 0 0 16px #1e6bd6, 0 0 32px rgba(30,107,214,0.8);
+    }
+    100% {
+      box-shadow: 0 0 6px #1e6bd6, 0 0 12px rgba(30,107,214,0.4);
+    }
+  }
+
+  /* Light green glowing border */
+  .xpGlow {
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 12px #4caf50, 0 0 24px rgba(76,175,80,0.6);
+    animation: xpGlowPulse 1.8s infinite ease-in-out;
+  }
+
+  @keyframes xpGlowPulse {
+    0% {
+      box-shadow: 0 0 6px #4caf50, 0 0 12px rgba(76,175,80,0.4);
+    }
+    50% {
+      box-shadow: 0 0 16px #4caf50, 0 0 32px rgba(76,175,80,0.8);
+    }
+    100% {
+      box-shadow: 0 0 6px #4caf50, 0 0 12px rgba(76,175,80,0.4);
+    }
+  }
+
+  /* XP Popup Overlay */
+  #xpPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  /* XP Popup Content */
+  #xpPopup .modalContent {
+    background: #f2f2f2;            /* light gray background */
+    padding: 24px 32px;             /* more breathing room */
+    border-radius: 10px;            /* softer edges */
+    text-align: center;             /* center all text + button */
+    max-width: 420px;
+  }
+
+  /* XP Glow Border */
+  .xpGlow {
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 12px #4caf50, 0 0 24px rgba(76,175,80,0.6);
+    animation: xpGlowPulse 1.8s infinite ease-in-out;
+  }
+
+  @keyframes xpGlowPulse {
+    0% {
+      box-shadow: 0 0 6px #4caf50, 0 0 12px rgba(76,175,80,0.4);
+    }
+    50% {
+      box-shadow: 0 0 16px #4caf50, 0 0 32px rgba(76,175,80,0.8);
+    }
+    100% {
+      box-shadow: 0 0 6px #4caf50, 0 0 12px rgba(76,175,80,0.4);
+    }
+  }
+
+  /* Center the Continue button */
+  #xpPopup button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+ .fadeIn {
+  opacity: 0;
+  animation: fadeInAnim 0.4s ease-out forwards;
+  }
+
+  @keyframes fadeInAnim {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Generic hidden helpers */
+  .hidden {
+    display: none !important;
+  }
+
+  .popupHidden {
+    display: none !important;
+  }
+
+  /* Help popup container */
+  #helpPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+
+  /* Milestone popup container */
+  #milestonePopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  } 
+  
+  .popupContent {
+    background: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+  }
+
+  /* Career Complete Popup Overlay */
+  #careerCompletePopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65); /* slightly darker than help popup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000; /* above help (2000) and milestone (9999 if needed) */
+  }
+
+  /* Career Complete Popup Content */
+  #careerCompletePopup .popupContent {
+    background: #fff;
+    padding: 25px;
+    color: #000; 
+    width: 80%;
+    max-width: 650px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.75); /* 🔥 red glow */
+    border: 2px solid rgba(255, 0, 0, 0.8);     /* subtle red border */
+    animation: popupFadeIn 0.25s ease-out;
+  }
+
+  #careerCompletePopup .popupContent p strong {
+    color: #b30000; /* deep red accent */
+    font-size: 1.20rem
+  }
+
+  /* Optional fade-in animation */
+  @keyframes popupFadeIn {
+    from { transform: scale(0.95); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+  }
+
+  #profileCompleteBox {
+    color: #1a4cff; /* or any blue you prefer */
+  }
+  #profileCompleteBox h3 {
+    color: #0033cc;
+  }
+  #profileCompleteBox strong {
+    color: #002a80;
+  }
+
+  /* Tabs */
+  .tabHeader {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .tabHeader button {
+    padding: 8px 14px;
+    color:#000;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .tabHeader button.active {
+    background: #aaa;
+    font-weight: bold;
+  }
+
+  /* Scrollable text box */
+  .helpScrollBox {
+    max-height: 300px;
+    color: #000;
+    overflow-y: auto;
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Close button */
+  .closeBtn {
+    padding: 8px 14px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .raceBox {
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+  }
+
+  .racePrimary {
+    font-size: 1.1em;
+    margin-bottom: 4px;
+    color: #D6D7FF; /* Pale blue for CarModel + Variant */
+  }
+
+  .raceSecondary {
+    font-size: 0.9em;
+    margin-left: 6px;
+  }
+
+  .raceButtons {
+    margin-top: 8px;
+  }
+
+  .raceButtons button {
+    margin-right: 6px;
+  }
+
+  .selectRaceBtn {
+    font-weight: bold;
+  }
+
+  .notOwnedBtn {
+    font-style: italic;
+  }
+
+  /* Trophy Cabinet Tables */
+  .trophyTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f9f9ff; /* light theme */
+    color: #000; /* ensure readable text */
+  }
+
+  .trophyTable th {
+    background: #e6e6f5;
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .trophyTable td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    color: #000;
+  }
+
+  /* Alternating row shading */
+  .trophyTable tr:nth-child(even) {
+    background: #f4f4fc;
+  }
+
+  /* Column alignment rules */
+  .trophyTable td:first-child,
+  .trophyTable th:first-child {
+    text-align: left;   /* Specialty column */
+  }
+
+  .trophyTable td:not(:first-child),
+  .trophyTable th:not(:first-child) {
+    text-align: center; /* XP + percentages */
+  }
+
+  .achievement-earned {
+    background-color: #d4ffd4;
+    color: #003300;
+    font-weight: bold;
+  }
+
+  .achievement-locked {
+    background-color: #f0f0f0;
+    color: #666;
+  }
+
+  .achievement-earned {
+    background-color: #d4ffd4;
+    color: #003300;
+    font-weight: bold;
+  }
+
+  .achievement-locked {
+    background-color: #f0f0f0;
+    color: #666;
+  }
+
+  /* ============================================================
+     MILESTONE POPUP STYLING
+     ============================================================ */
+
+  .milestoneWindow {
+    background: #f8f8ff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 24px;
+    width: 360px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+  }
+
+  .popupTitle {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+  }
+
+  .popupBody p {
+    margin: 6px 0;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .popupButton {
+    margin-top: 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4a6cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .popupButton:hover {
+    background: #3a58d6;
+  }
+
+  /* ============================
+     EDIT DRIVER SCREEN
+  ============================ */
+  #editDriverScreen label {
+    margin-top: 12px;
+    display: block;
+    font-weight: bold;
+  }
+
+  #editDriverScreen input[type='text'],
+  #editDriverScreen input[type='range'] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #editDriverScreen .saveBtn {
+    background-color: #4caf50;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+
+  #editDriverScreen .cancelBtn {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+
+</style>
+
+<script>
+  /* ============================================================
+  // GLOBAL VARIABLES
+  // ==========================================================*/
+</script>
+
+</head>
+
+<body>
+
+  <!-- GLOBAL LOGO (large on most screens, small on Cars/Tracks screens) -->
+  <div id="globalLogoContainer">
+    <img id="globalLogo"
+         src="ams2logo.png"
+         style="width: 100%; max-width: 400px; display: block; margin: 0 auto 20px auto;">
+  </div>
+
+
+
+
+  <!-- PROFILE SCREEN -->
+  <div id="profileScreen" class="screen active">
+    <h1>AMS2 Legacy Mode</h1>
+    <button onclick="showCreateProfile()">Create New Profile</button>
+    <button id="continueProfileBtn" onclick="continueProfile()">Continue Profile</button>
+    <div id="profileSummary" class="italic"></div>
+    <div id="profileCompleteBox" class="hidden profileCompleteBox">
+      <h3>Prep Shop Complete!</h3>
+      <div id="profileCompleteStats"></div>
+    </div> 
+    <div id="profileStoryBox" class="storyBox"></div>
+ </div>
+ 
+
+  
+  <!-- CREATE PROFILE -->
+  <div id="createProfileScreen" class="screen">
+    <h2>Create Profile</h2>
+    <p>This is not your driver's name. You will create a driver next.</p>
+    <input id="profileNameInput" placeholder="Profile Name">
+    <button onclick="createProfile()">Create Profile</button>
+    <button onclick="showScreen('profileScreen')">Back</button>
+  </div>
+
+  <!-- DRIVER SELECT -->
+  <div id="driverSelectScreen" class="screen">
+    <h2>Select Driver</h2>
+    <button id="createDriverBtn" onclick="showCreateDriver()">Create New Driver</button>
+    <div id="driverSlots"></div>
+     <!-- DRIVER STORY BOX -->
+    <div id="driverStoryBox" class="storyBox"></div>
+    <button onclick="showScreen('profileScreen')">Back to Profile</button>
+  </div>
+
+  <!-- CREATE DRIVER -->
+  <div id="createDriverScreen" class="screen">
+    <h2>Create Driver</h2>
+    <input id="driverNameInput" placeholder="Driver Name (First & Last)">
+    
+    <label>Target Difficulty (80–120)</label>
+    <input type="range" id="difficultySlider" min="80" max="120" value="95" step="1">
+    <div id="difficultyValue">95</div>
+
+    <p class="italic">
+      The difficulty here is not necessarily the AI level against which you race.
+      It is the baseline used to compare your actual AI opponent level.
+      Challenging yourself yields more rewards. You can change this later.
+    </p>
+
+    <button onclick="createDriver()">Create Driver</button>
+    <button onclick="showScreen('driverSelectScreen')">Back</button>
+  </div>
+
+  <!-- EDIT DRIVER SCREEN -->
+  <div id="editDriverScreen" class="screen">
+    <h2>Edit Driver</h2>
+
+    <label for="editDriverName">Driver Name</label>
+    <input id="editDriverName" type="text">
+
+    <label for="editTargetDifficulty">Target Difficulty (80–120)</label>
+    <input type="range" id="editTargetDifficulty" min="80" max="120" step="1">
+    <div id="editTargetDifficultyValue" class="italic"></div>
+
+    <button class="saveBtn" onclick="saveDriverEdits()">Save Changes</button>
+    <button class="cancelBtn" onclick="showScreen('driverSelectScreen')">Cancel</button>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div id="dashboardScreen" class="screen">
+    <h2 id="dashName"></h2>
+    <h3 id="dashXP"></h3>
+    <h3 id="dashRanking"></h3>
+    <h4 id="dashLevels"></h4>
+
+    <table id="dashStatsTable" class="data-table" style="margin-top:10px;">
+      <tr>
+        <th>Target Difficulty</th>
+        <th>Races Completed</th>
+        <th>Wins (Podiums)</th>
+        <th>Avg. Finish</th>
+        <th>Raced AI Avg.</th>
+        <th>Target AI Avg.</th>
+      </tr>
+      <tr id="dashStatsRow"></tr>
+    </table>
+
+    <h3 id="profilePointsDisplay"></h3>
+
+    <p class="italic" id="dashDifficulty"></p>
+    <p class="italic" id="dashRaces"></p>
+    <p class="italic" id="dashAvgFinish"></p>
+    <p class="italic" id="dashAvgAI"></p>
+
+    <button onclick="startNextRace()">Start Next Race</button>
+    <button onclick="showScreen('driverSelectScreen')">Back to Drivers</button>
+    <button onclick="openHelpPopup()">Help</button>
+    <button onclick="showTrophySpecialties()">Trophy Cabinet</button>
+    
+    <div id="raceSuggestionsContainer"></div>
+
+    <h3 id="rankingHeader">Driver Rankings</h3>
+    <table id="rankingTable"></table>
+
+    <div id="availableContentSection">
+      <h3>Available Content</h3>
+      <button onclick="showCarsScreen()">Cars</button>
+      <button onclick="showTracksScreen()">Tracks</button>
+    </div>
+    <div id="xpDebugSection" style="margin-top:30px;"> 
+    <h3>XP Debug Tables</h3>
+
+    <h4>Driver Discipline XP</h4>
+    <table id="driverDisciplineXPTable" class="data-table"></table>
+
+    <h4>Prep Shop Specialty XP</h4>
+    <table id="profileSpecialtyXPTable" class="data-table"></table>
+
+    <h4>Prep Shop Region XP</h4>
+    <table id="profileRegionXPTable" class="data-table"></table>
+  </div>
+
+</div>
+
+  <!-- TROPHY CABINET SCREEN -->
+  <div id="trophyCabinetScreen" class="screen">
+    <div id="trophyNavBar">
+      <button onclick="showTrophySpecialties()">Specialties</button>
+      <button onclick="showTrophyRegions()">Regions</button>
+      <button onclick="showTrophyAchievements()">Achievements</button> 
+      <button onclick="showDashboard()">Return to Dashboard</button>
+    </div>
+
+    <div id="trophyContent"></div>
+  </div>
+
+  <!-- CARS AVAILABLE SCREEN -->
+  <div id="carsScreen" class="screen">
+    <h2>Cars Available to Race</h2>
+
+    <!-- NEW: Top Back Button -->
+    <button class="backBtn" onclick="showScreen('dashboardScreen')">Back to Dashboard</button>
+
+    <table id="carsTable" class="data-table"></table>
+
+    <!-- Existing Bottom Back Button -->
+    <button class="backBtn" onclick="showScreen('dashboardScreen')">Back to Dashboard</button>
+  </div>
+
+  <!-- TRACKS AVAILABLE SCREEN -->
+  <div id="tracksScreen" class="screen">
+    <h2>Tracks Available to Race</h2>
+
+    <!-- NEW: Top Back Button -->
+    <button class="backBtn" onclick="showScreen('dashboardScreen')">Back to Dashboard</button>
+
+    <table id="tracksTable" class="data-table"></table>
+
+    <!-- Existing Bottom Back Button -->
+    <button class="backBtn" onclick="showScreen('dashboardScreen')">Back to Dashboard</button>
+  </div>
+
+  <!-- Help Popup -->
+  <div id="helpPopup" class="popup hidden">
+    <div class="popupContent">
+
+      <div class="tabHeader">
+        <button id="prepTab" class="active" onclick="showHelpTab('prep')">Prep Shop Help</button>
+        <button id="driverTab" onclick="showHelpTab('driver')">Driver Help</button>
+        <button id="appTab" onclick="showHelpTab('app')">App Help</button>
+      </div>
+
+      <div id="helpTextContainer" class="helpScrollBox"></div>
+
+      <button class="closeBtn" onclick="closeHelpPopup()">Close</button>
+    </div>
+  </div>
+
+  <!-- CAREER COMPLETE POPUP -->
+  <div id="careerCompletePopup" class="popup popupHidden">
+    <div class="popupContent">
+      <h2>Career Complete</h2>
+      <div id="careerCompleteText"></div>
+      <button id="careerCompleteOK">OK</button>
+    </div>
+  </div>
+
+  <!-- RACE ENTRY SCREEN -->
+  <div id="raceEntryScreen" class="screen">
+    <h2>Race Results Entry</h2>
+
+    <!-- Race Summary Box -->
+    <div id="raceEntrySummary" class="raceBox"></div>
+
+    <!-- Race Length -->
+    <label for="raceLengthSelect">Race Length?</label>
+    <select id="raceLengthSelect" 
+        title="Length acts as a multiplier for XP earned in the race">
+    <option value="short">Short (10 minutes or less)</option>
+    <option value="medium">Medium (10 to 25 mins)</option>
+    <option value="long">Long (25 to 45 mins)</option>
+    <option value="endurance">Endurance (Greater than 45 mins)</option>
+    </select>
+
+    <!-- Night Race -->
+    <label for="nightRaceSelect">Night Race?</label>
+    <select id="nightRaceSelect"
+        title="Select if you raced in Daylight conditions vs. dusk/transitional/night conditions.">
+    <option value="no">No</option>
+    <option value="yes">Yes</option>
+    </select>
+
+    <!-- Weather -->
+    <label for="weatherSelect">Weather?</label>
+    <select id="weatherSelect"
+        title="Earn difficulty points for racing in mixed or wet conditions.">
+    <option value="clear">Clear</option>
+    <option value="mixed">Mixed/Wet</option>
+    </select>
+
+    <!-- AI Difficulty Slider -->
+    <label for="raceAIDifficulty"
+       title="Enter the difficulty of the AI you raced against. This will be compared to your Target difficulty level.">
+    AI Difficulty
+    </label>
+    <input type="range" id="raceAIDifficulty" min="80" max="120" step="1">
+    <div id="raceAIDifficultyValue" class="italic"></div>
+
+    <!-- Finishing Position -->
+    <label for="finishPositionSelect"
+       title="Enter your finishing position in the race.">
+    Finishing Position:
+    </label>
+    <select id="finishPositionSelect">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="10plus">10+</option>
+    <option value="dnf">DNF</option>
+    </select>
+
+    <!-- Log Result Button -->
+    <button id="logResultBtn"
+        title="Calculate XP and save this Race Result."
+        class="logResultButton">
+    Log This Result
+    </button>
+
+    <!-- Back Button -->
+    <button onclick="showScreen('dashboardScreen')">Back to Dashboard</button>
+  </div>
+
+  <!-- Award Popup Modal -->
+  <!-- 
+  <div id="awardPopup" class="awardPopupHidden">
+    <div id="awardPopupContent">
+      <h3 id="awardPopupTitle"></h3>
+      <p id="awardPopupMessage"></p>
+  
+      <div id="awardPopupDetails"></div>
+
+      <button id="awardPopupClose" onclick="closeAwardPopup()">Close</button>
+    </div>
+  </div> 
+  -->
+
+<!-- ============================================================
+     MODULE 11 — REWARD POPUP (CAR CLIENTS + TRACK INVITATION)
+     ============================================================ -->
+
+  <div id="rewardPopup">
+    <div class="modalContent">
+
+      <!-- CAR SECTION HEADER -->
+      <div class="awardSectionHeader">
+        We've got our choice of a new customer car we can add to the shop. What do you think?
+      </div>
+
+      <!-- CAR OPTIONS WILL BE INSERTED HERE BY JS -->
+      <div id="awardCarOptions"></div>
+
+
+
+      <!-- TRACK SECTION HEADER -->
+      <div class="awardSectionHeader" style="margin-top:25px;">
+        Also, I think we might be getting some invitations to race at this track in the future!
+      </div>
+
+      <!-- TRACK OPTION WILL BE INSERTED HERE BY JS -->
+      <div id="awardTrackOption"></div>
+
+
+
+      <!-- CLOSE BUTTON -->
+      <button id="awardPopupCloseBtn" onclick="closeAwardPopup()">
+        Return to Dashboard
+      </button>
+
+    </div>
+  </div>
+
+  <div id="xpPopup" class="modalOverlay">
+    <div class="modalContent xpGlow">
+      <div id="xpPopupMessage" class="xpMessage"></div>
+      <button onclick="closeXPPopup()">Continue</button>
+    </div>
+  </div>
+  
+  <!-- ============================================================
+       MILESTONE POPUP (Specialty + Region Achievements)
+       ============================================================ -->
+  <div id="milestonePopup" class="popupOverlay popupHidden">
+    <div class="popupWindow milestoneWindow">
+      <h2 class="popupTitle">Milestone Achieved!</h2>
+
+      <div id="milestoneText" class="popupBody">
+        <!-- JS will insert messages here -->
+      </div>
+
+      <button id="milestoneOK" class="popupButton">OK</button>
+    </div>
+  </div>
+  
+</body>
+
+<script>
+/* ============================================================
+   MODULE 3 — DATA LOADING
+   Loads cars, tracks, drivers, and XP rules.
+   Provides data-ready flags for gating profile creation.
+   ============================================================ */
+
+// ============================================================
+// GLOBAL VARIABLES
+// ============================================================
+
+/* DATA ARRAYS */
+let cars = [];
+let tracks = [];
+let topDrivers = [];
+let xpRules = null;
+
+/* DATA LOAD FLAGS */
+let carsLoaded = false;
+let tracksLoaded = false;
+let driversLoaded = false;
+let xpRulesLoaded = false;
+
+/* FETCH DATA FROM GITHUB PAGES */
+function loadExternalData() {
+
+  /* ---- Load Cars ---- */
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/career-cars.json")
+    .then(r => r.json())
+    .then(d => {
+      cars = d;
+      carsLoaded = true;
+    });
+
+  /* ---- Load Tracks ---- */
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/career-tracks.json")
+    .then(r => r.json())
+    .then(d => {
+      tracks = d;
+      tracksLoaded = true;
+    });
+
+  /* ---- Load Driver Rankings ---- */
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/career-drivers.json")
+    .then(r => r.json())
+    .then(d => {
+      topDrivers = d;
+      driversLoaded = true;
+    });
+
+  /* ---- Load XP Rules ---- */
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/xpRules_v2.json")
+    .then(r => r.json())
+    .then(d => {
+      xpRules = d;
+      xpRulesLoaded = true;
+      console.log("XP Rules Loaded:", xpRules);
+    })
+    .catch(err => {
+      console.error("Failed to load XP rules:", err);
+    });
+}
+
+  /* ---- Load Story Text ---- */
+  let careerText = {};
+
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/career-txt2.json")
+    .then(r => r.json())
+    .then(data => {
+      careerText = data;
+
+      // Update Profile screen if visible
+      const profileScreen = document.getElementById("profileScreen");
+      if (profileScreen.classList.contains("active")) {
+        updateProfileSummary();
+      }
+
+      // Update Driver Selection screen if visible
+      const driverScreen = document.getElementById("driverSelectScreen");
+      if (driverScreen && driverScreen.classList.contains("active")) {
+          showDriverSelection();
+      }
+
+      // Update Help popup if visible
+      updateHelpPopup();
+    });
+
+  // SPECIALTIES
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/tableSpecialty.json")
+    .then(r => r.json())
+    .then(data => {
+      tableSpecialty = data;
+      console.log("Specialty table loaded:", tableSpecialty);
+    });
+
+  // REGIONS
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/tableRegion.json")
+    .then(r => r.json())
+    .then(data => {
+      tableRegion = data;
+      console.log("Region table loaded:", tableRegion);
+    });
+
+  // ACHIEVEMENTS
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/tableAchievements.json")
+    .then(r => r.json())
+    .then(data => {
+      tableAchievements = data;
+      console.log("Achievements table loaded:", tableAchievements);
+    });
+  
+  // CAREER COMPLETION PRO PLAN  
+  let tableProPlan = [];
+
+  fetch("https://rsr427.github.io/AMS2CareerLegacy/tableProPlan.json")
+    .then(r => r.json())
+    .then(data => {
+      tableProPlan = data;
+      console.log("Pro Plan table loaded:", tableProPlan.length);
+    });
+  
+/* INITIATE DATA LOAD */
+loadExternalData();
+</script>
+
+
+<script>
+/* ============================================================
+   MODULE 4 — PROFILE SYSTEM (UPDATED FOR CarID / TrkID)
+   ============================================================ */
+
+let profile = null;
+
+function loadProfile() {
+  const saved = localStorage.getItem("ams2Profile");
+  if (saved) {
+    profile = JSON.parse(saved);
+    // ★ Safety: ensure new fields exist for older profiles
+    if (!profile.achievements) profile.achievements = [];
+    if (profile.profilePoints == null) profile.profilePoints = 0;
+    if (!profile.awardedCars) profile.awardedCars = {};
+    if (!profile.awardedTracks) profile.awardedTracks = {};
+
+    for (const driver of profile.drivers) {
+      if (driver.xp == null) driver.xp = 0;
+    }
+  // Ensure award tracking objects exist
+  profile.awardedCars = profile.awardedCars || {};
+  profile.awardedTracks = profile.awardedTracks || {};
+  }
+}
+
+loadProfile();
+
+function saveProfile() {
+  localStorage.setItem("ams2Profile", JSON.stringify(profile));
+}
+
+function getProfileSummary(profile) {
+  let totalXP = 0;
+  let totalWins = 0;
+  let totalPodiums = 0;
+  let completedDrivers = 0;
+
+  profile.drivers.forEach(d => {
+    if (!d) return;
+
+    totalXP += d.xp || 0;
+    totalWins += d.wins || 0;
+    totalPodiums += d.podiums || 0;
+
+    if (d.racesCompleted >= 70) {
+      completedDrivers++;
+    }
+  });
+
+  return {
+    totalXP,
+    totalWins,
+    totalPodiums,
+    allComplete: (completedDrivers === profile.drivers.length && profile.drivers.length > 0)
+  };
+}
+
+function showScreen(id) {
+  // Switch visible screen
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+
+  // Swap logo depending on screen
+  const logo = document.getElementById("globalLogo");
+
+  if (id === "carsScreen" || id === "tracksScreen") {
+    logo.src = "smams2logo.png";
+    logo.style.maxWidth = "250px";
+  } else {
+    logo.src = "ams2logo.png";
+    logo.style.maxWidth = "400px";
+  }
+}
+
+
+function showCreateProfile() {
+  if (profile) {
+    const confirmNew = confirm(
+      "A profile already exists. Creating a new one will overwrite your current profile and all drivers. Continue?"
+    );
+    if (!confirmNew) return;
+  }
+  showScreen("createProfileScreen");
+}
+
+function createProfile() {
+  if (!carsLoaded || !tracksLoaded || !driversLoaded) {
+    alert("Data is still loading. Please wait a moment and try again.");
+    return;
+  }
+
+  const name = document.getElementById("profileNameInput").value.trim();
+  if (!name) return alert("Please enter a profile name.");
+  
+  profile = {
+    profileName: name,
+    drivers: [],
+    achievements: [],        // ★ NEW — earned achievements
+    profilePoints: 0,        // ★ NEW — total points
+    awardedCars: {},
+    awardedTracks: {},
+    specialtyXP: {},
+    regionXP: {}
+
+  };
+
+  awardStarterContent();
+  saveProfile();
+  updateProfileSummary();
+  showDriverSelection();
+}
+
+function continueProfile() {
+  if (!profile) return;
+  showDriverSelection();
+}
+
+document.getElementById("continueProfileBtn").disabled = !profile;
+
+function updateProfileSummary() {
+  const summaryElem = document.getElementById("profileSummary");
+  if (!profile) {
+    summaryElem.innerText = "";
+    return;
+  }
+
+  const driverCount = profile.drivers.length;
+  const totalRaces = profile.drivers.reduce((sum, d) => sum + d.racesCompleted, 0);
+
+  const driverLabel = driverCount === 1 ? "1 driver" : `${driverCount} drivers`;
+  summaryElem.innerText = `${driverLabel}, ${totalRaces} races`;
+
+  // Insert profile story text (only if loaded)
+  if (careerText.profileStory) {
+    const box = document.getElementById("profileStoryBox");
+    box.innerHTML = careerText.profileStory;
+
+    box.classList.add("fadeIn");
+    setTimeout(() => box.classList.remove("fadeIn"), 500);
+  }
+  
+  // --- Profile Completion Box ---
+  const summary = getProfileSummary(profile);
+  const box = document.getElementById("profileCompleteBox");
+  const stats = document.getElementById("profileCompleteStats");
+
+  if (summary.allComplete) {
+    stats.innerHTML = `
+      <p><strong>Total Profile XP:</strong> ${summary.totalXP}</p>
+      <p><strong>Total Wins:</strong> ${summary.totalWins}</p>
+      <p><strong>Total Podiums:</strong> ${summary.totalPodiums}</p>
+      <p>Your prep shop has produced three fully developed drivers
+         who are continuing on with their careers thanks to you.
+         Congratulations on building a thriving racing program and 
+         competition race shop!</p>
+    `;
+    box.classList.remove("hidden");
+  } else {
+    box.classList.add("hidden");
+  }
+  
+}
+
+updateProfileSummary();
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
+function awardStarterContent() {
+  if (!profile.awardedCars) profile.awardedCars = {};
+  if (!profile.awardedTracks) profile.awardedTracks = {};
+
+  const level1Cars = cars.filter(c => c.level === 1 || c.Level === 1);
+  shuffleArray(level1Cars);
+  const starterCars = level1Cars.slice(0, 6);
+
+  starterCars.forEach(car => {
+    const id = car.CarID ?? car.id ?? car.ID ?? car.Id;
+    if (id == null) return;
+    profile.awardedCars[id] = {
+      awarded: 1,
+      owned: 1,
+      races: 0,
+      avgFinish: 0
+    };
+  });
+
+  const level1Tracks = tracks.filter(t => t.level === 1 || t.Level === 1);
+  shuffleArray(level1Tracks);
+  const starterTracks = level1Tracks.slice(0, 10);
+
+  starterTracks.forEach(track => {
+    const id = track.TrkID ?? track.id ?? track.ID ?? track.Id;
+    if (id == null) return;
+    profile.awardedTracks[id] = {
+      awarded: 1,
+      owned: 1,
+      races: 0,
+      avgFinish: 0
+    };
+  });
+}
+
+function showDriverSelection() {
+  renderDriverSlots();
+  const box = document.getElementById("driverStoryBox");
+  if (careerText.driverStory) {
+    box.innerHTML = careerText.driverStory;
+
+    // Fade in
+    box.classList.add("fadeIn");
+    setTimeout(() => box.classList.remove("fadeIn"), 500);
+  }
+  showScreen("driverSelectScreen");
+}
+
+</script>
+
+
+<script>
+/* ============================================================
+   MODULE 5 — DRIVER MANAGEMENT
+   Handles creation, deletion, selection, and slot rendering.
+   ============================================================ */
+
+let activeDriverIndex = null;
+
+/* RENDER DRIVER SLOTS */
+function renderDriverSlots() {
+  const container = document.getElementById("driverSlots");
+  container.innerHTML = "";
+
+  for (let i = 0; i < 3; i++) {
+    const slot = document.createElement("div");
+    slot.className = "driver-slot";
+
+    const driver = profile.drivers[i];
+
+    if (driver) {
+      slot.innerHTML = `
+        <div>
+          <strong>${driver.driverName}</strong><br>
+          Races: ${driver.racesCompleted} / 70<br>
+          XP: ${driver.xp}<br>
+          <span class="italic">Target Difficulty: ${driver.targetDifficulty}</span>
+        </div>
+        <div>
+          <span class="delete-btn" onclick="deleteDriver(${i})">X</span>
+          <button onclick="editDriver(${i})">Edit</button>
+          <button onclick="selectDriver(${i})">Select</button>
+        </div>
+      `;
+    } else {
+      slot.innerHTML = `<div>Empty Slot</div>`;
+    }
+
+    container.appendChild(slot);
+  }
+
+  document.getElementById("createDriverBtn").disabled = profile.drivers.length >= 3;
+}
+
+/* SHOW CREATE DRIVER SCREEN */
+function showCreateDriver() {
+  showScreen("createDriverScreen");
+
+  const slider = document.getElementById("difficultySlider");
+  const value  = document.getElementById("difficultyValue");
+
+  // Sync the display with the slider's current value
+  value.innerText = slider.value;
+
+  slider.oninput = function () {
+    value.innerText = this.value;
+  };
+}
+
+/* DIFFICULTY SLIDER DISPLAY */
+document.getElementById("editTargetDifficulty").oninput = function () {
+  document.getElementById("editTargetDifficultyValue").innerText = this.value;
+};
+
+/* CREATE DRIVER */
+function createDriver() {
+  const name = document.getElementById("driverNameInput").value.trim();
+  //document.getElementById("difficultySlider").oninput = function () {
+  //  document.getElementById("difficultyValue").innerText = this.value;
+  //};  
+  const diff = parseInt(document.getElementById("difficultySlider").value);
+
+  if (!name) return alert("Please enter a driver name.");
+
+const newDriver = {
+  driverName: name,
+  targetDifficulty: diff,
+
+  // Core progression
+  xp: 0,
+  racesCompleted: 0,
+  wins: 0,
+  podiums: 0,
+  carLevel: 1,
+  trackLevel: 1,
+
+  // Averages (driver-level)
+  avgFinish: 0,
+  avgAILevel: 0,
+  targetAIAverage: diff,  // will evolve later when user can change target difficulty
+
+  // Discipline XP (driver-level)
+  disciplineXP: {},   // e.g., { "GT": 120, "Formula": 40 }
+  specialty: "",       // computed after each race
+
+  // Per-car stats (driver-level)
+  carStats: {
+    // carID: { races: 0, avgFinish: 0 }
+  },
+
+  // Per-track stats (driver-level)
+  trackStats: {
+    // trackID: { races: 0, avgFinish: 0 }
+  }
+};
+
+    
+
+  profile.drivers.push(newDriver);
+  saveProfile();
+  updateProfileSummary();
+  showDriverSelection();
+}
+
+/* DELETE DRIVER */
+function deleteDriver(i) {
+  if (!confirm("Are you sure you want to delete this driver?")) return;
+  profile.drivers.splice(i, 1);
+  saveProfile();
+  updateProfileSummary();
+  renderDriverSlots();
+}
+
+/* SELECT DRIVER */
+function selectDriver(i) {
+  activeDriverIndex = i;
+  showDashboard();
+}
+
+function saveDriverEdits() {
+  const d = profile.drivers[activeDriverIndex];
+
+  d.driverName = document.getElementById("editDriverName").value.trim();
+  d.targetDifficulty = parseInt(document.getElementById("editTargetDifficulty").value);
+
+/*  d.targetAIAverage = parseInt(document.getElementById("editTargetDifficulty").value); */
+  
+  saveProfile();
+  showDriverSelection();
+  showScreen("driverSelectScreen");
+}
+
+function editDriver(index) {
+  activeDriverIndex = index;
+  const d = profile.drivers[index];
+
+  document.getElementById("editDriverName").value = d.driverName;
+  document.getElementById("editTargetDifficulty").value = d.targetDifficulty;
+  document.getElementById("editTargetDifficultyValue").innerText = d.targetDifficulty;
+
+  showScreen("editDriverScreen");
+}
+
+</script>
+
+<script>
+/* ============================================================
+   MODULE 10 — LOG RACE RESULT (FINAL MERGED VERSION)
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   LOG RESULT BUTTON HANDLER
+------------------------------------------------------------ */
+document.getElementById("logResultBtn").onclick = function () {
+  logRaceResult();
+};
+
+/* ------------------------------------------------------------
+   XP CALCULATION HELPER
+------------------------------------------------------------ */
+function calculateXP(raceLength, nightRace, weather, finishPos, carLevel, aiDifficulty, targetDifficulty) {
+  let xp = xpRules.baseXP;
+
+  xp *= xpRules.raceLength[raceLength];
+  xp *= xpRules.nightRace[nightRace];
+  xp *= xpRules.weather[weather];
+  xp *= xpRules.finishPosition[finishPos];
+  xp *= xpRules.carLevel[carLevel];
+
+  const diff = aiDifficulty - targetDifficulty;
+
+  if (diff >= 0) {
+    xp *= 1 + diff * xpRules.aiDifficulty.perPointAboveTarget;
+  } else {
+    xp *= 1 + diff * xpRules.aiDifficulty.perPointBelowTarget;
+  }
+
+  return Math.max(0, Math.round(xp));
+}
+
+/* ------------------------------------------------------------
+   ★ NEW — MILESTONE CHECK HELPERS
+------------------------------------------------------------ */
+function checkSpecialtyMilestones(oldXPMap, newXPMap) {
+  const hits = [];
+
+  for (const row of tableSpecialty) {
+    const name = row.Specialty;
+    const oldXP = oldXPMap[name] || 0;
+    const newXP = newXPMap[name] || 0;
+
+    if (oldXP < row.XP_for_Competence && newXP >= row.XP_for_Competence)
+      hits.push(`${name}: Competence achieved!`);
+
+    if (oldXP < row.XP_for_Mastery && newXP >= row.XP_for_Mastery)
+      hits.push(`${name}: Mastery achieved!`);
+
+    if (oldXP < row.XP_for_WorldClass && newXP >= row.XP_for_WorldClass)
+      hits.push(`${name}: World Class achieved!`);
+  }
+
+  return hits;
+}
+
+function checkRegionMilestones(oldXPMap, newXPMap) {
+  const hits = [];
+
+  for (const row of tableRegion) {
+    const name = row.Region;
+    const oldXP = oldXPMap[name] || 0;
+    const newXP = newXPMap[name] || 0;
+
+    if (oldXP < row.XP_to_Open && newXP >= row.XP_to_Open)
+      hits.push(`${name}: Open level achieved!`);
+
+    if (oldXP < row.XP_to_Expert && newXP >= row.XP_to_Expert)
+      hits.push(`${name}: Expert level achieved!`);
+  }
+
+  return hits;
+}
+
+function checkAllMilestones(oldXPMap, newXPMap) {
+  const specialtyHits = checkSpecialtyMilestones(oldXPMap, newXPMap);
+  const regionHits = checkRegionMilestones(oldXPMap, newXPMap);
+
+  return [...specialtyHits, ...regionHits];
+}
+
+/* ------------------------------------------------------------
+   ★ NEW — POPUP TRIGGER
+------------------------------------------------------------ */
+function showMilestonePopup(messages, callback) {
+  window._pendingMilestoneCallback = callback;
+
+  // Build the HTML for the popup body
+let html = "";
+messages.forEach(msg => {
+
+  // If the message already contains "(+"
+  // then it already includes its own point value (achievement)
+  if (msg.includes("(+")) {
+    html += `<p>${msg}</p>`;
+    return;
+  }
+
+  // Otherwise, it's a milestone and we compute milestone points
+  let pts = 0;
+
+  if (msg.includes("Competence")) pts = xpRules.specialtyPoints.competence;
+  if (msg.includes("Mastery")) pts = xpRules.specialtyPoints.mastery;
+  if (msg.includes("World Class")) pts = xpRules.specialtyPoints.worldclass;
+
+  if (msg.includes("Open level")) pts = xpRules.regionPoints.open;
+  if (msg.includes("Expert level")) pts = xpRules.regionPoints.expert;
+
+  html += `<p>${msg} <span style="color:#4caf50;">(+${pts} pts)</span></p>`;
+});
+
+  // Insert into the popup
+  document.getElementById("milestoneText").innerHTML = html;
+
+  // Show popup
+  document.getElementById("milestonePopup").classList.remove("popupHidden");
+}
+
+/* ------------------------------------------------------------
+   MAIN FUNCTION — LOG RACE RESULT
+------------------------------------------------------------ */
+function logRaceResult() {
+  const d = profile.drivers[activeDriverIndex];
+  const oldXP = d.xp;
+
+  // --- Safety: XP rules must be loaded ---
+  if (!xpRulesLoaded || !xpRules) {
+    alert("XP rules are still loading. Please wait a moment.");
+    return;
+  }
+
+  // ★ NEW — Snapshot old Specialty + Region XP BEFORE updating
+  const oldSpecialtyXP = { ...profile.specialtyXP };
+  const oldRegionXP = { ...profile.regionXP };
+
+  // --- 1. Increment races completed ---
+  d.racesCompleted = (d.racesCompleted || 0) + 1;
+
+  // --- 2. Store old levels for level-up detection ---
+  const oldCarLevel = Math.max(1, Math.floor((d.racesCompleted - 1) / 10) + 1);
+  const oldTrackLevel = Math.max(1, Math.floor((d.racesCompleted - 1) / 16) + 1);
+
+  // --- 3. Collect values from Race Entry screen ---
+  const raceLength = document.getElementById("raceLengthSelect").value;
+  const nightRace = document.getElementById("nightRaceSelect").value;
+  const weather = document.getElementById("weatherSelect").value;
+  const finishPos = document.getElementById("finishPositionSelect").value;
+
+  const aiDifficulty = parseInt(document.getElementById("raceAIDifficulty").value);
+  const targetDifficulty = d.targetDifficulty;
+
+  // --- 4. Get car + track definitions ---
+  const carID = profile.currentRace.carID;
+  const trackID = profile.currentRace.trackID;
+
+  const carDef = cars.find(c => c.CarID === carID);
+  const trackDef = tracks.find(t => t.TrkID === trackID);
+
+  const carLevel = carDef.Level ?? carDef.level;
+  const discipline = carDef.Discipline ?? carDef.discipline ?? "Unknown";
+  const specialty = carDef.Specialty ?? "Unknown";
+  const region = trackDef.Region ?? trackDef.region ?? "Unknown";
+
+  // --- 5. Calculate XP ---
+  const xp = calculateXP(raceLength, nightRace, weather, finishPos, carLevel, aiDifficulty, targetDifficulty);
+
+  // --- 6. Update driver XP ---
+  d.xp += xp;
+
+  // --- 7. Update driver averages ---
+  const finishNumeric = finishPos === "dnf" ? 99 : parseInt(finishPos);
+
+  d.avgFinish = ((d.avgFinish * (d.racesCompleted - 1)) + finishNumeric) / d.racesCompleted;
+  d.avgAILevel = ((d.avgAILevel * (d.racesCompleted - 1)) + aiDifficulty) / d.racesCompleted;
+
+  if (d.racesCompleted === 1) {
+      // First race → average is simply the target difficulty
+      d.targetAIAverage = d.targetDifficulty;
+  } else {
+      d.targetAIAverage =
+          ((d.targetAIAverage * (d.racesCompleted - 1)) + d.targetDifficulty) /
+          d.racesCompleted;
+}
+
+  // --- 8. Update per-car stats ---
+  if (!d.carStats[carID]) {
+    d.carStats[carID] = { races: 0, avgFinish: 0 };
+  }
+  let cs = d.carStats[carID];
+  cs.avgFinish = ((cs.avgFinish * cs.races) + finishNumeric) / (cs.races + 1);
+  cs.races++;
+
+  // Wins and podiums
+  if (finishNumeric === 1) d.wins++;
+  if (finishNumeric >= 1 && finishNumeric <= 3) d.podiums++;
+
+  // --- Update profile-level car usage ---
+  if (!profile.awardedCars[carID]) {
+    profile.awardedCars[carID] = { awarded: 1, owned: 1, races: 0 };
+  }
+  profile.awardedCars[carID].races++;
+
+  // --- 9. Update per-track stats ---
+  if (!d.trackStats[trackID]) {
+    d.trackStats[trackID] = { races: 0, avgFinish: 0 };
+  }
+  let ts = d.trackStats[trackID];
+  ts.avgFinish = ((ts.avgFinish * ts.races) + finishNumeric) / (ts.races + 1);
+  ts.races++;
+
+  // --- Update profile-level track usage ---
+  if (!profile.awardedTracks[trackID]) {
+    profile.awardedTracks[trackID] = { awarded: 1, owned: 1, races: 0 };
+  }
+  profile.awardedTracks[trackID].races++;
+
+  // --- 10. Update discipline XP ---
+  if (!d.disciplineXP[discipline]) d.disciplineXP[discipline] = 0;
+  d.disciplineXP[discipline] += xp;
+  
+  // --- 11. Update specialty XP + region XP ---
+  if (!profile.specialtyXP[specialty]) profile.specialtyXP[specialty] = 0;
+  profile.specialtyXP[specialty] += xp;
+
+  if (!profile.regionXP[region]) profile.regionXP[region] = 0;
+  profile.regionXP[region] += xp;
+
+  // --- 12. Compute driver specialty ---
+  let bestDisc = "";
+  let bestXP = -1;
+  for (const disc in d.disciplineXP) {
+    if (d.disciplineXP[disc] > bestXP) {
+      bestXP = d.disciplineXP[disc];
+      bestDisc = disc;
+    }
+  }
+  d.specialty = bestDisc;
+
+  // --- 13. Compute new levels ---
+  const newCarLevel = Math.max(1, Math.floor(d.racesCompleted / 10) + 1);
+  const newTrackLevel = Math.max(1, Math.floor(d.racesCompleted / 16) + 1);
+
+  d.carLevel = newCarLevel;
+  d.trackLevel = newTrackLevel;
+
+  // --- 13.5 Select level-up rewards ---
+  let rewardCar = null;
+  let rewardTrack = null;
+
+  if (newCarLevel > oldCarLevel) {
+    const eligibleCars = cars.filter(c =>
+      (c.Level ?? c.level) === newCarLevel &&
+      c.Owned === 1 &&
+      c.Awarded === 0
+    );
+
+    if (eligibleCars.length > 0) {
+      rewardCar = eligibleCars[Math.floor(Math.random() * eligibleCars.length)];
+      rewardCar.Awarded = 1;
+    }
+  }
+
+  if (newTrackLevel > oldTrackLevel) {
+    const eligibleTracks = tracks.filter(t =>
+      (t.Level ?? t.level) === newTrackLevel &&
+      t.Owned === 1 &&
+      t.Awarded === 0
+    );
+
+    if (eligibleTracks.length > 0) {
+      rewardTrack = eligibleTracks[Math.floor(Math.random() * eligibleTracks.length)];
+      rewardTrack.Awarded = 1;
+    }
+  }
+
+  // --- 14. Level-up rewards ---
+  if (newCarLevel > oldCarLevel && rewardCar) {
+    saveProfile();
+    window._pendingLevelUpReward = { type: "car", item: rewardCar };
+  } else if (newTrackLevel > oldTrackLevel && rewardTrack) {
+    saveProfile();
+    window._pendingLevelUpReward = { type: "track", item: rewardTrack };
+  }
+
+  // --- 15. Add race to history ---
+  if (!profile.raceHistory) profile.raceHistory = [];
+  profile.raceHistory.push({
+    driverIndex: activeDriverIndex,
+    carID,
+    trackID,
+    raceLength,
+    nightRace,
+    weather,
+    finishPos,
+    aiDifficulty,
+    xpEarned: xp,
+    timestamp: Date.now()
+  });
+
+  // --- 16. Recalculate ranking ---
+  const { rank: oldRank } = getUnifiedRanking(oldXP);
+  const { rank: newRank } = getUnifiedRanking(d.xp);
+
+  // --- 17. Save profile ---
+  saveProfile();
+
+/* ------------------------------------------------------------
+   ★ ACHIEVEMENT METRIC RESOLVER (ROLLED BACK / STABLE VERSION)
+------------------------------------------------------------ */
+function computeMetricValue(metric) {
+  const d = profile.drivers[activeDriverIndex];
+
+  switch (metric) {
+
+    /* -------------------------
+       DRIVER-LEVEL METRICS
+    ------------------------- */
+
+    case "driver_wins":
+      return d.wins;
+
+    case "driver_podiums":
+      return d.podiums;
+
+    case "driver_xp":
+      return d.xp;
+
+    case "driver_unique_disciplines":
+      return Object.values(d.disciplineXP).filter(xp => xp > 0).length;
+
+    case "driver_unique_regions": {
+      const regions = new Set();
+      for (const entry of profile.raceHistory) {
+        if (entry.driverIndex === activeDriverIndex) {
+          const track = tracks.find(t => t.TrkID === entry.trackID);
+          if (track && track.Region) regions.add(track.Region);
+        }
+      }
+      return regions.size;
+    }
+
+    /* -------------------------
+       PROFILE-LEVEL METRICS
+    ------------------------- */
+
+    case "profile_unique_cars":
+      return Object.values(profile.awardedCars).filter(c => c.races > 0).length;
+
+    case "profile_most_used_car": {
+      const counts = Object.values(profile.awardedCars).map(c => c.races);
+      return counts.length > 0 ? Math.max(...counts) : 0;
+    }
+
+    case "profile_unique_tracks":
+      return Object.values(profile.awardedTracks).filter(t => t.races > 0).length;
+
+    case "profile_specialties_competence":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_Competence
+      ).length;
+
+    case "profile_specialties_mastery":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_Mastery
+      ).length;
+
+    case "profile_specialties_worldclass":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_WorldClass
+      ).length;
+
+    case "profile_regions_open":
+      return tableRegion.filter(row =>
+        (profile.regionXP[row.Region] || 0) >= row.XP_to_Open
+      ).length;
+
+    case "profile_regions_expert":
+      return tableRegion.filter(row =>
+        (profile.regionXP[row.Region] || 0) >= row.XP_to_Expert
+      ).length;
+
+    /* -------------------------
+       DEFAULT
+    ------------------------- */
+
+    default:
+      console.warn("Unknown achievement metric:", metric);
+      return 0;
+  }
+}
+
+/* ------------------------------------------------------------
+   ★ NEW — ACHIEVEMENT CHECKER
+------------------------------------------------------------ */
+function checkAchievements() {
+  if (!profile.achievements) profile.achievements = [];
+
+  const newHits = [];
+
+  for (const ach of tableAchievements) {
+
+    // Skip if already earned at profile level
+    if (profile.achievements.includes(ach.AchIdx)) {
+      continue;
+    }
+
+    // Compute the metric value
+    const value = computeMetricValue(ach.Metric);
+
+    // Check threshold
+    if (value >= ach.Threshold) {
+      newHits.push(ach);
+
+      // Mark as earned
+      profile.achievements.push(ach.AchIdx);
+
+      // Award profile points
+      profile.profilePoints += ach.Points;
+    }
+  }
+
+  if (newHits.length > 0) {
+    saveProfile();
+  }
+
+  return newHits;
+}
+
+/* ------------------------------------------------------------
+   ★ NEW — MILESTONE DETECTION (Specialty + Region)
+   ------------------------------------------------------------ */
+const specHits = checkSpecialtyMilestones(oldSpecialtyXP, profile.specialtyXP);
+const regionHits = checkRegionMilestones(oldRegionXP, profile.regionXP);
+
+const allMilestones = [...specHits, ...regionHits];
+
+/* ------------------------------------------------------------
+   ★ NEW — AWARD PROFILE POINTS FOR MILESTONES
+   ------------------------------------------------------------ */
+if (allMilestones.length > 0) {
+
+  // Specialty points
+  for (const hit of specHits) {
+    if (hit.includes("Competence")) profile.profilePoints += xpRules.specialtyPoints.competence;
+    if (hit.includes("Mastery")) profile.profilePoints += xpRules.specialtyPoints.mastery;
+    if (hit.includes("World Class")) profile.profilePoints += xpRules.specialtyPoints.worldclass;
+  }
+
+  // Region points
+  for (const hit of regionHits) {
+    if (hit.includes("Open level")) profile.profilePoints += xpRules.regionPoints.open;
+    if (hit.includes("Expert level")) profile.profilePoints += xpRules.regionPoints.expert;
+  }
+
+  saveProfile();
+
+  // Now show popup
+  showMilestonePopup(allMilestones, () => {
+    showXPPopup(xp, newRank, d.xp);
+  });
+
+  return;
+}
+
+/* ------------------------------------------------------------
+   ★ NEW — ACHIEVEMENT DETECTION
+------------------------------------------------------------ */
+const achievementHits = checkAchievements();
+
+if (achievementHits.length > 0) {
+  const messages = achievementHits.map(a =>
+    `<strong>${a.AchievementName} (+${a.Points} pts)</strong><br><span class="achDesc">${a.Description}</span>`
+  );
+
+  showMilestonePopup(messages, () => {
+    showXPPopup(xp, newRank, d.xp);
+  });
+
+  return;
+}
+
+/* ------------------------------------------------------------
+   ★ NO MILESTONES OR ACHIEVEMENTS — SHOW XP POPUP
+------------------------------------------------------------ */
+showXPPopup(xp, newRank, d.xp);
+return;
+
+  // --- 19. Trigger reward popup (unreachable due to return above) ---
+  document.getElementById("raceSuggestionsContainer").style.display = "none";
+  showRewardPopup();
+}
+
+/* ------------------------------------------------------------
+   DRIVER RANK LOOKUP
+------------------------------------------------------------ */
+function getDriverRank(xp) {
+  for (let i = 0; i < topDrivers.length; i++) {
+    if (xp >= topDrivers[i].XP) return i + 1;
+  }
+  return topDrivers.length + 1;
+}
+</script>
+
+<script>
+/* ============================================================
+   MODULE 6 — DASHBOARD + RANKINGS (UNIFIED, OPTION B)
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   UNIFIED RANKING ENGINE
+------------------------------------------------------------ */
+function getUnifiedRanking(userXP, userName) {
+  const list = topDrivers.map(d => {
+    const xp = Number(d.XP ?? d.Target ?? 0);
+    return {
+      Name: d.Name,
+      Specialty: d.Specialty ?? "",
+      Target: xp
+    };
+  });
+
+  list.push({
+    Name: userName,
+    Specialty: "-",
+    Target: Number(userXP) || 0
+  });
+
+  list.sort((a, b) => b.Target - a.Target);
+
+  const rank = list.findIndex(d => d.Name === userName) + 1;
+
+  return { list, rank };
+}
+
+/* ------------------------------------------------------------
+   COMPUTE USER RANK (simple helper)
+------------------------------------------------------------ */
+function computeUserRank(userXP) {
+  if (!topDrivers || topDrivers.length === 0) return 1;
+
+  let countAbove = 0;
+  for (const d of topDrivers) {
+    if (userXP < d.Target) countAbove++;
+  }
+  return countAbove + 1;
+}
+
+/* ------------------------------------------------------------
+   BUILD RANKING TABLE (Option B layout)
+------------------------------------------------------------ */
+function buildRankingTable(userXP, userName) {
+  const table = document.getElementById("rankingTable");
+  const d = profile.drivers[activeDriverIndex];
+  table.innerHTML = "";
+
+  if (!topDrivers || topDrivers.length === 0) {
+    const row = document.createElement("tr");
+    const cell = document.createElement("td");
+    cell.colSpan = 4;
+    cell.innerText = "Ranking data unavailable.";
+    row.appendChild(cell);
+    table.appendChild(row);
+    return;
+  }
+
+  // Unified ranking
+  const { list, rank: userRank } = getUnifiedRanking(userXP, userName);
+
+  // Header row
+  const headerRow = document.createElement("tr");
+  ["Rank", "Driver", "Specialty", "Target / XP"].forEach(text => {
+    const th = document.createElement("th");
+    th.innerText = text;
+    headerRow.appendChild(th);
+  });
+  table.appendChild(headerRow);
+
+  // Helper to add a legend row
+  function addLegendRow(rank, entry) {
+  console.log("Legend row:", entry); 
+  const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>#${rank}</td>
+      <td>${entry.Name}</td>
+      <td>${entry.Specialty}</td>
+      <td>${entry.Target.toFixed(1)}</td>
+    `;
+    table.appendChild(tr);
+  }
+
+  // Helper to add the user row
+  function addUserRow() {
+    const tr = document.createElement("tr");
+    tr.style.backgroundColor = "#D6D7FF";
+    tr.style.color = "#000";
+    tr.style.fontWeight = "bold";
+
+    tr.innerHTML = `
+      <td>#${userRank}</td>
+      <td>${userName}</td>
+      <td>${d.specialty || "—"}</td>
+      <td>${userXP}</td>
+    `;
+    table.appendChild(tr);
+  }
+
+  /* ------------------------------------------------------------
+     TOP 10 MODE — must be defined BEFORE use
+  ------------------------------------------------------------ */
+  function renderTopTenOnly(userRank) {
+    const table = document.getElementById("rankingTable");
+
+    table.innerHTML = `
+      <tr>
+        <th>Rank</th>
+        <th>Driver</th>
+        <th>Specialty</th>
+        <th>Target / XP</th>
+      </tr>
+    `;
+
+    for (let i = 0; i < 10; i++) {
+      const drv = topDrivers[i];
+      const isUser = (i + 1 === userRank);
+
+      table.innerHTML += `
+        <tr ${isUser ? 'class="highlightRow"' : ''}>
+          <td>${i + 1}</td>
+          <td>${isUser ? `<strong>${profile.drivers[activeDriverIndex].driverName}</strong>` : drv.Name}</td>
+          <td>${isUser ? (profile.drivers[activeDriverIndex].specialty || "—") : drv.Specialty}</td>
+          <td>${isUser ? profile.drivers[activeDriverIndex].xp : drv.Target.toFixed(1)}</td>
+        </tr>
+      `;
+    }
+  }
+
+  /* ------------------------------------------------------------
+     MAIN RANKING LOGIC
+  ------------------------------------------------------------ */
+  if (userRank <= 10) {
+    renderTopTenOnly(userRank);
+    return;
+  }
+
+  /* ------------------------------------------------------------
+     OPTION B LAYOUT:
+     - Top 5
+     - Ellipsis if user rank > 10
+     - 5 above user
+     - User
+     - 3 below user
+  ------------------------------------------------------------ */
+
+  // Top 5
+  for (let i = 0; i < 5 && i < list.length; i++) {
+    addLegendRow(i + 1, list[i]);
+  }
+
+  // Ellipsis if user rank is far down
+  if (userRank > 10) {
+    const sepRow = document.createElement("tr");
+    const sepCell = document.createElement("td");
+    sepCell.colSpan = 4;
+    sepCell.style.textAlign = "center";
+    sepCell.innerText = "...";
+    sepRow.appendChild(sepCell);
+    table.appendChild(sepRow);
+  }
+
+  // 5 above user
+  if (userRank > 1) {
+    const start = Math.max(1, userRank - 5);
+    const end = userRank - 1;
+
+    for (let r = start; r <= end; r++) {
+      addLegendRow(r, list[r - 1]);
+    }
+  }
+
+  // User row
+  addUserRow();
+
+  // 3 below user
+  if (userRank < list.length) {
+    const start = userRank + 1;
+    const end = Math.min(list.length, userRank + 3);
+
+    for (let r = start; r <= end; r++) {
+      addLegendRow(r, list[r - 1]);
+    }
+  }
+}
+
+/* ------------------------------------------------------------
+   DASHBOARD RENDERING
+------------------------------------------------------------ */
+function showDashboard() {
+  const d = profile.drivers[activeDriverIndex];
+
+  // Always hide race suggestions when returning to dashboard
+  document.getElementById("raceSuggestionsContainer").style.display = "none";
+  
+  // -----------------------------
+  // Driver Name + XP
+  // -----------------------------
+  const dashName = document.getElementById("dashName");
+  dashName.innerText = d.driverName;
+  dashName.style.color = "#D6D7FF";
+
+  document.getElementById("dashXP").innerHTML = `
+    Driver Reputation / XP:
+    <span class="xpBadge">${d.xp}</span>
+  `;
+
+  // -----------------------------
+  // Ranking (Unified Ranking System)
+  // -----------------------------
+  const { rank } = getUnifiedRanking(d.xp, d.driverName);
+  document.getElementById("dashRanking").innerHTML = `
+    Ranking:
+    <span class="rankBadge">#${rank}</span>
+  `;
+
+  // -----------------------------
+  // Trust Levels (Car / Track)
+  // -----------------------------
+  document.getElementById("dashLevels").innerHTML = `
+    Trust Level - Car / Track:
+    <span class="levelBadge">${d.carLevel} / ${d.trackLevel}</span>
+  `;
+
+  // -----------------------------
+  // Stats Row (Driver-Level Averages)
+  // -----------------------------
+  const statsRow = document.getElementById("dashStatsRow");
+  statsRow.innerHTML = `
+    <td>${d.targetDifficulty}</td>
+    <td>${d.racesCompleted}</td>
+    <td>${d.wins} (${d.podiums})</td>
+    <td>${d.avgFinish.toFixed(1)}</td>
+    <td>${d.avgAILevel.toFixed(1)}</td>
+    <td>${d.targetAIAverage.toFixed(0)}</td>
+  `;
+
+  // Profile Points ------
+  document.getElementById("profilePointsDisplay").innerText =
+    `Profile Points: ${profile.profilePoints}`;
+
+  // -----------------------------
+  // Ranking Table
+  // -----------------------------
+  buildRankingTable(d.xp, d.driverName);
+
+  // -----------------------------
+  // Show Dashboard Screen
+  // -----------------------------
+  showScreen("dashboardScreen");
+
+  // -----------------------------
+  // XP Debug Tables
+  // -----------------------------
+  renderDriverDisciplineXP(d);
+  renderProfileSpecialtyXP();
+  renderProfileRegionXP();
+}
+
+
+/* ------------------------------------------------------------
+   XP TABLE RENDERING
+------------------------------------------------------------ */
+function renderDriverDisciplineXP(driver) {
+  const table = document.getElementById("driverDisciplineXPTable");
+  table.innerHTML = "";
+
+  const header = document.createElement("tr");
+  header.innerHTML = "<th>Discipline</th><th>XP</th>";
+  table.appendChild(header);
+
+  const xpMap = driver.disciplineXP || {};
+  Object.keys(xpMap).forEach(key => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${key}</td><td>${xpMap[key]}</td>`;
+    table.appendChild(tr);
+  });
+}
+
+function renderProfileSpecialtyXP() {
+  const table = document.getElementById("profileSpecialtyXPTable");
+  table.innerHTML = "";
+
+  const header = document.createElement("tr");
+  header.innerHTML = "<th>Specialty</th><th>XP</th>";
+  table.appendChild(header);
+
+  const xpMap = profile.specialtyXP || {};
+  Object.keys(xpMap).forEach(key => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${key}</td><td>${xpMap[key]}</td>`;
+    table.appendChild(tr);
+  });
+}
+
+function renderProfileRegionXP() {
+  const table = document.getElementById("profileRegionXPTable");
+  table.innerHTML = "";
+
+  const header = document.createElement("tr");
+  header.innerHTML = "<th>Region</th><th>XP</th>";
+  table.appendChild(header);
+
+  const xpMap = profile.regionXP || {};
+  Object.keys(xpMap).forEach(key => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${key}</td><td>${xpMap[key]}</td>`;
+    table.appendChild(tr);
+  });
+}
+
+document.getElementById("careerCompleteOK").onclick = function () {
+  document.getElementById("careerCompletePopup").classList.add("popupHidden");
+};
+
+function showCareerCompletePopup(d) {
+    const { rank: finalRank } = getUnifiedRanking(d.xp);
+
+    const plans = tableProPlan.filter(p => p.Discipline === d.specialty);
+    let chosen = plans[0];
+
+    for (const p of plans) {
+        if (d.xp >= p.XPLevel && p.XPLevel >= chosen.XPLevel) {
+            chosen = p;
+        }
+    }
+
+    const summary = `
+        <p><strong>Your two‑year journey is complete!</strong></p>
+        <p>Final Hall of Fame Ranking: #${finalRank}</p>
+        <p>Wins: ${d.wins}</p>
+        <p>Podiums: ${d.podiums}</p>
+        <p>Average Finish: ${d.avgFinish.toFixed(2)}</p>
+        <p><strong>Next Step:</strong></p>
+        <p>${chosen.ProPlan}</p>
+    `;
+
+    document.getElementById("careerCompleteText").innerHTML = summary;
+    document.getElementById("careerCompletePopup").classList.remove("popupHidden");
+}
+
+function startNextRace() {
+
+console.log("startNextRace CALLED");
+console.log("activeDriverIndex:", activeDriverIndex);
+console.log("driver:", profile.drivers[activeDriverIndex]);
+console.log("INTERCEPT: driver has 70+ races");
+console.log("showCareerCompletePopup CALLED");
+
+
+    const d = profile.drivers[activeDriverIndex];
+
+    if (d.racesCompleted >= 70) {
+        showCareerCompletePopup(d);
+        return;
+    }
+
+  generateRaceSuggestions();
+  const box = document.getElementById("raceSuggestionsContainer");
+  box.style.display = "block";
+  box.classList.add("fadeIn");
+
+  setTimeout(() => box.classList.remove("fadeIn"), 500);
+}
+  
+  // -----------------------------
+  // Show Help Screen
+
+function openHelpPopup() {
+  document.getElementById("helpPopup").classList.remove("hidden");
+  showHelpTab("prep"); // default tab
+}
+
+function closeHelpPopup() {
+  document.getElementById("helpPopup").classList.add("hidden");
+}
+
+function showHelpTab(which) {
+  const prepBtn = document.getElementById("prepTab");
+  const driverBtn = document.getElementById("driverTab");
+  const appBtn = document.getElementById("appTab");
+  const container = document.getElementById("helpTextContainer");
+
+  prepBtn.classList.remove("active");
+  driverBtn.classList.remove("active");
+  appBtn.classList.remove("active");
+
+  if (which === "prep") {
+    prepBtn.classList.add("active");
+    container.innerHTML = careerText.profileHelp;
+  } else if (which === "driver") {
+    driverBtn.classList.add("active");
+    container.innerHTML = careerText.driverHelp;
+  } else {
+    appBtn.classList.add("active");
+    container.innerHTML = careerText.programHelp;
+  }
+}
+
+function updateHelpPopup() {
+  const popup = document.getElementById("helpPopup");
+  if (!popup || popup.classList.contains("hidden")) return;
+
+  const container = document.getElementById("helpTextContainer");
+
+  if (document.getElementById("prepTab").classList.contains("active")) {
+    container.innerHTML = careerText.profileHelp;
+  } else if (document.getElementById("driverTab").classList.contains("active")) {
+    container.innerHTML = careerText.driverHelp;
+  } else {
+    container.innerHTML = careerText.programHelp;
+  }
+}
+
+function formatProgress(xp, threshold) {
+  if (!threshold || threshold <= 0) return "—";
+
+  const pct = Math.floor((xp / threshold) * 100);
+  if (pct >= 100) return "⭐";
+  return pct + "%";
+}
+
+function showTrophySpecialties() {
+  const container = document.getElementById("trophyContent");
+  container.innerHTML = "";
+  const table = document.createElement("table");
+  table.className = "trophyTable";
+
+  table.innerHTML = `
+    <tr>
+      <th>Specialty</th>
+      <th>XP</th>
+      <th>Competence</th>
+      <th>Mastery</th>
+      <th>World Class</th>
+    </tr>
+  `;
+
+  for (const row of tableSpecialty) {
+    const name = row.Specialty;
+    const xp = profile.specialtyXP[name] || 0;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${name}</td>
+      <td>${xp}</td>
+      <td>${formatProgress(xp, row.XP_for_Competence)}</td>
+      <td>${formatProgress(xp, row.XP_for_Mastery)}</td>
+      <td>${formatProgress(xp, row.XP_for_WorldClass)}</td>
+    `;
+    table.appendChild(tr);
+  }
+
+  container.appendChild(table);
+  showScreen("trophyCabinetScreen");
+}
+
+function showTrophyRegions() {
+  const container = document.getElementById("trophyContent");
+  container.innerHTML = "<p>Regions page coming soon.</p>";
+  showScreen("trophyCabinetScreen");
+}
+
+function getAchievementProgress(ach) {
+  const metric = ach.Metric;
+  const d = profile.drivers[activeDriverIndex];
+
+  switch (metric) {
+    // DRIVER-LEVEL
+    case "driver_wins":
+      return d.wins;
+
+    case "driver_podiums":
+      return d.podiums;
+
+    case "driver_xp":
+      return d.xp;
+
+    case "driver_unique_disciplines":
+      return Object.values(d.disciplineXP).filter(xp => xp > 0).length;
+
+    case "driver_unique_regions": {
+      const regions = new Set();
+      for (const entry of profile.raceHistory) {
+        if (entry.driverIndex === activeDriverIndex) {
+          const track = tracks.find(t => t.TrkID === entry.trackID);
+          if (track && track.Region) regions.add(track.Region);
+        }
+      }
+      return regions.size;
+    }
+
+    // PROFILE-LEVEL
+    case "profile_unique_cars":
+      return Object.values(profile.awardedCars).filter(c => c.races > 0).length;
+
+    case "profile_most_used_car": {
+      const counts = Object.values(profile.awardedCars).map(c => c.races);
+      return counts.length > 0 ? Math.max(...counts) : 0;
+    }
+
+    case "profile_unique_tracks":
+      return Object.values(profile.awardedTracks).filter(t => t.races > 0).length;
+
+    case "profile_specialties_competence":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_Competence
+      ).length;
+
+    case "profile_specialties_mastery":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_Mastery
+      ).length;
+
+    case "profile_specialties_worldclass":
+      return tableSpecialty.filter(row =>
+        (profile.specialtyXP[row.Specialty] || 0) >= row.XP_for_WorldClass
+      ).length;
+
+    case "profile_regions_open":
+      return tableRegion.filter(row =>
+        (profile.regionXP[row.Region] || 0) >= row.XP_to_Open
+      ).length;
+
+    case "profile_regions_expert":
+      return tableRegion.filter(row =>
+        (profile.regionXP[row.Region] || 0) >= row.XP_to_Expert
+      ).length;
+
+    default:
+      console.warn("Unknown achievement metric:", metric);
+      return 0;
+  }
+}
+
+function showTrophyAchievements() {
+  const container = document.getElementById("trophyContent");
+  container.innerHTML = "";
+
+  const table = document.createElement("table");
+  table.className = "trophyTable";
+
+  table.innerHTML = `
+    <tr>
+      <th>Achievement</th>
+      <th>Description</th>
+      <th>Progress</th>
+      <th>Points</th>
+      <th>Status</th>
+    </tr>
+  `;
+
+  for (const ach of tableAchievements) {
+    const earned = profile.achievements.includes(ach.AchIdx);
+
+    const currentValue = getAchievementProgress(ach);
+    const progressText = `${currentValue} / ${ach.Threshold}`;
+
+    const tr = document.createElement("tr");
+    tr.className = earned ? "achievement-earned" : "achievement-locked";
+
+    tr.innerHTML = `
+      <td>${ach.AchievementName}</td>
+      <td>${ach.Description}</td>
+      <td>${progressText}</td>
+      <td>${ach.Points}</td>
+      <td>${earned ? "⭐" : "Locked"}</td>
+    `;
+
+    table.appendChild(tr);
+  }
+
+  container.appendChild(table);
+  showScreen("trophyCabinetScreen");
+}
+
+function showTrophyRegions() {
+  const container = document.getElementById("trophyContent");
+  container.innerHTML = "";
+
+  const table = document.createElement("table");
+  table.className = "trophyTable";
+
+  table.innerHTML = `
+    <tr>
+      <th>Region</th>
+      <th>XP</th>
+      <th>Open</th>
+      <th>Expert</th>
+    </tr>
+  `;
+
+  for (const row of tableRegion) {
+    const name = row.Region;
+    const xp = profile.regionXP[name] || 0;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${name}</td>
+      <td>${xp}</td>
+      <td>${formatProgress(xp, row.XP_to_Open)}</td>
+      <td>${formatProgress(xp, row.XP_to_Expert)}</td>
+    `;
+    table.appendChild(tr);
+  }
+
+  container.appendChild(table);
+  showScreen("trophyCabinetScreen");
+}
+
+</script>
+
+<script>
+/* ============================================================
+   MODULE 7 — CONTENT SCREENS (FINAL VERSION)
+   ============================================================ */
+
+function showCarsScreen() {
+  buildCarsTable();
+  showScreen("carsScreen");
+}
+
+function showTracksScreen() {
+  buildTracksTable();
+  showScreen("tracksScreen");
+}
+
+/* -------------------------
+   BUILD CARS TABLE
+-------------------------- */
+function buildCarsTable() {
+  const d = profile.drivers[activeDriverIndex];
+  const table = document.getElementById("carsTable");
+
+  table.innerHTML = `
+    <tr>
+      <th>Car Model</th>
+      <th>Class</th>
+      <th>Discipline</th>
+      <th>Level</th>
+      <th>Raced</th>
+      <th>Avg Finish (Driver)</th>
+      <th>Owned</th>
+    </tr>
+  `;
+
+  // Filter to awarded cars only
+  const awardedCars = cars.filter(car => {
+    const id = car.CarID;
+    return profile.awardedCars[id]?.awarded === 1;
+  });
+
+  // Sort cars
+  awardedCars.sort((a, b) => {
+    if (a.Discipline !== b.Discipline) return a.Discipline.localeCompare(b.Discipline);
+    if (a.Class !== b.Class) return a.Class.localeCompare(b.Class);
+    return a.CarModel.localeCompare(b.CarModel);
+  });
+
+  for (const car of awardedCars) {
+    const carID = car.CarID;
+
+    const awarded = profile.awardedCars[carID]?.awarded ? "Yes" : "No";
+    const owned = profile.awardedCars[carID]?.owned ? "Yes" : "No";
+    const raced = profile.awardedCars[carID]?.races || 0;
+
+    const driverStats = d.carStats[carID];
+    const avgFinish = driverStats ? driverStats.avgFinish.toFixed(1) : "0.0";
+
+    const tr = document.createElement("tr");
+    if (owned === "No") tr.classList.add("notOwnedRow");
+
+    tr.innerHTML = `
+      <td>${car.CarModel}</td>
+      <td>${car.Class}</td>
+      <td>${car.Discipline}</td>
+      <td>${car.Level}</td>
+      <td>${raced}</td>
+      <td>${avgFinish}</td>
+      <td>${owned}</td>
+    `;
+
+    table.appendChild(tr);
+  }
+
+  if (!document.getElementById("carsTracksDisclaimer")) {
+    table.insertAdjacentHTML("afterend", `
+      <p id="carsTracksDisclaimer" class="italic" style="margin-top:5px;">
+        *Awarded/Owned/Raced reflect the profile. Avg Finish reflects the active driver only.
+      </p>
+  `);
+  }
+}
+
+
+/* -------------------------
+   BUILD TRACKS TABLE
+-------------------------- */
+function buildTracksTable() {
+  const d = profile.drivers[activeDriverIndex];
+  const table = document.getElementById("tracksTable");
+
+  table.innerHTML = `
+    <tr>
+      <th>Short Name</th>
+      <th>Variant</th>
+      <th>Region</th>
+      <th>Level</th>
+      <th>Raced</th>
+      <th>Avg Finish (Driver)</th>
+      <th>Owned</th>
+    </tr>
+  `;
+
+  // Filter to awarded tracks only
+  const awardedTracks = tracks.filter(track => {
+    const id = track.TrkID;
+    return profile.awardedTracks[id]?.awarded === 1;
+  });
+
+  // Sort tracks
+  awardedTracks.sort((a, b) => {
+    if (a.Region !== b.Region) return a.Region.localeCompare(b.Region);
+    if (a.ShortName !== b.ShortName) return a.ShortName.localeCompare(b.ShortName);
+    return a.Variant.localeCompare(b.Variant);
+  });
+
+  for (const trk of awardedTracks) {
+    const trackID = trk.TrkID;
+
+    const awarded = profile.awardedTracks[trackID]?.awarded ? "Yes" : "No";
+    const owned = profile.awardedTracks[trackID]?.owned ? "Yes" : "No";
+    const raced = profile.awardedTracks[trackID]?.races || 0;
+
+    const driverStats = d.trackStats[trackID];
+    const avgFinish = driverStats ? driverStats.avgFinish.toFixed(1) : "0.0";
+
+    const tr = document.createElement("tr");
+    if (owned === "No") tr.classList.add("notOwnedRow");
+
+    tr.innerHTML = `
+      <td>${trk.ShortName}</td>
+      <td>${trk.Variant}</td>
+      <td>${trk.Region}</td>
+      <td>${trk.Level}</td>
+      <td>${raced}</td>
+      <td>${avgFinish}</td>
+      <td>${owned}</td>
+    `;
+
+    table.appendChild(tr);
+  }
+
+  if (!document.getElementById("tracksDisclaimer")) {
+    table.insertAdjacentHTML("afterend", `
+      <p id="tracksDisclaimer" class="italic" style="margin-top:5px;">
+        *Awarded/Owned/Raced reflect the profile. Avg Finish reflects the active driver only.
+      </p>
+    `);
+  }
+}
+
+
+</script>
+
+<script>
+/* ============================================================
+   MODULE 8 — RACE SUGGESTIONS
+   Generates 3 race options based on driver level and ownership.
+   ============================================================ */
+
+/* -------------------------
+   DRIVER LEVEL CALCULATIONS
+-------------------------- */
+
+function computeCarLevel(driver) {
+  return Math.min(7, Math.floor(driver.racesCompleted / 10) + 1);
+}
+
+function computeTrackLevel(driver) {
+  return Math.min(4, Math.floor(driver.racesCompleted / 16) + 1);
+}
+
+/* -------------------------
+   GENERATE 3 SUGGESTIONS
+-------------------------- */
+
+let raceSuggestions = []; // holds 3 objects: { car, track }
+
+function generateRaceSuggestions() {
+  const d = profile.drivers[activeDriverIndex];
+
+  const carLevel = computeCarLevel(d);
+  const trackLevel = computeTrackLevel(d);
+
+  // Filter cars
+  const validCars = cars.filter(car => {
+    const id = car.CarID;
+    const stats = profile.awardedCars[id];
+    return (
+      car.Level === carLevel &&
+      stats &&
+      stats.awarded === 1 &&
+      stats.owned === 1
+    );
+  });
+
+  // Filter tracks
+  const validTracks = tracks.filter(track => {
+    const id = track.TrkID;
+    const stats = profile.awardedTracks[id];
+    return (
+      track.Level === trackLevel &&
+      stats &&
+      stats.awarded === 1 &&
+      stats.owned === 1
+    );
+  });
+
+  raceSuggestions = [];
+
+  for (let i = 0; i < 3; i++) {
+    raceSuggestions.push(generateSingleSuggestion(validCars, validTracks));
+  }
+
+  renderRaceSuggestions();
+}
+
+function generateSingleSuggestion(validCars, validTracks) {
+  if (validCars.length === 0 || validTracks.length === 0) {
+    return { car: null, track: null };
+  }
+
+  const car = validCars[Math.floor(Math.random() * validCars.length)];
+  const track = validTracks[Math.floor(Math.random() * validTracks.length)];
+
+  return { car, track };
+}
+
+/* -------------------------
+   RENDER SUGGESTIONS
+-------------------------- */
+
+function renderRaceSuggestions() {
+  const container = document.getElementById("raceSuggestionsContainer");
+  container.innerHTML = "";
+
+  raceSuggestions.forEach((s, index) => {
+    if (!s.car || !s.track) {
+      container.innerHTML += `<div class="raceBox">No valid options available.</div>`;
+      return;
+    }
+
+    const car = s.car;
+    const track = s.track;
+
+    const carID = car.CarID;
+    const trackID = track.TrkID;
+
+    const carStats = profile.awardedCars[carID] || { races: 0 };
+    const trackStats = profile.awardedTracks[trackID] || { races: 0 };
+
+  // NEW: Extract Specialty + Region
+  const specialty = car.Specialty ?? "Unknown";
+  const region = track.Region ?? "Unknown";
+
+  // NEW: Look up Prep Shop reputation
+  const specialtyRep = profile.specialtyXP?.[specialty] ?? 0;
+  const regionRep = profile.regionXP?.[region] ?? 0;
+
+
+    const html = `
+      <div class="raceBox">
+        <div class="racePrimary"><strong>${car.CarModel}</strong></div>
+        <div class="racePrimary"><strong>${track.Variant}</strong></div>
+
+        <div class="raceSecondary"><em>Class - Discipline: ${car.Class} - ${car.Discipline}</em></div>
+        <div class="raceSecondary">
+          <em>Car Races: ${carStats.races} — Specialty: ${specialty} (Reputation: ${specialtyRep})</em>
+        </div>
+
+        <div class="raceSecondary">
+          <em>Track Races: ${trackStats.races} — Region: ${region} (Reputation: ${regionRep})</em>
+        </div>
+
+
+	<div class="raceButtons">
+	  <button class="selectRaceBtn" onclick="selectRace(${index})">
+	    Select This Race
+	  </button>
+
+	  <button class="notOwnedBtn"
+	          title="Clicking here will keep the app from selecting this content in the future"
+	          onclick="markCarNotOwned(${index}, ${carID})">
+	    Car Not Owned
+	  </button>
+
+	  <button class="notOwnedBtn"
+	          title="Clicking here will keep the app from selecting this content in the future"
+	          onclick="markTrackNotOwned(${index}, ${trackID})">
+	    Track Not Owned
+	  </button>
+	</div>
+
+
+      </div>
+    `;
+
+    container.innerHTML += html;
+  });
+}
+
+/* -------------------------
+   BUTTON ACTIONS
+-------------------------- */
+
+function markCarNotOwned(index, carID) {
+  profile.awardedCars[carID].owned = 0;
+  saveProfile();
+  regenerateSuggestion(index);
+}
+
+function markTrackNotOwned(index, trackID) {
+  profile.awardedTracks[trackID].owned = 0;
+  saveProfile();
+  regenerateSuggestion(index);
+}
+
+function regenerateSuggestion(index) {
+  const d = profile.drivers[activeDriverIndex];
+ 
+  const carLevel = computeCarLevel(d);
+  const trackLevel = computeTrackLevel(d);
+
+  const validCars = cars.filter(car => {
+    const id = car.CarID;
+    const stats = profile.awardedCars[id];
+    return (
+      car.Level === carLevel &&
+      stats &&
+      stats.awarded === 1 &&
+      stats.owned === 1
+    );
+  });
+
+  const validTracks = tracks.filter(track => {
+    const id = track.TrkID;
+    const stats = profile.awardedTracks[id];
+    return (
+      track.Level === trackLevel &&
+      stats &&
+      stats.awarded === 1 &&
+      stats.owned === 1
+    );
+  });
+
+  raceSuggestions[index] = generateSingleSuggestion(validCars, validTracks);
+  renderRaceSuggestions();
+}
+
+function selectRace(index) {
+  const chosen = raceSuggestions[index];
+  if (!chosen.car || !chosen.track) return;
+
+  // Store for race flow (Module 9)
+  profile.currentRace = {
+    carID: chosen.car.CarID,
+    trackID: chosen.track.TrkID
+  };
+  saveProfile();
+
+  alert("Race flow coming soon!");
+}
+
+/* -------------------------
+   STYLE FOR RACE BOXES
+-------------------------- */
+
+</script>
+
+
+
+<script>
+/* ============================================================
+   MODULE 9 — RACE ENTRY SCREEN
+   ============================================================ */
+
+function selectRace(index) {
+  const chosen = raceSuggestions[index];
+  if (!chosen.car || !chosen.track) return;
+
+  profile.currentRace = {
+    carID: chosen.car.CarID,
+    trackID: chosen.track.TrkID
+  };
+  saveProfile();
+
+  populateRaceEntryScreen();
+  showScreen("raceEntryScreen");
+}
+
+function populateRaceEntryScreen() {
+  const d = profile.drivers[activeDriverIndex];
+
+  const carID = profile.currentRace.carID;
+  const trackID = profile.currentRace.trackID;
+
+  const car = cars.find(c => c.CarID === carID);
+  const track = tracks.find(t => t.TrkID === trackID);
+  
+//  aiSlider.value = profile.currentRace.aiDifficulty;
+
+  const aiSlider = document.getElementById("raceAIDifficulty");
+  const aiValue = document.getElementById("raceAIDifficultyValue");
+
+  // Set initial display
+  aiValue.innerText = aiSlider.value;
+
+  // Update display when slider moves
+  aiSlider.oninput = function () {
+    aiValue.innerText = this.value;
+  };
+
+
+  // Driver-level stats
+  const carStats = d.carStats[carID] || { races: 0 };
+  const trackStats = d.trackStats[trackID] || { races: 0 };
+
+  // Specialty + Region
+  const specialty = car.Specialty ?? "Unknown";
+  const region = track.Region ?? "Unknown";
+
+  // Profile XP
+  const specialtyXP = profile.specialtyXP?.[specialty] ?? 0;
+  const regionXP = profile.regionXP?.[region] ?? 0;
+
+  // Build summary box
+  document.getElementById("raceEntrySummary").innerHTML = `
+    <div class="raceSummaryBox">
+
+      <div class="raceSummaryHeader">
+        <strong>${car.CarModel}</strong> @ 
+        <strong>${track.Variant}</strong>
+      </div>
+
+      <div class="raceSummaryLine"><em>Class:</em> ${car.Class}</div>
+      <div class="raceSummaryLine"><em>Discipline:</em> ${car.Discipline}</div>
+
+      <div class="raceSummaryLine">
+        <em>Car Specialty:</em> ${specialty}
+        <span class="xpBadgeSmall">XP: ${specialtyXP}</span>
+      </div>
+
+      <div class="raceSummaryLine">
+        <em>Region:</em> ${region}
+        <span class="xpBadgeSmall">XP: ${regionXP}</span>
+      </div>
+
+      <div class="raceSummaryLine"><em>Car Races:</em> ${carStats.races}</div>
+      <div class="raceSummaryLine"><em>Track Races:</em> ${trackStats.races}</div>
+
+    </div>
+  `;
+}
+
+</script>
+
+<script>
+/* ============================================================
+   MODULE 11 — REWARD POPUP & CLIENT OFFER LOGIC
+   ============================================================ */
+
+let awardCarChoices = [];   // stores the 3 car options
+let awardTrackChoice = null; // stores the 1 track option
+
+
+/* ------------------------------------------------------------
+   JS HOOK for Milestone detection system
+   ------------------------------------------------------------ */
+  document.getElementById("milestoneOK").onclick = function () {
+    document.getElementById("milestonePopup").classList.add("popupHidden");
+
+    if (window._pendingMilestoneCallback) {
+      const cb = window._pendingMilestoneCallback;
+      window._pendingMilestoneCallback = null;
+      cb();
+    }
+  };
+
+/* ------------------------------------------------------------
+   MAIN ENTRY POINT — called after logRaceResult()
+   ------------------------------------------------------------ */
+function showRewardPopup() {
+  const popup = document.getElementById("rewardPopup");
+  const content = popup.querySelector(".modalContent");
+
+  // Rebuild the base reward popup structure every time
+  content.innerHTML = `
+    <!-- CAR SECTION HEADER -->
+    <div class="awardSectionHeader">
+      We've got our choice of a new customer car we can add to the shop. What do you think?
+    </div>
+
+    <!-- CAR OPTIONS WILL BE INSERTED HERE BY JS -->
+    <div id="awardCarOptions"></div>
+
+    <!-- TRACK SECTION HEADER -->
+    <div class="awardSectionHeader" style="margin-top:25px;">
+      Also, I think we might be getting some invitations to race at this track in the future!
+    </div>
+
+    <!-- TRACK OPTION WILL BE INSERTED HERE BY JS -->
+    <div id="awardTrackOption"></div>
+
+    <!-- CLOSE BUTTON -->
+    <button id="awardPopupCloseBtn" onclick="closeAwardPopup()">
+      Return to Dashboard
+    </button>
+  `;
+
+  generateAwardCars();
+  generateAwardTrack();
+
+  popup.style.display = "flex";
+}
+
+
+/* ------------------------------------------------------------
+   GENERATE 3 CAR OPTIONS
+   ------------------------------------------------------------ */
+function generateAwardCars() {
+  const d = profile.drivers[activeDriverIndex];
+  const lvl = d.carLevel;
+
+  const sameLevelCars = cars.filter(c =>
+    c.Level === lvl &&
+    (!profile.awardedCars[c.CarID] || profile.awardedCars[c.CarID].awarded !== 1)
+  );
+
+  const nextLevelCars = cars.filter(c =>
+    c.Level === Math.min(lvl + 1, 7) &&
+    (!profile.awardedCars[c.CarID] || profile.awardedCars[c.CarID].awarded !== 1)
+  );
+
+  awardCarChoices = [];
+
+  // pick 2 from same level
+  awardCarChoices.push(getRandom(sameLevelCars));
+  awardCarChoices.push(getRandom(sameLevelCars));
+
+  // pick 1 from next level (or same if lvl=7)
+  awardCarChoices.push(getRandom(nextLevelCars.length > 0 ? nextLevelCars : sameLevelCars));
+
+  renderAwardCarOptions();
+}
+
+
+
+/* ------------------------------------------------------------
+   RENDER CAR OPTIONS INTO POPUP
+   ------------------------------------------------------------ */
+function renderAwardCarOptions() {
+  const container = document.getElementById("awardCarOptions");
+  container.innerHTML = "";
+
+  const d = profile.drivers[activeDriverIndex];
+
+  let validCount = 0;
+
+  awardCarChoices.forEach((car, index) => {
+    if (!car) return;
+
+    validCount++;
+
+    const specialty = car.Specialty ?? "Unknown";
+    const specialtyXP = profile.specialtyXP?.[specialty] ?? 0;
+
+    container.insertAdjacentHTML("beforeend", `
+      <div class="awardCarBox">
+        <div class="awardTitleBlue">${car.CarModel}</div>
+        <div class="awardInfo">${car.Class} • ${car.Discipline} • Level ${car.Level}</div>
+        <div class="awardInfo">
+          Specialty: ${specialty}
+          <span class="xpBadgeSmall">XP: ${specialtyXP}</span>
+        </div>
+
+        <button class="selectAwardBtn" onclick="selectAwardCar(${car.CarID})">
+          Select This Car
+        </button>
+
+        <button class="notOwnedBtn"
+                title="Clicking here will keep the app from selecting this content in the future"
+                onclick="markAwardCarNotOwned(${car.CarID}, ${index})">
+          Car Not Owned
+        </button>
+      </div>
+    `);
+  });
+
+  if (validCount === 0) {
+    container.innerHTML = `
+      <div class="emptyAwardBox">
+        No customer cars available at this time.
+      </div>
+    `;
+  }
+}
+
+
+
+/* ------------------------------------------------------------
+   MARK CAR AS NOT OWNED + REGENERATE THAT SLOT
+   ------------------------------------------------------------ */
+function markAwardCarNotOwned(carID, index) {
+  if (!profile.awardedCars[carID]) {
+    profile.awardedCars[carID] = { awarded: 0, owned: 0, races: 0 };
+  }
+  profile.awardedCars[carID].owned = 0;
+
+  regenerateCarOption(index);
+}
+
+
+
+/* ------------------------------------------------------------
+   REGENERATE A SINGLE CAR OPTION
+   ------------------------------------------------------------ */
+function regenerateCarOption(index) {
+  const d = profile.drivers[activeDriverIndex];
+  const lvl = d.carLevel;
+
+  const sameLevelCars = cars.filter(c =>
+    c.Level === lvl &&
+    (!profile.awardedCars[c.CarID] || profile.awardedCars[c.CarID].owned !== 0)
+  );
+
+  const nextLevelCars = cars.filter(c =>
+    c.Level === Math.min(lvl + 1, 7) &&
+    (!profile.awardedCars[c.CarID] || profile.awardedCars[c.CarID].owned !== 0)
+  );
+
+  if (index < 2) {
+    awardCarChoices[index] = getRandom(sameLevelCars);
+  } else {
+    awardCarChoices[index] = getRandom(nextLevelCars.length > 0 ? nextLevelCars : sameLevelCars);
+  }
+
+  renderAwardCarOptions();
+}
+
+
+
+/* ------------------------------------------------------------
+   GENERATE TRACK OPTION
+   ------------------------------------------------------------ */
+function generateAwardTrack() {
+  const d = profile.drivers[activeDriverIndex];
+  const lvl = d.trackLevel;
+
+  const eligibleTracks = tracks.filter(t =>
+    (!profile.awardedTracks[t.TrkID] || profile.awardedTracks[t.TrkID].awarded !== 1) &&
+    (t.Level === lvl || t.Level === lvl + 1)
+  );
+
+  awardTrackChoice = getRandom(eligibleTracks);
+
+  renderAwardTrackOption();
+}
+
+
+
+/* ------------------------------------------------------------
+   RENDER TRACK OPTION
+   ------------------------------------------------------------ */
+function renderAwardTrackOption() {
+  const container = document.getElementById("awardTrackOption");
+  container.innerHTML = "";
+
+  if (!awardTrackChoice) {
+    container.innerHTML = `
+      <div class="emptyAwardBox">
+        No new track invitations available at this time.
+      </div>
+    `;
+    return;
+  }
+
+  const track = awardTrackChoice;
+  const region = track.Region ?? "Unknown";
+  const regionXP = profile.regionXP?.[region] ?? 0;
+
+  container.insertAdjacentHTML("beforeend", `
+    <div class="awardTrackBox">
+      <div class="awardTitleBlue">${track.Variant}</div>
+      <div class="awardInfo">
+        Region: ${region}
+        <span class="xpBadgeSmall">XP: ${regionXP}</span>
+      </div>
+
+      <button class="notOwnedBtn"
+              title="Clicking here will keep the app from selecting this content in the future"
+              onclick="markAwardTrackNotOwned(${track.TrkID})">
+        Track Not Owned
+      </button>
+    </div>
+  `);
+}
+
+
+
+/* ------------------------------------------------------------
+   MARK TRACK AS NOT OWNED + REGENERATE
+   ------------------------------------------------------------ */
+function markAwardTrackNotOwned(trackID) {
+  if (!profile.awardedTracks[trackID]) {
+    profile.awardedTracks[trackID] = { awarded: 0, owned: 0, races: 0 };
+  }
+  profile.awardedTracks[trackID].owned = 0;
+
+  generateAwardTrack();
+}
+
+
+
+/* ------------------------------------------------------------
+   SELECT CAR (AWARD CAR + TRACK)
+   ------------------------------------------------------------ */
+function selectAwardCar(carID) {
+  profile.awardedCars[carID] = {
+    awarded: 1,
+    owned: 1,
+    races: 0
+  };
+
+  if (awardTrackChoice) {
+    profile.awardedTracks[awardTrackChoice.TrkID] = {
+      awarded: 1,
+      owned: 1,
+      races: 0
+    };
+  }
+
+  closeAwardPopup();
+//  showDashboard();
+}
+
+
+/* ------------------------------------------------------------
+   CLOSE POPUP
+   ------------------------------------------------------------ */
+function closeAwardPopup() {
+  document.getElementById("rewardPopup").style.display = "none";
+  showDashboard();
+  showScreen("dashboardScreen");
+}
+
+
+/* ------------------------------------------------------------
+   UTILITY — RANDOM PICK
+   ------------------------------------------------------------ */
+function getRandom(arr) {
+  if (!arr || arr.length === 0) return null;
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+/* ------------------------------------------------------------
+   Level up reward code
+   ------------------------------------------------------------ */
+
+function showLevelUpReward(type, item) {
+  const popup = document.getElementById("rewardPopup");
+  const content = popup.querySelector(".modalContent");
+
+  // NEW: Apply the award immediately
+  if (type === "car") {
+    profile.awardedCars[item.CarID] = {
+      awarded: 1,
+      owned: 1,
+      races: profile.awardedCars[item.CarID]?.races || 0
+    };
+  } else {
+    profile.awardedTracks[item.TrkID] = {
+      awarded: 1,
+      owned: 1,
+      races: profile.awardedTracks[item.TrkID]?.races || 0
+    };
+  }
+
+  saveProfile();
+
+  const headerText = type === "car"
+    ? "Congratulations. Your trust level has increased and customers will be willing to lend you more prestigious cars. This car has been added to the Shop's stable and may be available for future races!"
+    : "Congratulations. Your reputation is growing and you may soon see races at this track!";
+
+  const title = type === "car"
+    ? item.CarModel
+    : `${item.Variant}`;
+
+  const info = type === "car"
+    ? `${item.Class} • ${item.Discipline} • Level ${item.Level}`
+    : `Region: ${item.Region} • Level ${item.Level}`;
+
+  content.innerHTML = `
+    <div class="awardSectionHeader">${headerText}</div>
+
+    <div class="${type === 'car' ? 'awardCarBox' : 'awardTrackBox'} glowReward">
+      <div class="awardTitleBlue">${title}</div>
+      <div class="awardInfo">${info}</div>
+    </div>
+
+    <button id="awardPopupCloseBtn" onclick="closeLevelUpReward()">
+      Continue
+    </button>
+  `;
+
+  popup.style.display = "flex";
+}
+
+function closeLevelUpReward() {
+  const popup = document.getElementById("rewardPopup");
+  popup.style.display = "none";
+
+  // Now move into the normal post-race reward flow
+  showRewardPopup();
+}
+
+/* ------------------------------------------------------------
+   XP POPUP (Race Summary)
+   ------------------------------------------------------------ */
+
+function showXPPopup(xp, newRank, totalXP) {
+  const popup = document.getElementById("xpPopup");
+  const msg = document.getElementById("xpPopupMessage");
+
+  msg.innerHTML = `
+    <div class="awardSectionHeader">Race Completed</div>
+    <div class="awardInfo">You earned <strong>${xp}</strong> XP</div>
+    <div class="awardInfo">New Total XP: ${totalXP}</div>
+    <div class="awardInfo">New Ranking: #${newRank}</div>
+  `;
+
+  popup.style.display = "flex";
+}
+
+function closeXPPopup() {
+  document.getElementById("xpPopup").style.display = "none";
+
+  // Continue the flow (level-up or normal reward)
+  if (window._pendingLevelUpReward) {
+    const { type, item } = window._pendingLevelUpReward;
+    window._pendingLevelUpReward = null;
+    showLevelUpReward(type, item);
+  } else {
+    showRewardPopup();
+  }
+}
+
+</script>
+
+
