@@ -26,7 +26,7 @@
   {
     "AchIdx": 4,
     "AchievementName": "Jenson Button - 50 Podiums",
-    "Description": "Podium 50 times",
+    "Description": "Podium 50 times (time-scaled)",
     "Metric": "driver_podiums",
     "Threshold": 17,
     "Points": 50
@@ -34,7 +34,7 @@
   {
     "AchIdx": 5,
     "AchievementName": "Ayrton Senna - 80 Podiums",
-    "Description": "Podium 80 times",
+    "Description": "Podium 80 times (time-scaled)",
     "Metric": "driver_podiums",
     "Threshold": 27,
     "Points": 100
@@ -42,7 +42,7 @@
   {
     "AchIdx": 6,
     "AchievementName": "Sebastien Vettel - 122 Podiums",
-    "Description": "Podium 125 times",
+    "Description": "Podium 125 times (time-scaled)",
     "Metric": "driver_podiums",
     "Threshold": 42,
     "Points": 200
