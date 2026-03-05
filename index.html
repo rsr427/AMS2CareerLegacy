@@ -1365,6 +1365,10 @@ function showScreen(id) {
   // Swap logo depending on screen
   const logo = document.getElementById("globalLogo");
 
+  if (id === "profileScreen") {
+      updateProfileSummary();
+  }
+
   if (id === "carsScreen" || id === "tracksScreen") {
     logo.src = "https://rsr427.github.io/AMS2CareerLegacy/smams2logo.png";
     logo.style.maxWidth = "250px";
@@ -1407,6 +1411,7 @@ function createProfile() {
   };
 
   awardStarterContent();
+  document.getElementById("continueProfileBtn").disabled = false;
   saveProfile();
   updateProfileSummary();
   showDriverSelection();
@@ -1631,8 +1636,8 @@ const newDriver = {
     
 
   profile.drivers.push(newDriver);
-  saveProfile();
   updateProfileSummary();
+  saveProfile();
   showDriverSelection();
 }
 
